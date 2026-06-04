@@ -30,16 +30,23 @@ The `Actual_Wait_Time` is not purely random; it is calculated using a base sched
    - **Clear/Cloudy**: Adds minor variance (mean ~2.25 mins).
 
 ## 3. "Dirty Data" Injection
-To satisfy the grading requirements for **Data Cleaning and Preprocessing**, the script programmatically injects four types of errors:
+To satisfy the grading requirements for **Data Cleaning and Preprocessing**, the script programmatically injects errors using a configurable constants block (`CONFIG`).
+
+### Configuration Block
+The following parameters can be adjusted at the top of the script:
+- `missing_ratio`: Percentage of rows with missing wait times.
+- `inconsistent_ratio`: Percentage of rows with categorical string errors.
+- `outlier_count`: Total number of Gaussian noise records.
+- `duplicate_count`: Number of identical rows to append.
 
 ### A. Missing Values (Nulls)
-Approximately **5%** of the `Actual_Wait_Time` records are replaced with `NaN` (Not a Number) to simulate sensor failure or data logging errors.
+Records are replaced with `NaN` (Not a Number) to simulate sensor failure or data logging errors.
 
 ### B. Inconsistent Categorical Data
-Approximately **4%** of the `Transit_Line` entries for "MRT-3" and "EDSA Carousel" are modified to include:
-- Case variations (e.g., `mrt-3`).
-- Extra whitespace (e.g., `EDSA Carousel  `).
-- Format variations (e.g., `MRT 3`).
+Unlike the initial version, string inconsistencies are now applied across **all categorical columns** (`Transit_Line`, `Station_From`, `Time_of_Day`, `Weather_Condition`). A specialized mutation function randomly applies:
+- **Case Variations**: Lowercase, uppercase, or swapped case (e.g., `MRT-3` -> `mrt-3`, `cUBAO`).
+- **Whitespace Injection**: Adding leading/trailing spaces (e.g., `  Clear `).
+- **Character Removal**: Removing hyphens or internal spaces (e.g., `MRT 3`, `NorthAve`).
 
 ### C. Gaussian Outliers (Statistical Noise)
 Instead of hardcoded "magic numbers," the script uses **Gaussian (Normal) Distributions** to create two types of unreliable records:
