@@ -6,7 +6,7 @@ import os
 # --- DIRTY DATA CONFIGURATION ---
 # Adjust these constants to easily control how much "bad data" is injected into the dataset
 CONFIG = {
-    'target_rows': 720,              # Base number of rows before duplicates
+    'target_rows': 1000,              # Base number of rows before duplicates
     'missing_ratio': 0.05,           # 5% of rows will have missing (NaN) Actual_Wait_Time
     'inconsistent_ratio': 0.08,      # 8% of rows will have string formatting inconsistencies
     'outlier_count': 20,             # Total Gaussian outliers (split 50/50 neg/extreme)
