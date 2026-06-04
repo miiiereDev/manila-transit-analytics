@@ -5,38 +5,76 @@ import os
 
 def generate_manila_transit_data():
     """
-    Generates a simulated 'dirty' dataset for Metro Manila transit wait times.
-    Targets: EDSA Carousel, MRT-3, and LRT-2.
+    Generates a geographically accurate 'dirty' dataset for Metro Manila transit wait times.
+    Tracks EDSA Carousel, MRT-3, and LRT-2 with realistic line-specific stations.
     """
     
     # Configuration
-    target_rows = 720  # Exceed the 700 row requirement
+    target_rows = 720  # 700 rows at least 
     output_path = os.path.join('data', '1_raw', 'manila_transit_raw.csv')
     
     # Ensure directory exists
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    # 1. Base Data Generation
-    lines = ['EDSA Carousel', 'MRT-3', 'LRT-2']
-    stations = ['North Ave', 'Cubao', 'Taft Ave', 'Santolan', 'Ayala', 'Boni', 'Recto', 'Shaw Blvd']
+    # 1. Geographic mapping
+    transit_system = {
+        'EDSA Carousel': [
+            'Monumento Terminal', 'Bagong Barrio', 'Balintawak', 'Kaingin Road', 
+            'Roosevelt', 'SM North EDSA', 'North Ave', 'Philam', 'Quezon Ave', 
+            'Kamuning', 'Nepa Q. Mart', 'Main Avenue', 'Cubao-Magallanes', 
+            'Santolan-Annapolis', 'Ortigas', 'Guadalupe', 'Buendia', 'Ayala', 
+            'Tramo', 'Taft Ave', 'Roxas Blvd', 'SM Mall of Asia', 'BVA / City of Dreams', 
+            'Macapagal/Aseana', 'Kennedy Road', 'PITX Terminal'
+        ],
+        'MRT-3': [
+            'North Ave', 'Quezon Ave', 'Kamuning', 'Cubao', 'Santolan-Annapolis', 
+            'Ortigas', 'Shaw Blvd', 'Boni', 'Guadalupe', 'Buendia', 'Ayala', 
+            'Magallanes', 'Taft Ave'
+        ],
+        'LRT-2': [
+            'Recto', 'Legarda', 'Pureza', 'V. Mapa', 'J. Ruiz', 'Gilmore', 
+            'Betty Go-Belmonte', 'Cubao', 'Anonas', 'Katipunan', 'Santolan', 
+            'Marikina-Pasay', 'Antipolo'
+        ]
+    }
+    
     times = ['Peak Morning', 'Mid-Day', 'Peak Evening', 'Late Night']
     weather = ['Clear', 'Cloudy', 'Heavy Rain']
 
     data = []
     for i in range(1, target_rows + 1):
         trip_id = f'TRIP_{i:03d}'
-        line = random.choice(lines)
-        station = random.choice(stations)
+        
+        # Geographically accurate pick: pick line first, then pick an actual station on that line
+        line = random.choice(list(transit_system.keys()))
+        station = random.choice(transit_system[line])
+        
         time_of_day = random.choice(times)
+        cond = random.choice(weather)
         
         # Base scheduled interval (5 to 10 mins)
         scheduled = random.randint(5, 10)
         
-        # Base actual wait time (scheduled + some random delay)
-        # We use a gamma distribution to simulate realistic wait time variance
-        actual = scheduled + np.random.gamma(2, 2) 
-        
-        cond = random.choice(weather)
+        # --- REALISTIC DELAY LOGIC ---
+        # Base multiplier for rush hour
+        time_multiplier = 1.0
+        if time_of_day in ['Peak Morning', 'Peak Evening']:
+            time_multiplier = 2.5  # Heavy rush hour multiplier
+        elif time_of_day == 'Late Night':
+            time_multiplier = 0.8  # Shorter intervals/less congestion
+            
+        # Weather impact (EDSA Carousel suffers worst in Heavy Rain compared to trains)
+        weather_delay = 0
+        if cond == 'Heavy Rain':
+            if line == 'EDSA Carousel':
+                weather_delay = np.random.gamma(5, 3)
+            else:
+                weather_delay = np.random.gamma(3, 1.5) # Train technical/slip delays
+        else:
+            weather_delay = np.random.gamma(1.5, 1.5)
+
+        # Calculate actual wait time based on factors
+        actual = (scheduled * time_multiplier) + weather_delay
         
         data.append([trip_id, line, station, time_of_day, scheduled, round(actual, 2), cond])
 
@@ -47,14 +85,13 @@ def generate_manila_transit_data():
     ]
     df = pd.DataFrame(data, columns=columns)
 
-    # 2. Injecting "Dirty Data" (10-15% of rows)
+    # 2. Injecting "Dirty Data" (10-15% of rows for cleaning rubric)
     
     # A. Missing Values (NaN) in Actual_Wait_Time (~5%)
     missing_indices = df.sample(frac=0.05).index
     df.loc[missing_indices, 'Actual_Wait_Time'] = np.nan
 
     # B. Inconsistent Entries in Transit_Line
-    # We'll target MRT-3 and EDSA Carousel for string inconsistencies
     for idx in df.sample(frac=0.04).index:
         current_line = df.loc[idx, 'Transit_Line']
         if current_line == 'MRT-3':
@@ -64,8 +101,7 @@ def generate_manila_transit_data():
             inconsistency = random.choice(['edsa carousel', 'EDSA Carousel  ', 'Edsa Carousel'])
             df.loc[idx, 'Transit_Line'] = inconsistency
 
-    # C. Outliers/Noise in Actual_Wait_Time
-    # Injecting impossible values (-5) or extreme values (999)
+    # C. Outliers/Noise in Actual_Wait_Time (Negative or Extreme values)
     outlier_indices = df.sample(n=10).index
     for i, idx in enumerate(outlier_indices):
         if i % 2 == 0:
@@ -81,7 +117,7 @@ def generate_manila_transit_data():
     df.to_csv(output_path, index=False)
     
     print("-" * 50)
-    print("MANILA TRANSIT DATA SIMULATION COMPLETE")
+    print("MANILA TRANSIT GEOGRAPHICALLY CORRECT DATA SIMULATION COMPLETE")
     print("-" * 50)
     print(f"File Saved: {output_path}")
     print(f"Total Rows Generated: {len(df)}")
