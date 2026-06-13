@@ -41,16 +41,16 @@ def generate_manila_transit_data():
     # 1. Geographic mappings
     transit_system = {
         'EDSA Carousel': [
-            'Monumento Terminal', 'Bagong Barrio', 'Balintawak', 'Kaingin Road', 
-            'Roosevelt', 'SM North EDSA', 'North Ave', 'Philam', 'Quezon Ave', 
-            'Kamuning', 'Nepa Q. Mart', 'Main Avenue', 'Cubao-Magallanes', 
-            'Santolan-Annapolis', 'Ortigas', 'Guadalupe', 'Buendia', 'Ayala', 
-            'Tramo', 'Taft Ave', 'Roxas Blvd', 'SM Mall of Asia', 'BVA / City of Dreams', 
-            'Macapagal/Aseana', 'Kennedy Road', 'PITX Terminal'
+            'Monumento Terminal', 'Bagong Barrio', 'Balintawak', 'Kaingin',
+            'Roosevelt', 'SM North EDSA', 'North Avenue', 'Philam Q.C.',
+            'Quezon Avenue', 'Kamuning', 'Nepa Q. Mart', 'Main Avenue',
+            'Santolan', 'Ortigas', 'Guadalupe', 'Buendia', 'Ayala',
+            'Tramo', 'Taft Avenue', 'Roxas Boulevard', 'SM Mall of Asia',
+            'BVA', 'Macapagal/Aseana', 'PITX Terminal'
         ],
         'MRT-3': [
-            'North Ave', 'Quezon Ave', 'Kamuning', 'Cubao', 'Santolan-Annapolis', 
-            'Ortigas', 'Shaw Blvd', 'Boni', 'Guadalupe', 'Buendia', 'Ayala', 
+            'North Avenue', 'Quezon Avenue', 'Kamuning', 'Cubao', 'Santolan-Annapolis',
+            'Ortigas', 'Shaw Blvd', 'Boni', 'Guadalupe', 'Buendia', 'Ayala',
             'Magallanes', 'Taft Ave'
         ],
         'LRT-2': [
