@@ -1,1001 +1,981 @@
-Trip_ID,Transit_Line,Station_From,Time_of_Day,Scheduled_Interval,Actual_Wait_Time,Weather_Condition,Delay_Minutes
-TRIP_001,LRT-2,Recto,Peak Evening,5,13.64,Heavy Rain,8.64
-TRIP_002,MRT-3,North Ave,Peak Evening,8,24.75,Heavy Rain,16.75
-TRIP_003,MRT-3,Guadalupe,Late Night,6,8.11,Clear,2.11
-TRIP_004,LRT-2,Anonas,Peak Evening,7,19.28,Cloudy,12.28
-TRIP_005,EDSA Carousel,Roxas Blvd,Peak Morning,8,24.03,Clear,16.03
-TRIP_006,LRT-2,V. Mapa,Mid-Day,9,14.99,Heavy Rain,5.99
-TRIP_007,MRT-3,Shaw Blvd,Late Night,7,6.95,Cloudy,-0.05
-TRIP_008,MRT-3,Cubao,Mid-Day,7,7.16,Clear,0.16
-TRIP_009,LRT-2,Betty Go-Belmonte,Peak Evening,5,13.21,Clear,8.21
-TRIP_010,LRT-2,Gilmore,Peak Morning,5,12.99,Clear,7.99
-TRIP_011,EDSA Carousel,Ortigas,Peak Morning,8,36.57,Heavy Rain,28.57
-TRIP_012,MRT-3,North Ave,Peak Evening,5,17.27,Clear,12.27
-TRIP_013,EDSA Carousel,SM Mall of Asia,Peak Evening,6,21.32,Cloudy,15.32
-TRIP_014,EDSA Carousel,Tramo,Mid-Day,8,9.3,Clear,1.3
-TRIP_015,EDSA Carousel,SM North EDSA,Peak Morning,8,26.09,Heavy Rain,18.09
-TRIP_016,EDSA Carousel,Tramo,Mid-Day,6,9.59,Clear,3.59
-TRIP_017,EDSA Carousel,Roxas Blvd,Peak Evening,6,34.58,Heavy Rain,28.58
-TRIP_018,EDSA Carousel,Roxas Blvd,Late Night,5,4.81,Cloudy,-0.19
-TRIP_019,MRT-3,Kamuning,Late Night,10,8.79,Cloudy,-1.21
-TRIP_020,EDSA Carousel,Balintawak,Peak Morning,7,18.69,Cloudy,11.69
-TRIP_021,LRT-1,Abad Santos,Late Night,7,8.01,Heavy Rain,1.01
-TRIP_022,LRT-2,Betty Go-Belmonte,Peak Morning,6,18.61,Clear,12.61
-TRIP_023,MRT-3,Ortigas,Peak Morning,7,18.27,Clear,11.27
-TRIP_024,LRT-2,J. Ruiz,Late Night,9,8.34,Cloudy,-0.66
-TRIP_025,LRT-1,Blumentritt,Mid-Day,10,11.18,Clear,1.18
-TRIP_026,EDSA Carousel,Buendia,Peak Morning,9,24.8,Clear,15.8
-TRIP_027,EDSA Carousel,Monumento Terminal,Mid-Day,10,12.28,Cloudy,2.28
-TRIP_028,LRT-2,Anonas,Late Night,6,10.66,Heavy Rain,4.66
-TRIP_029,MRT-3,Ortigas,Peak Morning,10,28.19,Cloudy,18.19
-TRIP_030,MRT-3,Taft Ave,Peak Evening,6,21.19,Heavy Rain,15.19
-TRIP_031,EDSA Carousel,Nepa Q. Mart,Mid-Day,6,7.81,Clear,1.81
-TRIP_032,LRT-1,Vito Cruz,Peak Morning,10,25.22,Cloudy,15.22
-TRIP_033,EDSA Carousel,Taft Ave,Mid-Day,10,21.68,Heavy Rain,11.68
-TRIP_034,LRT-2,Marikina-Pasay,Peak Morning,9,25.16,Heavy Rain,16.16
-TRIP_035,LRT-2,Cubao,Late Night,10,9.4,Cloudy,-0.6
-TRIP_036,MRT-3,Buendia,Late Night,5,5.05,Clear,0.05
-TRIP_037,MRT-3,Quezon Ave,Peak Morning,6,15.84,Clear,9.84
-TRIP_038,EDSA Carousel,Roxas Blvd,Peak Morning,7,18.79,Cloudy,11.79
-TRIP_039,LRT-1,Bambang,Peak Morning,8,20.04,Cloudy,12.04
-TRIP_040,EDSA Carousel,PITX Terminal,Mid-Day,8,10.17,Cloudy,2.17
-TRIP_041,LRT-2,Antipolo,Late Night,10,10.88,Clear,0.88
-TRIP_042,EDSA Carousel,Kamuning,Peak Morning,5,23.25,Heavy Rain,18.25
-TRIP_043,MRT-3,Guadalupe,Peak Morning,7,23.59,Heavy Rain,16.59
-TRIP_044,EDSA Carousel,Ortigas,Peak Evening,8,20.27,Cloudy,12.27
-TRIP_045,MRT-3,Guadalupe,Late Night,7,10.63,Cloudy,3.63
-TRIP_046,EDSA Carousel,Bagong Barrio,Peak Morning,9,23.89,Cloudy,14.89
-TRIP_047,LRT-1,Asia World,Peak Evening,8,26.8,Cloudy,18.8
-TRIP_048,LRT-1,Baclaran,Peak Evening,8,20.2,Clear,12.2
-TRIP_049,EDSA Carousel,Philam,Mid-Day,5,9.01,Cloudy,4.01
-TRIP_050,LRT-2,Betty Go-Belmonte,Late Night,8,9.01,Cloudy,1.01
-TRIP_051,LRT-2,Anonas,Peak Evening,10,27.31,Clear,17.31
-TRIP_052,EDSA Carousel,Buendia,Peak Morning,5,12.95,Cloudy,7.95
-TRIP_053,LRT-1,UN Avenue,Mid-Day,8,8.64,Cloudy,0.64
-TRIP_054,MRT-3,Guadalupe,Peak Morning,10,31.58,Heavy Rain,21.58
-TRIP_055,EDSA Carousel,Kamuning,Peak Morning,9,29.83,Cloudy,20.83
-TRIP_056,EDSA Carousel,North Ave,Mid-Day,10,11.36,Clear,1.36
-TRIP_057,MRT-3,Buendia,Late Night,9,8.42,Heavy Rain,-0.58
-TRIP_058,LRT-2,Recto,Mid-Day,6,7.19,Cloudy,1.19
-TRIP_059,LRT-1,UN Avenue,Late Night,7,8.8,Heavy Rain,1.8
-TRIP_060,LRT-2,Katipunan,Peak Morning,6,17.83,Cloudy,11.83
-TRIP_061,EDSA Carousel,Guadalupe,Mid-Day,8,30.7,Heavy Rain,22.7
-TRIP_062,LRT-1,Balintawak,Late Night,9,9.35,Heavy Rain,0.35
-TRIP_063,MRT-3,Shaw Blvd,Peak Evening,10,26.43,Cloudy,16.43
-TRIP_064,MRT-3,Taft Ave,Mid-Day,5,8.03,Heavy Rain,3.03
-TRIP_065,LRT-1,Asia World,Peak Morning,10,27.21,Clear,17.21
-TRIP_066,EDSA Carousel,Cubao-Magallanes,Mid-Day,8,11.68,Cloudy,3.68
-TRIP_067,LRT-1,Carriedo,Peak Morning,9,23.63,Heavy Rain,14.63
-TRIP_068,MRT-3,North Ave,Mid-Day,8,10.54,Heavy Rain,2.54
-TRIP_069,MRT-3,North Ave,Peak Morning,10,25.48,Cloudy,15.48
-TRIP_070,LRT-2,Legarda,Late Night,9,10.1,Clear,1.1
-TRIP_071,LRT-2,Gilmore,Mid-Day,9,10.81,Cloudy,1.81
-TRIP_072,MRT-3,Ayala,Mid-Day,6,6.69,Clear,0.69
-TRIP_073,LRT-2,Betty Go-Belmonte,Peak Morning,9,23.9,Clear,14.9
-TRIP_074,MRT-3,Boni,Peak Evening,6,17.34,Cloudy,11.34
-TRIP_075,LRT-1,Monumento,Peak Morning,5,15.0,Cloudy,10.0
-TRIP_076,EDSA Carousel,Roosevelt,Late Night,7,22.16,Heavy Rain,15.16
-TRIP_077,LRT-1,Asia World,Late Night,9,8.47,Cloudy,-0.53
-TRIP_078,EDSA Carousel,Monumento Terminal,Peak Evening,8,20.52,Clear,12.52
-TRIP_079,LRT-2,V. Mapa,Peak Evening,6,21.23,Heavy Rain,15.23
-TRIP_080,LRT-1,Redemptorist,Peak Evening,6,21.31,Cloudy,15.31
-TRIP_081,LRT-1,Redemptorist,Late Night,9,11.48,Clear,2.48
-TRIP_082,EDSA Carousel,Ayala,Peak Morning,8,32.31,Heavy Rain,24.31
-TRIP_083,LRT-1,Redemptorist,Mid-Day,9,11.04,Clear,2.04
-TRIP_084,MRT-3,Buendia,Peak Evening,5,15.43,Cloudy,10.43
-TRIP_085,MRT-3,Buendia,Peak Evening,5,12.8,Cloudy,7.8
-TRIP_086,MRT-3,Taft Ave,Late Night,5,4.35,Clear,-0.65
-TRIP_087,LRT-2,Pureza,Late Night,5,7.96,Cloudy,2.96
-TRIP_088,EDSA Carousel,PITX Terminal,Peak Morning,8,20.41,Cloudy,12.41
-TRIP_089,EDSA Carousel,Bagong Barrio,Late Night,10,15.4,Heavy Rain,5.4
-TRIP_090,MRT-3,Santolan-Annapolis,Late Night,10,11.73,Heavy Rain,1.73
-TRIP_091,LRT-1,Ninoy Aquino,Late Night,6,8.11,Cloudy,2.11
-TRIP_092,EDSA Carousel,Nepa Q. Mart,Late Night,5,23.01,Heavy Rain,18.01
-TRIP_093,LRT-1,Vito Cruz,Peak Evening,9,26.22,Heavy Rain,17.22
-TRIP_094,LRT-1,Tayuman,Peak Morning,7,20.01,Cloudy,13.01
-TRIP_095,MRT-3,Boni,Mid-Day,5,6.47,Cloudy,1.47
-TRIP_096,LRT-2,Marikina-Pasay,Late Night,5,8.83,Cloudy,3.83
-TRIP_097,LRT-1,Doroteo Jose,Late Night,9,13.3,Heavy Rain,4.3
-TRIP_098,LRT-1,5th Avenue,Mid-Day,7,12.12,Clear,5.12
-TRIP_099,LRT-1,Blumentritt,Peak Evening,7,20.35,Cloudy,13.35
-TRIP_100,MRT-3,Kamuning,Peak Evening,10,28.3,Cloudy,18.3
-TRIP_101,LRT-1,Asia World,Late Night,8,8.8,Cloudy,0.8
-TRIP_102,MRT-3,Buendia,Late Night,8,6.61,Cloudy,-1.39
-TRIP_103,LRT-2,Legarda,Mid-Day,7,12.43,Clear,5.43
-TRIP_104,MRT-3,Shaw Blvd,Late Night,8,7.58,Clear,-0.42
-TRIP_105,MRT-3,Shaw Blvd,Peak Evening,6,16.98,Heavy Rain,10.98
-TRIP_106,EDSA Carousel,Ortigas,Mid-Day,6,6.64,Cloudy,0.64
-TRIP_107,LRT-2,J. Ruiz,Peak Morning,8,20.4,Cloudy,12.4
-TRIP_108,LRT-2,Santolan,Late Night,9,11.54,Cloudy,2.54
-TRIP_109,LRT-1,Doroteo Jose,Peak Evening,8,21.56,Heavy Rain,13.56
-TRIP_110,EDSA Carousel,Balintawak,Peak Evening,9,24.04,Cloudy,15.04
-TRIP_111,MRT-3,Boni,Peak Evening,8,21.94,Clear,13.94
-TRIP_112,MRT-3,Ayala,Peak Evening,5,12.57,Cloudy,7.57
-TRIP_113,LRT-2,V. Mapa,Late Night,7,7.67,Clear,0.67
-TRIP_114,MRT-3,Magallanes,Peak Evening,7,24.04,Heavy Rain,17.04
-TRIP_115,LRT-2,Katipunan,Late Night,8,7.12,Heavy Rain,-0.88
-TRIP_116,LRT-2,Cubao,Peak Morning,7,18.73,Heavy Rain,11.73
-TRIP_117,EDSA Carousel,North Ave,Peak Evening,7,18.85,Clear,11.85
-TRIP_118,MRT-3,Shaw Blvd,Mid-Day,10,14.25,Clear,4.25
-TRIP_119,MRT-3,Magallanes,Mid-Day,7,10.48,Heavy Rain,3.48
-TRIP_120,EDSA Carousel,Main Avenue,Peak Morning,8,20.79,Cloudy,12.79
-TRIP_121,EDSA Carousel,Philam,Late Night,9,8.46,Clear,-0.54
-TRIP_122,LRT-1,Asia World,Late Night,9,11.71,Clear,2.71
-TRIP_123,LRT-1,Quirino,Late Night,7,8.8,Clear,1.8
-TRIP_124,EDSA Carousel,Ayala,Peak Morning,7,40.49,Heavy Rain,33.49
-TRIP_125,LRT-2,Anonas,Peak Morning,6,15.32,Clear,9.32
-TRIP_126,EDSA Carousel,Ortigas,Late Night,8,21.64,Heavy Rain,13.64
-TRIP_127,MRT-3,Guadalupe,Peak Evening,6,18.51,Clear,12.51
-TRIP_128,EDSA Carousel,Ortigas,Mid-Day,9,13.0,Clear,4.0
-TRIP_129,LRT-2,Gilmore,Mid-Day,9,11.03,Cloudy,2.03
-TRIP_130,LRT-2,Cubao,Mid-Day,7,8.03,Clear,1.03
-TRIP_131,LRT-1,Central Terminal,Peak Evening,6,20.1,Cloudy,14.1
-TRIP_132,LRT-1,UN Avenue,Late Night,8,7.39,Clear,-0.61
-TRIP_133,EDSA Carousel,Cubao-Magallanes,Peak Morning,9,23.9,Clear,14.9
-TRIP_134,MRT-3,Shaw Blvd,Late Night,9,9.09,Heavy Rain,0.09
-TRIP_135,LRT-2,Betty Go-Belmonte,Late Night,5,7.68,Cloudy,2.68
-TRIP_136,LRT-1,Dr. Santos,Peak Morning,9,26.64,Cloudy,17.64
-TRIP_137,LRT-1,Ninoy Aquino,Mid-Day,6,16.09,Heavy Rain,10.09
-TRIP_138,MRT-3,Kamuning,Late Night,7,11.71,Cloudy,4.71
-TRIP_139,MRT-3,Magallanes,Late Night,9,11.65,Clear,2.65
-TRIP_140,MRT-3,Guadalupe,Mid-Day,5,7.88,Heavy Rain,2.88
-TRIP_141,LRT-2,Betty Go-Belmonte,Mid-Day,8,9.76,Cloudy,1.76
-TRIP_142,EDSA Carousel,Philam,Peak Morning,9,23.46,Clear,14.46
-TRIP_143,EDSA Carousel,Kennedy Road,Peak Morning,10,28.01,Cloudy,18.01
-TRIP_144,LRT-1,Bambang,Peak Evening,10,25.24,Cloudy,15.24
-TRIP_145,MRT-3,Ayala,Mid-Day,6,6.74,Cloudy,0.74
-TRIP_146,EDSA Carousel,Ayala,Peak Morning,9,28.73,Cloudy,19.73
-TRIP_147,MRT-3,Ayala,Late Night,9,9.36,Cloudy,0.36
-TRIP_148,EDSA Carousel,Main Avenue,Mid-Day,7,21.74,Heavy Rain,14.74
-TRIP_149,EDSA Carousel,Nepa Q. Mart,Late Night,10,40.28,Heavy Rain,30.28
-TRIP_150,MRT-3,Kamuning,Peak Morning,7,19.35,Heavy Rain,12.35
-TRIP_151,MRT-3,Ortigas,Late Night,9,8.42,Cloudy,-0.58
-TRIP_152,LRT-2,Marikina-Pasay,Mid-Day,6,10.92,Heavy Rain,4.92
-TRIP_153,LRT-2,Pureza,Peak Morning,10,26.49,Cloudy,16.49
-TRIP_154,MRT-3,Ortigas,Late Night,10,8.61,Cloudy,-1.39
-TRIP_155,LRT-1,Abad Santos,Peak Morning,7,21.4,Heavy Rain,14.4
-TRIP_156,LRT-2,Legarda,Peak Evening,7,19.78,Cloudy,12.78
-TRIP_157,MRT-3,Santolan-Annapolis,Peak Morning,10,26.59,Cloudy,16.59
-TRIP_158,EDSA Carousel,Guadalupe,Late Night,10,22.63,Heavy Rain,12.63
-TRIP_159,LRT-2,Antipolo,Peak Evening,9,26.27,Heavy Rain,17.27
-TRIP_160,EDSA Carousel,PITX Terminal,Mid-Day,10,15.03,Cloudy,5.03
-TRIP_161,LRT-2,Betty Go-Belmonte,Late Night,7,6.69,Cloudy,-0.31
-TRIP_162,LRT-2,V. Mapa,Peak Evening,6,15.94,Cloudy,9.94
-TRIP_163,LRT-2,Pureza,Peak Evening,10,25.8,Cloudy,15.8
-TRIP_164,LRT-1,Pedro Gil,Late Night,10,9.2,Cloudy,-0.8
-TRIP_165,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,6,17.68,Heavy Rain,11.68
-TRIP_166,EDSA Carousel,Nepa Q. Mart,Mid-Day,7,8.59,Cloudy,1.59
-TRIP_167,LRT-1,Libertad,Peak Morning,8,20.26,Cloudy,12.26
-TRIP_168,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,10,25.15,Cloudy,15.15
-TRIP_169,MRT-3,Ayala,Late Night,8,9.05,Heavy Rain,1.05
-TRIP_170,MRT-3,Buendia,Late Night,8,12.16,Heavy Rain,4.16
-TRIP_171,EDSA Carousel,Nepa Q. Mart,Peak Morning,5,31.34,Heavy Rain,26.34
-TRIP_172,EDSA Carousel,Roosevelt,Late Night,8,8.7,Cloudy,0.7
-TRIP_173,LRT-1,Dr. Santos,Peak Morning,10,27.89,Cloudy,17.89
-TRIP_174,LRT-1,R. Papa,Peak Morning,10,29.66,Heavy Rain,19.66
-TRIP_175,LRT-2,Recto,Mid-Day,6,10.3,Heavy Rain,4.3
-TRIP_176,MRT-3,Guadalupe,Peak Evening,8,21.65,Cloudy,13.65
-TRIP_177,LRT-2,J. Ruiz,Peak Evening,10,31.31,Heavy Rain,21.31
-TRIP_178,LRT-1,Doroteo Jose,Mid-Day,6,9.87,Heavy Rain,3.87
-TRIP_179,MRT-3,Boni,Mid-Day,9,9.52,Cloudy,0.52
-TRIP_180,LRT-1,Blumentritt,Peak Morning,10,25.07,Cloudy,15.07
-TRIP_181,EDSA Carousel,Roosevelt,Peak Morning,7,21.94,Heavy Rain,14.94
-TRIP_182,LRT-1,Vito Cruz,Late Night,8,7.14,Cloudy,-0.86
-TRIP_183,EDSA Carousel,SM Mall of Asia,Late Night,9,8.21,Clear,-0.79
-TRIP_184,LRT-1,Balintawak,Mid-Day,8,9.46,Cloudy,1.46
-TRIP_185,EDSA Carousel,Balintawak,Peak Morning,5,14.04,Cloudy,9.04
-TRIP_186,LRT-2,Cubao,Late Night,10,14.2,Clear,4.2
-TRIP_187,LRT-2,Betty Go-Belmonte,Peak Evening,8,21.85,Clear,13.85
-TRIP_188,LRT-2,J. Ruiz,Late Night,5,4.1,Cloudy,-0.9
-TRIP_189,LRT-1,Gil Puyat,Peak Morning,9,22.9,Cloudy,13.9
-TRIP_190,MRT-3,Cubao,Peak Morning,10,25.42,Cloudy,15.42
-TRIP_191,MRT-3,Taft Ave,Peak Morning,10,25.87,Clear,15.87
-TRIP_192,MRT-3,Quezon Ave,Mid-Day,8,15.05,Heavy Rain,7.05
-TRIP_193,EDSA Carousel,Balintawak,Peak Evening,6,19.65,Cloudy,13.65
-TRIP_194,MRT-3,Taft Ave,Late Night,5,5.54,Cloudy,0.54
-TRIP_195,LRT-2,Gilmore,Late Night,6,5.02,Cloudy,-0.98
-TRIP_196,EDSA Carousel,Roxas Blvd,Peak Morning,10,25.83,Clear,15.83
-TRIP_197,EDSA Carousel,Roosevelt,Mid-Day,5,24.05,Heavy Rain,19.05
-TRIP_198,LRT-2,Marikina-Pasay,Peak Morning,6,15.99,Clear,9.99
-TRIP_199,MRT-3,Guadalupe,Late Night,5,6.57,Clear,1.57
-TRIP_200,MRT-3,Boni,Late Night,5,10.18,Clear,5.18
-TRIP_201,MRT-3,Quezon Ave,Late Night,6,8.42,Cloudy,2.42
-TRIP_202,LRT-2,Cubao,Peak Morning,10,33.14,Heavy Rain,23.14
-TRIP_203,LRT-2,Legarda,Mid-Day,7,8.36,Clear,1.36
-TRIP_204,EDSA Carousel,Roosevelt,Peak Morning,7,19.15,Clear,12.15
-TRIP_205,LRT-1,Gil Puyat,Peak Evening,8,20.3,Cloudy,12.3
-TRIP_206,MRT-3,Ortigas,Late Night,9,7.94,Clear,-1.06
-TRIP_207,LRT-2,Santolan,Peak Morning,5,15.8,Heavy Rain,10.8
-TRIP_208,LRT-2,Recto,Peak Morning,8,32.36,Heavy Rain,24.36
-TRIP_209,LRT-2,Marikina-Pasay,Peak Morning,10,31.43,Clear,21.43
-TRIP_210,LRT-2,Antipolo,Late Night,9,9.01,Cloudy,0.01
-TRIP_211,LRT-2,Betty Go-Belmonte,Peak Evening,9,24.12,Heavy Rain,15.12
-TRIP_212,MRT-3,North Ave,Mid-Day,5,14.25,Heavy Rain,9.25
-TRIP_213,LRT-1,5th Avenue,Mid-Day,7,11.56,Heavy Rain,4.56
-TRIP_214,MRT-3,Ortigas,Mid-Day,7,9.64,Cloudy,2.64
-TRIP_215,MRT-3,Santolan-Annapolis,Peak Evening,8,22.61,Clear,14.61
-TRIP_216,LRT-1,Dr. Santos,Peak Evening,7,18.28,Clear,11.28
-TRIP_217,EDSA Carousel,Buendia,Peak Evening,10,37.47,Heavy Rain,27.47
-TRIP_218,LRT-2,Cubao,Peak Morning,7,18.76,Clear,11.76
-TRIP_219,EDSA Carousel,Santolan-Annapolis,Peak Evening,9,21.32,Cloudy,12.32
-TRIP_220,EDSA Carousel,Kamuning,Mid-Day,7,25.72,Heavy Rain,18.72
-TRIP_221,MRT-3,Quezon Ave,Mid-Day,6,9.03,Heavy Rain,3.03
-TRIP_222,LRT-2,Cubao,Peak Evening,7,19.82,Cloudy,12.82
-TRIP_223,LRT-1,Libertad,Mid-Day,8,9.04,Clear,1.04
-TRIP_224,LRT-1,Baclaran,Mid-Day,10,17.66,Heavy Rain,7.66
-TRIP_225,EDSA Carousel,North Ave,Mid-Day,9,11.7,Cloudy,2.7
-TRIP_226,EDSA Carousel,PITX Terminal,Mid-Day,6,7.61,Cloudy,1.61
-TRIP_227,EDSA Carousel,Guadalupe,Peak Morning,8,20.3,Cloudy,12.3
-TRIP_228,EDSA Carousel,Taft Ave,Peak Morning,5,24.06,Heavy Rain,19.06
-TRIP_229,EDSA Carousel,Ayala,Peak Morning,8,24.14,Cloudy,16.14
-TRIP_230,MRT-3,Guadalupe,Mid-Day,10,11.46,Heavy Rain,1.46
-TRIP_231,MRT-3,Santolan-Annapolis,Mid-Day,7,9.32,Heavy Rain,2.32
-TRIP_232,LRT-1,Dr. Santos,Peak Evening,5,16.23,Cloudy,11.23
-TRIP_233,MRT-3,Ayala,Peak Morning,10,28.78,Clear,18.78
-TRIP_234,LRT-2,V. Mapa,Peak Evening,8,20.95,Cloudy,12.95
-TRIP_235,LRT-2,Katipunan,Late Night,9,14.16,Cloudy,5.16
-TRIP_236,EDSA Carousel,PITX Terminal,Peak Evening,6,25.63,Heavy Rain,19.63
-TRIP_237,LRT-1,Redemptorist,Peak Evening,9,27.87,Heavy Rain,18.87
-TRIP_238,LRT-1,Fernando Poe Jr. (Roosevelt),Late Night,7,8.16,Heavy Rain,1.16
-TRIP_239,MRT-3,Boni,Mid-Day,10,18.11,Heavy Rain,8.11
-TRIP_240,LRT-2,Betty Go-Belmonte,Late Night,6,13.35,Cloudy,7.35
-TRIP_241,MRT-3,North Ave,Mid-Day,5,6.59,Clear,1.59
-TRIP_242,EDSA Carousel,Bagong Barrio,Peak Morning,9,51.57,Heavy Rain,42.57
-TRIP_243,MRT-3,Taft Ave,Late Night,10,14.09,Heavy Rain,4.09
-TRIP_244,MRT-3,Quezon Ave,Late Night,9,14.75,Heavy Rain,5.75
-TRIP_245,EDSA Carousel,Taft Ave,Peak Evening,6,15.81,Clear,9.81
-TRIP_246,EDSA Carousel,Balintawak,Mid-Day,6,11.12,Clear,5.12
-TRIP_247,MRT-3,Guadalupe,Mid-Day,10,12.4,Cloudy,2.4
-TRIP_248,LRT-2,Legarda,Peak Evening,9,25.63,Clear,16.63
-TRIP_249,MRT-3,Ayala,Peak Morning,10,25.28,Clear,15.28
-TRIP_250,MRT-3,Quezon Ave,Late Night,5,7.13,Clear,2.13
-TRIP_251,LRT-2,Cubao,Mid-Day,8,13.69,Heavy Rain,5.69
-TRIP_252,EDSA Carousel,Kamuning,Peak Morning,5,13.74,Clear,8.74
-TRIP_253,MRT-3,Shaw Blvd,Late Night,10,8.31,Clear,-1.69
-TRIP_254,LRT-2,Katipunan,Mid-Day,8,12.43,Clear,4.43
-TRIP_255,LRT-2,V. Mapa,Mid-Day,7,10.3,Heavy Rain,3.3
-TRIP_256,MRT-3,Shaw Blvd,Peak Evening,10,27.82,Cloudy,17.82
-TRIP_257,MRT-3,Santolan-Annapolis,Peak Morning,6,17.59,Clear,11.59
-TRIP_258,MRT-3,Guadalupe,Peak Morning,8,24.16,Cloudy,16.16
-TRIP_259,MRT-3,North Ave,Mid-Day,8,8.63,Cloudy,0.63
-TRIP_260,MRT-3,sHAW bLVD,Peak Evening,7,19.38,Clear,12.38
-TRIP_261,MRT-3,Magallanes,Peak Morning,8,22.28,Heavy Rain,14.28
-TRIP_262,LRT-1,Vito Cruz,Late Night,9,7.93,Heavy Rain,-1.07
-TRIP_263,EDSA Carousel,Balintawak,Peak Evening,8,24.21,Clear,16.21
-TRIP_264,LRT-2,J. Ruiz,Peak Evening,8,20.79,Cloudy,12.79
-TRIP_265,MRT-3,Cubao,Mid-Day,5,6.26,Clear,1.26
-TRIP_266,MRT-3,Ortigas,Peak Evening,6,16.57,Clear,10.57
-TRIP_267,MRT-3,Taft Ave,Late Night,5,6.85,Heavy Rain,1.85
-TRIP_268,MRT-3,Taft Ave,Mid-Day,8,8.25,Clear,0.25
-TRIP_269,LRT-2,Antipolo,Peak Morning,10,26.32,Clear,16.32
-TRIP_270,LRT-1,Fernando Poe Jr. (Roosevelt),Mid-Day,6,8.56,Cloudy,2.56
-TRIP_271,LRT-1,Monumento,Peak Morning,8,21.33,Cloudy,13.33
-TRIP_272,MRT-3,Ortigas,Mid-Day,9,12.22,Clear,3.22
-TRIP_273,MRT-3,Ortigas,Peak Evening,6,17.37,Clear,11.37
-TRIP_274,LRT-1,Baclaran,Mid-Day,7,7.39,Clear,0.39
-TRIP_275,MRT-3,Taft Ave,Peak Morning,8,22.64,Heavy Rain,14.64
-TRIP_276,MRT-3,Ortigas,Peak Morning,10,28.91,Cloudy,18.91
-TRIP_277,LRT-2,Santolan,Peak Morning,8,22.7,Clear,14.7
-TRIP_278,LRT-2,J. Ruiz,Mid-Day,10,18.76,Heavy Rain,8.76
-TRIP_279,LRT-1,Blumentritt,Peak Morning,7,17.89,Cloudy,10.89
-TRIP_280,LRT-1,Balintawak,Late Night,7,8.9,Cloudy,1.9
-TRIP_281,EDSA Carousel,Ayala,Peak Evening,10,26.3,Clear,16.3
-TRIP_282,LRT-1,Pedro Gil,Peak Morning,8,21.44,Clear,13.44
-TRIP_283,LRT-2,Legarda,Peak Morning,6,15.59,Clear,9.59
-TRIP_284,LRT-2,J. Ruiz,Mid-Day,8,8.76,Cloudy,0.76
-TRIP_285,LRT-2,Legarda,Peak Evening,7,19.83,Cloudy,12.83
-TRIP_286,EDSA Carousel,Main Avenue,Mid-Day,9,10.15,Cloudy,1.15
-TRIP_287,LRT-2,Betty Go-Belmonte,Mid-Day,10,10.61,Clear,0.61
-TRIP_288,MRT-3,Taft Ave,Mid-Day,8,9.67,Cloudy,1.67
-TRIP_289,LRT-1,Gil Puyat,Mid-Day,6,6.38,Clear,0.38
-TRIP_290,LRT-1,Vito Cruz,Late Night,5,10.83,Heavy Rain,5.83
-TRIP_291,LRT-2,Antipolo,Late Night,6,9.45,Heavy Rain,3.45
-TRIP_292,LRT-2,Antipolo,Mid-Day,6,15.12,Clear,9.12
-TRIP_293,LRT-2,Cubao,Peak Evening,8,22.29,Cloudy,14.29
-TRIP_294,MRT-3,Quezon Ave,Peak Evening,10,26.01,Heavy Rain,16.01
-TRIP_295,LRT-1,UN Avenue,Mid-Day,6,7.93,Cloudy,1.93
-TRIP_296,MRT-3,Guadalupe,Peak Evening,5,21.94,Cloudy,16.94
-TRIP_297,LRT-1,Vito Cruz,Peak Evening,8,21.31,Clear,13.31
-TRIP_298,LRT-1,5th Avenue,Peak Evening,8,24.1,Cloudy,16.1
-TRIP_299,EDSA Carousel,SM Mall of Asia,Late Night,9,19.04,Heavy Rain,10.04
-TRIP_300,EDSA Carousel,Buendia,Mid-Day,5,7.68,Cloudy,2.68
-TRIP_301,LRT-1,Tayuman,Peak Evening,7,19.64,Cloudy,12.64
-TRIP_302,LRT-2,Pureza,Peak Evening,8,29.31,Heavy Rain,21.31
-TRIP_303,LRT-1,Abad Santos,Late Night,9,11.83,Heavy Rain,2.83
-TRIP_304,LRT-2,Antipolo,Mid-Day,9,9.19,Cloudy,0.19
-TRIP_305,LRT-2,Legarda,Mid-Day,8,10.15,Cloudy,2.15
-TRIP_306,LRT-2,Antipolo,Late Night,9,9.32,Clear,0.32
-TRIP_307,LRT-1,Abad Santos,Late Night,6,5.48,Clear,-0.52
-TRIP_308,MRT-3,Santolan-Annapolis,Peak Morning,6,16.43,Cloudy,10.43
-TRIP_309,EDSA Carousel,Santolan-Annapolis,Peak Morning,5,16.71,Clear,11.71
-TRIP_310,MRT-3,Shaw Blvd,Late Night,6,6.91,Cloudy,0.91
-TRIP_311,EDSA Carousel,Balintawak,Late Night,7,21.11,Heavy Rain,14.11
-TRIP_312,MRT-3,Quezon Ave,Peak Morning,9,22.75,Cloudy,13.75
-TRIP_313,LRT-1,Gil Puyat,Peak Evening,10,25.72,Heavy Rain,15.72
-TRIP_314,EDSA Carousel,Monumento Terminal,Late Night,6,14.79,Heavy Rain,8.79
-TRIP_315,LRT-2,Antipolo,Peak Evening,7,22.79,Cloudy,15.79
-TRIP_316,EDSA Carousel,Roxas Blvd,Mid-Day,7,19.47,Heavy Rain,12.47
-TRIP_317,LRT-2,Santolan,Peak Evening,10,27.61,Clear,17.61
-TRIP_318,LRT-2,Recto,Peak Evening,9,23.0,Clear,14.0
-TRIP_319,MRT-3,Guadalupe,Late Night,8,10.0,Heavy Rain,2.0
-TRIP_320,MRT-3,Cubao,Late Night,6,5.44,Clear,-0.56
-TRIP_321,MRT-3,Magallanes,Peak Evening,7,22.42,Heavy Rain,15.42
-TRIP_322,LRT-1,Dr. Santos,Peak Evening,5,17.67,Heavy Rain,12.67
-TRIP_323,EDSA Carousel,SM Mall of Asia,Late Night,9,10.26,Cloudy,1.26
-TRIP_324,MRT-3,santolan-annapolis,Peak Morning,9,26.76,Cloudy,17.76
-TRIP_325,LRT-2,Marikina-Pasay,Peak Evening,10,27.17,Cloudy,17.17
-TRIP_326,LRT-2,Legarda,Late Night,7,7.1,Cloudy,0.1
-TRIP_327,LRT-2,Antipolo,Peak Morning,8,28.18,Heavy Rain,20.18
-TRIP_328,LRT-1,Vito Cruz,Mid-Day,8,11.25,Heavy Rain,3.25
-TRIP_329,MRT-3,Magallanes,Peak Evening,7,17.98,Cloudy,10.98
-TRIP_330,MRT-3,Cubao,Peak Evening,10,21.94,Clear,11.94
-TRIP_331,LRT-1,Quirino,Mid-Day,10,16.14,Heavy Rain,6.14
-TRIP_332,EDSA Carousel,Quezon Ave,Peak Morning,7,53.44,Heavy Rain,46.44
-TRIP_333,LRT-2,Antipolo,Mid-Day,10,13.09,Cloudy,3.09
-TRIP_334,LRT-2,Marikina-Pasay,Peak Evening,10,27.22,Cloudy,17.22
-TRIP_335,EDSA Carousel,Ayala,Peak Morning,7,19.95,Cloudy,12.95
-TRIP_336,EDSA Carousel,Roosevelt,Mid-Day,9,10.52,Cloudy,1.52
-TRIP_337,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,9,23.15,Clear,14.15
-TRIP_338,MRT-3,Shaw Blvd,Peak Evening,7,19.62,Cloudy,12.62
-TRIP_339,MRT-3,Taft Ave,Mid-Day,6,10.43,Cloudy,4.43
-TRIP_340,LRT-2,Santolan,Peak Evening,8,24.0,Heavy Rain,16.0
-TRIP_341,EDSA Carousel,Taft Ave,Late Night,6,4.86,Clear,-1.14
-TRIP_342,EDSA Carousel,North Ave,Mid-Day,5,21.24,Heavy Rain,16.24
-TRIP_343,LRT-1,R. Papa,Late Night,10,14.1,Heavy Rain,4.1
-TRIP_344,MRT-3,Ayala,Late Night,5,4.68,Clear,-0.32
-TRIP_345,LRT-2,Katipunan,Peak Morning,10,26.77,Clear,16.77
-TRIP_346,MRT-3,Kamuning,Peak Evening,6,16.11,Heavy Rain,10.11
-TRIP_347,LRT-2,Gilmore,Peak Morning,8,25.35,Heavy Rain,17.35
-TRIP_348,LRT-1,Monumento,Late Night,10,8.8,Cloudy,-1.2
-TRIP_349,LRT-2,Gilmore,Late Night,5,10.2,Cloudy,5.2
-TRIP_350,MRT-3,Ayala,Late Night,6,9.68,Clear,3.68
-TRIP_351,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Morning,8,24.03,Heavy Rain,16.03
-TRIP_352,LRT-1,Quirino,Peak Morning,7,20.94,Clear,13.94
-TRIP_353,EDSA Carousel,BVA / City of Dreams,Peak Morning,5,12.82,Clear,7.82
-TRIP_354,MRT-3,Magallanes,Mid-Day,6,8.45,Heavy Rain,2.45
-TRIP_355,LRT-2,Gilmore,Mid-Day,9,13.43,Cloudy,4.43
-TRIP_356,MRT-3,Magallanes,Peak Morning,7,18.66,Cloudy,11.66
-TRIP_357,EDSA Carousel,Roxas Blvd,Peak Morning,7,20.44,Clear,13.44
-TRIP_358,EDSA Carousel,Taft Ave,Peak Morning,8,23.25,Heavy Rain,15.25
-TRIP_359,MRT-3,Taft Ave,Peak Morning,10,28.6,Heavy Rain,18.6
-TRIP_360,LRT-2,Anonas,Peak Evening,5,14.89,Heavy Rain,9.89
-TRIP_361,LRT-2,Marikina-Pasay,Peak Evening,7,20.49,Cloudy,13.49
-TRIP_362,MRT-3,Boni,Peak Morning,9,23.28,Heavy Rain,14.28
-TRIP_363,LRT-1,EDSA,Mid-Day,10,10.71,Clear,0.71
-TRIP_364,EDSA Carousel,Macapagal/Aseana,Mid-Day,5,21.23,Heavy Rain,16.23
-TRIP_365,EDSA Carousel,North Ave,Peak Morning,6,15.74,Clear,9.74
-TRIP_366,LRT-2,pureza,Mid-Day,7,10.23,Cloudy,3.23
-TRIP_367,LRT-1,Quirino,Mid-Day,8,11.36,Clear,3.36
-TRIP_368,MRT-3,Santolan-Annapolis,Late Night,5,8.42,Heavy Rain,3.42
-TRIP_369,EDSA Carousel,Bagong Barrio,Peak Evening,9,37.85,Heavy Rain,28.85
-TRIP_370,EDSA Carousel,Tramo,Peak Morning,8,20.23,Clear,12.23
-TRIP_371,MRT-3,Guadalupe,Late Night,6,8.55,Heavy Rain,2.55
-TRIP_372,EDSA Carousel,PITX Terminal,Peak Morning,9,23.13,Cloudy,14.13
-TRIP_373,LRT-1,Gil Puyat,Peak Evening,8,23.95,Cloudy,15.95
-TRIP_374,MRT-3,Quezon Ave,Mid-Day,5,6.11,Cloudy,1.11
-TRIP_375,EDSA Carousel,North Ave,Late Night,6,4.95,Clear,-1.05
-TRIP_376,EDSA Carousel,Cubao-Magallanes,Peak Morning,6,20.12,Clear,14.12
-TRIP_377,EDSA Carousel,Roxas Blvd,Mid-Day,10,12.55,Clear,2.55
-TRIP_378,MRT-3,Shaw Blvd,Mid-Day,8,10.78,Heavy Rain,2.78
-TRIP_379,MRT-3,Ayala,Late Night,5,4.91,Clear,-0.09
-TRIP_380,LRT-2,Marikina-Pasay,Peak Morning,7,22.3,Heavy Rain,15.3
-TRIP_381,EDSA Carousel,Santolan-Annapolis,Late Night,7,15.51,Heavy Rain,8.51
-TRIP_382,MRT-3,Kamuning,Mid-Day,5,5.44,Cloudy,0.44
-TRIP_383,EDSA Carousel,Kamuning,Peak Evening,8,21.6,Cloudy,13.6
-TRIP_384,MRT-3,Shaw Blvd,Mid-Day,6,8.06,Clear,2.06
-TRIP_385,LRT-2,Legarda,Mid-Day,8,23.55,Heavy Rain,15.55
-TRIP_386,EDSA Carousel,SM North EDSA,Peak Evening,5,16.93,Clear,11.93
-TRIP_387,EDSA Carousel,Philam,Peak Morning,8,26.29,Heavy Rain,18.29
-TRIP_388,EDSA Carousel,Guadalupe,Late Night,5,10.58,Heavy Rain,5.58
-TRIP_389,MRT-3,Ortigas,Mid-Day,10,9.64,Heavy Rain,-0.36
-TRIP_390,LRT-2,Gilmore,Late Night,7,6.7,Heavy Rain,-0.3
-TRIP_391,EDSA Carousel,Macapagal/Aseana,Late Night,8,25.71,Heavy Rain,17.71
-TRIP_392,LRT-2,J. Ruiz,Peak Morning,8,20.85,Heavy Rain,12.85
-TRIP_393,MRT-3,Boni,Peak Morning,6,20.9,Heavy Rain,14.9
-TRIP_394,MRT-3,Magallanes,Mid-Day,9,10.35,Clear,1.35
-TRIP_395,LRT-2,J. Ruiz,Peak Evening,7,18.84,Cloudy,11.84
-TRIP_396,EDSA Carousel,Roxas Blvd,Peak Evening,6,16.01,Clear,10.01
-TRIP_397,EDSA Carousel,Kennedy Road,Mid-Day,7,9.52,Cloudy,2.52
-TRIP_398,MRT-3,North Ave,Late Night,5,8.62,Cloudy,3.62
-TRIP_399,LRT-1,Dr. Santos,Peak Morning,8,22.39,Clear,14.39
-TRIP_400,MRT-3,Boni,Mid-Day,7,9.64,Heavy Rain,2.64
-TRIP_401,LRT-2,J. Ruiz,Peak Evening,6,18.47,Cloudy,12.47
-TRIP_402,EDSA Carousel,CUBAO-MAGALLANES,Late Night,5,10.84,Heavy Rain,5.84
-TRIP_403,LRT-1,Ninoy Aquino,Peak Evening,8,22.55,Cloudy,14.55
-TRIP_404,LRT-1,Baclaran,Late Night,9,8.49,Clear,-0.51
-TRIP_405,LRT-1,EDSA,Peak Morning,8,22.4,Cloudy,14.4
-TRIP_406,MRT-3,Ayala,Late Night,5,8.23,Heavy Rain,3.23
-TRIP_407,LRT-2,Katipunan,Peak Morning,7,20.25,Clear,13.25
-TRIP_408,LRT-2,V. Mapa,Mid-Day,5,5.25,Clear,0.25
-TRIP_409,LRT-2,Recto,Mid-Day,7,15.2,Heavy Rain,8.2
-TRIP_410,MRT-3,Buendia,Mid-Day,9,10.95,Heavy Rain,1.95
-TRIP_411,MRT-3,Shaw Blvd,Late Night,9,8.74,Cloudy,-0.26
-TRIP_412,MRT-3,Guadalupe,Peak Morning,6,17.3,Cloudy,11.3
-TRIP_413,EDSA Carousel,Ayala,Peak Morning,8,21.51,Clear,13.51
-TRIP_414,MRT-3,Taft Ave,Peak Morning,6,17.39,Cloudy,11.39
-TRIP_415,EDSA Carousel,North Ave,Mid-Day,8,9.56,Clear,1.56
-TRIP_416,MRT-3,Quezon Ave,Late Night,7,6.52,Cloudy,-0.48
-TRIP_417,LRT-1,Monumento,Mid-Day,7,9.69,Clear,2.69
-TRIP_418,EDSA Carousel,Tramo,Peak Morning,10,42.02,Heavy Rain,32.02
-TRIP_419,EDSA Carousel,Kennedy Road,Late Night,8,8.87,Clear,0.87
-TRIP_420,MRT-3,Kamuning,Peak Evening,9,25.24,Cloudy,16.24
-TRIP_421,EDSA Carousel,Quezon Ave,Peak Evening,5,14.39,Clear,9.39
-TRIP_422,EDSA Carousel,cUBAO-mAGALLANES,Peak Morning,6,15.59,Cloudy,9.59
-TRIP_423,MRT-3,Quezon Ave,Mid-Day,5,9.64,Cloudy,4.64
-TRIP_424,MRT-3,Santolan-Annapolis,Peak Evening,8,22.94,Clear,14.94
-TRIP_425,LRT-2,Katipunan,Peak Evening,5,17.0,Cloudy,12.0
-TRIP_426,LRT-1,Redemptorist,Mid-Day,5,10.62,Cloudy,5.62
-TRIP_427,MRT-3,Buendia,Peak Evening,6,16.25,Cloudy,10.25
-TRIP_428,LRT-2,Betty Go-Belmonte,Peak Evening,7,20.49,Clear,13.49
-TRIP_429,EDSA Carousel,North Ave,Mid-Day,10,10.54,Clear,0.54
-TRIP_430,LRT-2,Anonas,Peak Morning,6,17.95,Heavy Rain,11.95
-TRIP_431,LRT-1,Carriedo,Peak Morning,5,16.76,Heavy Rain,11.76
-TRIP_432,EDSA Carousel,Ayala,Peak Morning,7,17.72,Cloudy,10.72
-TRIP_433,MRT-3,Cubao,Peak Evening,5,16.39,Heavy Rain,11.39
-TRIP_434,LRT-1,Monumento,Peak Morning,10,22.38,Heavy Rain,12.38
-TRIP_435,EDSA Carousel,Roosevelt,Mid-Day,7,8.93,Cloudy,1.93
-TRIP_436,LRT-1,EDSA,Mid-Day,7,11.13,Heavy Rain,4.13
-TRIP_437,LRT-2,Gilmore,Peak Evening,8,23.66,Clear,15.66
-TRIP_438,LRT-1,Bambang,Mid-Day,7,17.95,Heavy Rain,10.95
-TRIP_439,EDSA Carousel,Taft Ave,Mid-Day,7,12.39,Cloudy,5.39
-TRIP_440,MRT-3,North Ave,Peak Evening,9,31.77,Heavy Rain,22.77
-TRIP_441,MRT-3,Cubao,Peak Morning,10,26.35,Clear,16.35
-TRIP_442,EDSA Carousel,Kaingin Road,Peak Evening,7,18.43,Clear,11.43
-TRIP_443,MRT-3,Cubao,Late Night,5,8.26,Heavy Rain,3.26
-TRIP_444,LRT-2,Recto,Late Night,9,10.25,Clear,1.25
-TRIP_445,LRT-2,Santolan,Peak Evening,10,28.85,Heavy Rain,18.85
-TRIP_446,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Morning,6,18.64,Cloudy,12.64
-TRIP_447,EDSA Carousel,Tramo,Mid-Day,10,10.59,Clear,0.59
-TRIP_448,EDSA Carousel,PITX Terminal,Peak Evening,8,35.81,Heavy Rain,27.81
-TRIP_449,MRT-3,Ayala,Mid-Day,8,10.08,Clear,2.08
-TRIP_450,LRT-2,Santolan,Late Night,9,9.01,Cloudy,0.01
-TRIP_451,MRT-3,Guadalupe,Peak Morning,5,15.22,Heavy Rain,10.22
-TRIP_452,LRT-2,Gilmore,Peak Morning,8,22.04,Clear,14.04
-TRIP_453,MRT-3,Taft Ave,Peak Evening,8,22.15,Cloudy,14.15
-TRIP_454,LRT-1,Balintawak,Peak Evening,6,15.59,Clear,9.59
-TRIP_455,LRT-2,Santolan,Peak Morning,8,22.7,Clear,14.7
-TRIP_456,LRT-2,Recto,Peak Evening,5,13.0,Clear,8.0
-TRIP_457,EDSA Carousel,Taft Ave,Late Night,6,6.67,Cloudy,0.67
-TRIP_458,LRT-2,Pureza,Peak Morning,7,24.05,Heavy Rain,17.05
-TRIP_459,EDSA Carousel,Santolan-Annapolis,Peak Evening,5,14.13,Cloudy,9.13
-TRIP_460,MRT-3,Santolan-Annapolis,Peak Morning,8,23.59,Heavy Rain,15.59
-TRIP_461,MRT-3,Cubao,Peak Evening,5,21.94,Clear,16.94
-TRIP_462,EDSA Carousel,PITX Terminal,Mid-Day,5,6.21,Clear,1.21
-TRIP_463,MRT-3,Cubao,Late Night,5,6.5,Clear,1.5
-TRIP_464,LRT-2,Cubao,Peak Morning,7,18.11,Cloudy,11.11
-TRIP_465,LRT-1,R. Papa,Peak Evening,5,13.68,Cloudy,8.68
-TRIP_466,LRT-1,MIA,Late Night,6,5.8,Cloudy,-0.2
-TRIP_467,EDSA Carousel,North Ave,Mid-Day,7,7.74,Cloudy,0.74
-TRIP_468,EDSA Carousel,Philam,Late Night,9,7.21,Cloudy,-1.79
-TRIP_469,MRT-3,Magallanes,Late Night,6,8.42,Cloudy,2.42
-TRIP_470,LRT-1,Gil Puyat,Peak Morning,9,22.79,Heavy Rain,13.79
-TRIP_471,LRT-1,Monumento,Peak Evening,7,22.13,Heavy Rain,15.13
-TRIP_472,LRT-2,Antipolo,Late Night,9,8.97,Cloudy,-0.03
-TRIP_473,LRT-1,Fernando Poe Jr. (Roosevelt),Late Night,6,12.69,Heavy Rain,6.69
-TRIP_474,EDSA Carousel,Main Avenue,Mid-Day,5,5.68,Cloudy,0.68
-TRIP_475,LRT-1,Gil Puyat,Peak Morning,5,13.79,Heavy Rain,8.79
-TRIP_476,MRT-3,Santolan-Annapolis,Late Night,10,12.8,Heavy Rain,2.8
-TRIP_477,LRT-1,Tayuman,Peak Evening,8,21.66,Heavy Rain,13.66
-TRIP_478,MRT-3,Buendia,Peak Morning,6,16.77,Clear,10.77
-TRIP_479,LRT-1,Quirino,Peak Evening,9,29.18,Heavy Rain,20.18
-TRIP_480,MRT-3,cubao,Late Night,6,7.37,Cloudy,1.37
-TRIP_481,EDSA Carousel,Quezon Ave,Late Night,5,9.66,Clear,4.66
-TRIP_482,MRT-3,North Ave,Late Night,10,8.08,Clear,-1.92
-TRIP_483,EDSA Carousel,SM North EDSA,Peak Evening,10,27.19,Clear,17.19
-TRIP_484,EDSA Carousel,Main Avenue,Peak Evening,7,17.74,Cloudy,10.74
-TRIP_485,MRT-3,Kamuning,Peak Morning,9,29.92,Heavy Rain,20.92
-TRIP_486,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,7,18.66,Clear,11.66
-TRIP_487,LRT-2,Recto,Mid-Day,7,10.13,Heavy Rain,3.13
-TRIP_488,LRT-1,R. Papa,Mid-Day,8,12.43,Cloudy,4.43
-TRIP_489,LRT-2,Pureza,Late Night,8,9.01,Heavy Rain,1.01
-TRIP_490,LRT-2,Antipolo,Late Night,8,11.03,Heavy Rain,3.03
-TRIP_491,MRT-3,Ortigas,Mid-Day,8,11.42,Heavy Rain,3.42
-TRIP_492,EDSA Carousel,Main Avenue,Mid-Day,5,5.36,Cloudy,0.36
-TRIP_493,LRT-2,Recto,Peak Morning,7,23.92,Cloudy,16.92
-TRIP_494,LRT-2,Gilmore,Peak Morning,8,23.2,Heavy Rain,15.2
-TRIP_495,EDSA Carousel,Philam,Late Night,5,5.64,Clear,0.64
-TRIP_496,EDSA Carousel,Tramo,Mid-Day,9,9.87,Cloudy,0.87
-TRIP_497,LRT-1,EDSA,Peak Morning,5,13.85,Cloudy,8.85
-TRIP_498,LRT-1,Bambang,Peak Morning,8,24.69,Heavy Rain,16.69
-TRIP_499,LRT-2,Pureza,Mid-Day,8,11.11,Clear,3.11
-TRIP_500,LRT-2,Santolan,Peak Evening,7,21.23,Clear,14.23
-TRIP_501,LRT-1,Fernando Poe Jr. (Roosevelt),Late Night,7,8.8,Cloudy,1.8
-TRIP_502,LRT-1,R. Papa,Mid-Day,8,15.41,Heavy Rain,7.41
-TRIP_503,MRT-3,Santolan-Annapolis,Peak Morning,10,27.31,Heavy Rain,17.31
-TRIP_504,LRT-2,Gilmore,Late Night,9,9.81,Heavy Rain,0.81
-TRIP_505,LRT-1,Blumentritt,Peak Evening,9,24.97,Clear,15.97
-TRIP_506,MRT-3,Cubao,Mid-Day,9,10.28,Cloudy,1.28
-TRIP_507,MRT-3,Guadalupe,Peak Evening,9,25.92,Cloudy,16.92
-TRIP_508,MRT-3,Taft Ave,Peak Morning,5,14.78,Heavy Rain,9.78
-TRIP_509,LRT-1,5th Avenue,Peak Morning,8,21.36,Cloudy,13.36
-TRIP_510,LRT-2,J. Ruiz,Mid-Day,10,11.94,Heavy Rain,1.94
-TRIP_511,MRT-3,Buendia,Mid-Day,6,9.05,Cloudy,3.05
-TRIP_512,MRT-3,Ortigas,Peak Morning,5,17.52,Heavy Rain,12.52
-TRIP_513,MRT-3,Ortigas,Late Night,7,7.42,Cloudy,0.42
-TRIP_514,EDSA Carousel,Taft Ave,Peak Morning,8,21.98,Clear,13.98
-TRIP_515,MRT-3,Santolan-Annapolis,Peak Morning,5,16.96,Heavy Rain,11.96
-TRIP_516,MRT-3,Taft Ave,Peak Morning,8,24.74,Heavy Rain,16.74
-TRIP_517,MRT-3,Buendia,Late Night,8,13.2,Heavy Rain,5.2
-TRIP_518,LRT-2,mARIKINA-pASAY,Mid-Day,7,11.95,Heavy Rain,4.95
-TRIP_519,EDSA Carousel,Ayala,Peak Evening,5,13.76,Clear,8.76
-TRIP_520,MRT-3,Taft Ave,Peak Morning,9,23.8,Cloudy,14.8
-TRIP_521,EDSA Carousel,SM Mall of Asia,Mid-Day,5,9.03,Cloudy,4.03
-TRIP_522,LRT-1,Baclaran,Late Night,10,8.8,Cloudy,-1.2
-TRIP_523,EDSA Carousel,SM North EDSA,Mid-Day,10,30.54,Heavy Rain,20.54
-TRIP_524,MRT-3,Shaw Blvd,Late Night,8,16.98,Heavy Rain,8.98
-TRIP_525,LRT-1,5th Avenue,Peak Evening,6,19.23,Heavy Rain,13.23
-TRIP_526,LRT-1,Vito Cruz,Peak Morning,10,32.75,Cloudy,22.75
-TRIP_527,LRT-2,Antipolo,Mid-Day,8,11.04,Clear,3.04
-TRIP_528,EDSA Carousel,Cubao-Magallanes,Mid-Day,9,12.7,Heavy Rain,3.7
-TRIP_529,MRT-3,Ayala,Late Night,10,14.63,Heavy Rain,4.63
-TRIP_530,MRT-3,Ayala,Late Night,6,10.28,Heavy Rain,4.28
-TRIP_531,LRT-2,J. Ruiz,Late Night,7,7.95,Cloudy,0.95
-TRIP_532,MRT-3,Quezon Ave,Peak Morning,6,20.36,Clear,14.36
-TRIP_533,EDSA Carousel,Tramo,Peak Evening,7,18.13,Clear,11.13
-TRIP_534,LRT-1,Dr. Santos,Mid-Day,6,7.96,Cloudy,1.96
-TRIP_535,EDSA Carousel,Ayala,Peak Morning,8,23.37,Clear,15.37
-TRIP_536,LRT-1,5th Avenue,Mid-Day,10,10.62,Cloudy,0.62
-TRIP_537,MRT-3,Cubao,Late Night,9,8.48,Cloudy,-0.52
-TRIP_538,LRT-2,Cubao,Late Night,9,11.73,Heavy Rain,2.73
-TRIP_539,LRT-1,Ninoy Aquino,Peak Evening,8,22.32,Clear,14.32
-TRIP_540,MRT-3,Santolan-Annapolis,Peak Morning,5,26.17,Heavy Rain,21.17
-TRIP_541,LRT-2,J. Ruiz,Peak Evening,5,13.73,Heavy Rain,8.73
-TRIP_542,EDSA Carousel,Ortigas,Mid-Day,9,27.2,Heavy Rain,18.2
-TRIP_543,MRT-3,Santolan-Annapolis,Peak Evening,7,19.13,Clear,12.13
-TRIP_544,LRT-2,Anonas,Mid-Day,9,13.2,Cloudy,4.2
-TRIP_545,EDSA Carousel,SM North EDSA,Mid-Day,10,14.85,Cloudy,4.85
-TRIP_546,LRT-1,Tayuman,Mid-Day,8,11.03,Cloudy,3.03
-TRIP_547,MRT-3,Taft Ave,Mid-Day,8,8.59,Clear,0.59
-TRIP_548,EDSA Carousel,Bagong Barrio,Peak Evening,9,36.86,Heavy Rain,27.86
-TRIP_549,LRT-1,REDEMPTORIST,Peak Morning,8,23.77,Clear,15.77
-TRIP_550,LRT-2,Legarda,Peak Evening,9,23.69,Clear,14.69
-TRIP_551,LRT-2,Santolan,Mid-Day,7,8.07,Clear,1.07
-TRIP_552,MRT-3,Magallanes,Mid-Day,10,13.08,Clear,3.08
-TRIP_553,LRT-1,Dr. Santos,Peak Evening,7,19.11,Cloudy,12.11
-TRIP_554,MRT-3,Ortigas,Peak Evening,9,32.89,Heavy Rain,23.89
-TRIP_555,LRT-1,Asia World,Peak Morning,10,27.04,Heavy Rain,17.04
-TRIP_556,LRT-2,Pureza,Peak Evening,7,19.17,Clear,12.17
-TRIP_557,EDSA Carousel,Buendia,Peak Evening,6,16.19,Clear,10.19
-TRIP_558,LRT-2,Legarda,Peak Evening,9,21.23,Clear,12.23
-TRIP_559,MRT-3,Quezon Ave,Peak Evening,6,15.87,Clear,9.87
-TRIP_560,MRT-3,Cubao,Peak Morning,10,28.31,Heavy Rain,18.31
-TRIP_561,MRT-3,Kamuning,Mid-Day,9,9.95,Cloudy,0.95
-TRIP_562,MRT-3,Santolan-Annapolis,Mid-Day,5,5.47,Cloudy,0.47
-TRIP_563,EDSA Carousel,North Ave,Peak Morning,7,21.24,Cloudy,14.24
-TRIP_564,LRT-1,Balintawak,Peak Morning,7,19.88,Cloudy,12.88
-TRIP_565,LRT-1,Blumentritt,Mid-Day,9,20.3,Heavy Rain,11.3
-TRIP_566,EDSA Carousel,SM North EDSA,Mid-Day,9,19.41,Heavy Rain,10.41
-TRIP_567,LRT-2,Antipolo,Late Night,6,5.54,Clear,-0.46
-TRIP_568,MRT-3,Shaw Blvd,Peak Morning,5,16.09,Heavy Rain,11.09
-TRIP_569,LRT-1,R. Papa,Late Night,9,10.69,Cloudy,1.69
-TRIP_570,EDSA Carousel,Monumento Terminal,Mid-Day,10,13.73,Clear,3.73
-TRIP_571,EDSA Carousel,Kamuning,Mid-Day,8,13.03,Clear,5.03
-TRIP_572,LRT-1,Monumento,Late Night,5,5.78,Clear,0.78
-TRIP_573,MRT-3,Ortigas,Peak Evening,7,21.31,Clear,14.31
-TRIP_574,MRT-3,North Ave,Peak Morning,10,24.16,Heavy Rain,14.16
-TRIP_575,LRT-1,Fernando Poe Jr. (Roosevelt),Mid-Day,7,10.12,Heavy Rain,3.12
-TRIP_576,MRT-3,Santolan-Annapolis,Peak Morning,6,24.16,Heavy Rain,18.16
-TRIP_577,LRT-2,Marikina-Pasay,Peak Morning,6,15.25,Cloudy,9.25
-TRIP_578,MRT-3,Ayala,Late Night,9,9.99,Cloudy,0.99
-TRIP_579,LRT-1,UN Avenue,Peak Morning,8,23.01,Heavy Rain,15.01
-TRIP_580,EDSA Carousel,Taft Ave,Mid-Day,7,34.28,Heavy Rain,27.28
-TRIP_581,LRT-1,5th Avenue,Peak Morning,7,18.95,Cloudy,11.95
-TRIP_582,LRT-1,Balintawak,Mid-Day,9,16.38,Heavy Rain,7.38
-TRIP_583,LRT-2,Anonas,Late Night,8,9.01,Heavy Rain,1.01
-TRIP_584,LRT-1,Doroteo Jose,Mid-Day,5,10.23,Heavy Rain,5.23
-TRIP_585,LRT-2,Santolan,Mid-Day,10,11.43,Clear,1.43
-TRIP_586,LRT-2,Anonas,Late Night,9,9.88,Cloudy,0.88
-TRIP_587,MRT-3,Ayala,Peak Morning,10,29.41,Cloudy,19.41
-TRIP_588,MRT-3,Cubao,Peak Evening,10,29.68,Clear,19.68
-TRIP_589,LRT-1,Monumento,Mid-Day,8,12.59,Heavy Rain,4.59
-TRIP_590,MRT-3,Guadalupe,Peak Evening,9,24.22,Heavy Rain,15.22
-TRIP_591,LRT-1,Blumentritt,Mid-Day,9,15.73,Clear,6.73
-TRIP_592,LRT-1,Ninoy Aquino,Mid-Day,6,8.2,Cloudy,2.2
-TRIP_593,LRT-2,Anonas,Mid-Day,8,10.29,Heavy Rain,2.29
-TRIP_594,EDSA Carousel,Roosevelt,Mid-Day,9,9.05,Clear,0.05
-TRIP_595,EDSA Carousel,BVA / City of Dreams,Peak Evening,7,18.94,Clear,11.94
-TRIP_596,MRT-3,Buendia,Peak Morning,10,30.89,Heavy Rain,20.89
-TRIP_597,MRT-3,Cubao,Mid-Day,7,9.64,Cloudy,2.64
-TRIP_598,MRT-3,Shaw Blvd,Mid-Day,9,9.6,Cloudy,0.6
-TRIP_599,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,9,24.03,Clear,15.03
-TRIP_600,LRT-2,Pureza,Late Night,9,7.56,Cloudy,-1.44
-TRIP_601,EDSA Carousel,Guadalupe,Peak Evening,8,21.91,Cloudy,13.91
-TRIP_602,EDSA Carousel,Santolan-Annapolis,Late Night,9,10.84,Clear,1.84
-TRIP_603,MRT-3,North Ave,Mid-Day,9,11.49,Cloudy,2.49
-TRIP_604,LRT-1,Gil Puyat,Peak Morning,5,12.59,Cloudy,7.59
-TRIP_605,MRT-3,Cubao,Late Night,6,6.79,Cloudy,0.79
-TRIP_606,EDSA Carousel,Ortigas,Peak Morning,6,15.67,Clear,9.67
-TRIP_607,LRT-1,Vito Cruz,Peak Morning,5,17.15,Cloudy,12.15
-TRIP_608,LRT-2,Marikina-Pasay,Peak Morning,8,27.64,Clear,19.64
-TRIP_609,LRT-1,UN Avenue,Peak Morning,10,25.95,Cloudy,15.95
-TRIP_610,LRT-1,Asia World,Peak Evening,7,18.88,Clear,11.88
-TRIP_611,LRT-2,Antipolo,Mid-Day,6,7.57,Heavy Rain,1.57
-TRIP_612,MRT-3,Ayala,Peak Morning,5,13.77,Clear,8.77
-TRIP_613,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Morning,8,20.76,Clear,12.76
-TRIP_614,LRT-2,Katipunan,Peak Morning,10,29.37,Clear,19.37
-TRIP_615,EDSA Carousel,sm mALL OF aSIA,Late Night,9,11.09,Cloudy,2.09
-TRIP_616,MRT-3,Ayala,Peak Morning,7,21.58,Clear,14.58
-TRIP_617,MRT-3,Guadalupe,Peak Evening,8,26.73,Heavy Rain,18.73
-TRIP_618,LRT-2,Recto,Mid-Day,6,6.03,Cloudy,0.03
-TRIP_619,MRT-3,Cubao,Late Night,5,5.41,Cloudy,0.41
-TRIP_620,MRT-3,Buendia,Peak Morning,10,25.53,Clear,15.53
-TRIP_621,LRT-1,Tayuman,Peak Evening,5,15.16,Cloudy,10.16
-TRIP_622,MRT-3,Quezon Ave,Peak Evening,7,17.62,Clear,10.62
-TRIP_623,EDSA Carousel,Cubao-Magallanes,Mid-Day,10,10.34,Clear,0.34
-TRIP_624,LRT-1,Tayuman,Peak Morning,10,29.66,Heavy Rain,19.66
-TRIP_625,MRT-3,Kamuning,Peak Evening,7,19.74,Heavy Rain,12.74
-TRIP_626,EDSA Carousel,Macapagal/Aseana,Mid-Day,10,26.56,Heavy Rain,16.56
-TRIP_627,LRT-1,Monumento,Late Night,5,6.22,Clear,1.22
-TRIP_628,LRT-2,V. Mapa,Mid-Day,6,6.08,Clear,0.08
-TRIP_629,LRT-2,Antipolo,Late Night,9,8.95,Heavy Rain,-0.05
-TRIP_630,EDSA Carousel,Tramo,Mid-Day,6,7.84,Clear,1.84
-TRIP_631,MRT-3,Boni,Peak Morning,6,17.31,Heavy Rain,11.31
-TRIP_632,LRT-2,Cubao,Mid-Day,8,10.3,Heavy Rain,2.3
-TRIP_633,EDSA Carousel,Ayala,Peak Morning,10,34.45,Heavy Rain,24.45
-TRIP_634,EDSA Carousel,Roxas Blvd,Peak Morning,9,24.32,Clear,15.32
-TRIP_635,EDSA Carousel,Monumento Terminal,Mid-Day,10,11.23,Cloudy,1.23
-TRIP_636,MRT-3,North Ave,Peak Evening,8,21.94,Cloudy,13.94
-TRIP_637,LRT-2,Betty Go-Belmonte,Late Night,5,5.86,Cloudy,0.86
-TRIP_638,LRT-1,Balintawak,Mid-Day,10,11.57,Clear,1.57
-TRIP_639,MRT-3,Cubao,Peak Morning,8,25.24,Heavy Rain,17.24
-TRIP_640,MRT-3,Kamuning,Peak Morning,8,26.09,Heavy Rain,18.09
-TRIP_641,EDSA Carousel,Philam,Late Night,7,22.98,Heavy Rain,15.98
-TRIP_642,MRT-3,Taft Ave,Peak Evening,10,26.82,Clear,16.82
-TRIP_643,EDSA Carousel,Tramo,Peak Evening,5,21.03,Heavy Rain,16.03
-TRIP_644,MRT-3,Shaw Blvd,Mid-Day,6,7.32,Cloudy,1.32
-TRIP_645,LRT-1,Baclaran,Peak Evening,5,21.31,Cloudy,16.31
-TRIP_646,LRT-1,Abad Santos,Peak Morning,10,31.86,Heavy Rain,21.86
-TRIP_647,MRT-3,Buendia,Mid-Day,5,12.77,Heavy Rain,7.77
-TRIP_648,LRT-2,Marikina-Pasay,Peak Evening,5,21.23,Clear,16.23
-TRIP_649,MRT-3,Cubao,Late Night,5,8.42,Clear,3.42
-TRIP_650,MRT-3,Quezon Ave,Peak Evening,8,22.06,Heavy Rain,14.06
-TRIP_651,EDSA Carousel,MONUMENTO TERMINAL,Mid-Day,7,7.31,Cloudy,0.31
-TRIP_652,LRT-2,J. Ruiz,Peak Morning,9,27.09,Cloudy,18.09
-TRIP_653,LRT-2,Legarda,Mid-Day,6,6.91,Clear,0.91
-TRIP_654,LRT-1,MIA,Peak Evening,5,14.65,Heavy Rain,9.65
-TRIP_655,EDSA Carousel,Guadalupe,Peak Morning,10,36.32,Heavy Rain,26.32
-TRIP_656,MRT-3,Magallanes,Late Night,5,15.6,Heavy Rain,10.6
-TRIP_657,LRT-2,Cubao,Mid-Day,5,12.64,Clear,7.64
-TRIP_658,LRT-2,Antipolo,Peak Evening,7,20.38,Heavy Rain,13.38
-TRIP_659,LRT-2,Gilmore,Late Night,10,10.19,Clear,0.19
-TRIP_660,LRT-1,Pedro Gil,Mid-Day,8,8.19,Cloudy,0.19
-TRIP_661,MRT-3,Ayala,Late Night,5,4.84,Clear,-0.16
-TRIP_662,EDSA Carousel,SM Mall of Asia,Peak Morning,9,24.87,Cloudy,15.87
-TRIP_663,MRT-3,Cubao,Mid-Day,10,13.52,Clear,3.52
-TRIP_664,LRT-1,Ninoy Aquino,Mid-Day,5,9.02,Clear,4.02
-TRIP_665,EDSA Carousel,Quezon Ave,Peak Evening,9,23.25,Cloudy,14.25
-TRIP_666,MRT-3,Cubao,Peak Evening,8,24.02,Clear,16.02
-TRIP_667,MRT-3,Shaw Blvd,Late Night,9,8.15,Heavy Rain,-0.85
-TRIP_668,MRT-3,Ortigas,Peak Morning,7,25.39,Heavy Rain,18.39
-TRIP_669,LRT-2,Legarda,Peak Evening,7,19.5,Clear,12.5
-TRIP_670,EDSA Carousel,Buendia,Mid-Day,8,14.54,Heavy Rain,6.54
-TRIP_671,EDSA Carousel,Buendia,Late Night,5,7.36,Clear,2.36
-TRIP_672,EDSA Carousel,Tramo,Late Night,9,22.59,Heavy Rain,13.59
-TRIP_673,LRT-2,Santolan,Mid-Day,6,8.74,Clear,2.74
-TRIP_674,LRT-2,Katipunan,Mid-Day,9,11.07,Heavy Rain,2.07
-TRIP_675,LRT-1,R. Papa,Mid-Day,8,12.64,Heavy Rain,4.64
-TRIP_676,MRT-3,Kamuning,Late Night,6,8.42,Heavy Rain,2.42
-TRIP_677,LRT-2,Recto,Mid-Day,5,10.3,Heavy Rain,5.3
-TRIP_678,LRT-2,V. Mapa,Peak Morning,7,23.53,Heavy Rain,16.53
-TRIP_679,EDSA Carousel,Kamuning,Mid-Day,10,19.65,Heavy Rain,9.65
-TRIP_680,LRT-2,Legarda,Peak Morning,10,22.7,Clear,12.7
-TRIP_681,EDSA Carousel,Ayala,Mid-Day,8,16.7,Heavy Rain,8.7
-TRIP_682,LRT-1,Doroteo Jose,Mid-Day,6,10.62,Heavy Rain,4.62
-TRIP_683,MRT-3,Buendia,Late Night,7,6.42,Cloudy,-0.58
-TRIP_684,LRT-1,Gil Puyat,Peak Evening,9,26.73,Heavy Rain,17.73
-TRIP_685,LRT-2,Betty Go-Belmonte,Peak Evening,6,18.0,Cloudy,12.0
-TRIP_686,EDSA Carousel,Nepa Q. Mart,Mid-Day,6,8.23,Cloudy,2.23
-TRIP_687,EDSA Carousel,Taft Ave,Peak Evening,7,29.8,Heavy Rain,22.8
-TRIP_688,LRT-1,MIA,Peak Evening,6,17.0,Cloudy,11.0
-TRIP_689,EDSA Carousel,Bagong Barrio,Peak Evening,7,20.56,Cloudy,13.56
-TRIP_690,MRT-3,Ortigas,Mid-Day,5,5.24,Cloudy,0.24
-TRIP_691,LRT-2,Santolan,Mid-Day,9,9.47,Clear,0.47
-TRIP_692,EDSA Carousel,Monumento Terminal,Peak Evening,10,47.07,Heavy Rain,37.07
-TRIP_693,LRT-1,MIA,Peak Morning,6,16.7,Clear,10.7
-TRIP_694,EDSA Carousel,Buendia,Peak Morning,8,28.34,Heavy Rain,20.34
-TRIP_695,EDSA Carousel,Ortigas,Late Night,5,21.93,Heavy Rain,16.93
-TRIP_696,LRT-2,Marikina-Pasay,Peak Evening,6,15.33,Clear,9.33
-TRIP_697,LRT-1,Balintawak,Peak Evening,9,22.85,Clear,13.85
-TRIP_698,LRT-1,MIA,Late Night,5,7.06,Heavy Rain,2.06
-TRIP_699,LRT-1,Redemptorist,Late Night,8,9.43,Heavy Rain,1.43
-TRIP_700,MRT-3,Shaw Blvd,Peak Morning,10,31.35,Clear,21.35
-TRIP_701,LRT-1,Gil Puyat,Peak Evening,6,15.86,Cloudy,9.86
-TRIP_702,MRT-3,Taft Ave,Late Night,8,8.84,Clear,0.84
-TRIP_703,MRT-3,Ayala,Peak Evening,7,23.08,Clear,16.08
-TRIP_704,MRT-3,Cubao,Late Night,7,13.92,Heavy Rain,6.92
-TRIP_705,LRT-2,Cubao,Late Night,8,7.09,Cloudy,-0.91
-TRIP_706,LRT-1,Monumento,Late Night,7,11.36,Heavy Rain,4.36
-TRIP_707,MRT-3,Ayala,Peak Morning,6,16.03,Cloudy,10.03
-TRIP_708,LRT-2,Cubao,Late Night,7,9.01,Cloudy,2.01
-TRIP_709,LRT-1,Pedro Gil,Late Night,10,9.88,Clear,-0.12
-TRIP_710,LRT-2,Cubao,Mid-Day,6,8.88,Heavy Rain,2.88
-TRIP_711,LRT-1,MIA,Peak Morning,8,21.59,Clear,13.59
-TRIP_712,MRT-3,Kamuning,Peak Morning,7,24.2,Heavy Rain,17.2
-TRIP_713,LRT-2,V. Mapa,Peak Evening,10,29.35,Heavy Rain,19.35
-TRIP_714,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Morning,6,19.17,Clear,13.17
-TRIP_715,LRT-2,Gilmore,Mid-Day,10,10.47,Clear,0.47
-TRIP_716,LRT-1,Ninoy Aquino,Peak Evening,7,18.84,Heavy Rain,11.84
-TRIP_717,LRT-2,Legarda,Mid-Day,7,7.68,Heavy Rain,0.68
-TRIP_718,EDSA Carousel,Monumento Terminal,Peak Evening,9,23.87,Clear,14.87
-TRIP_719,LRT-1,Dr. Santos,Peak Morning,10,22.38,Clear,12.38
-TRIP_720,LRT-1,Monumento,Mid-Day,8,10.62,Clear,2.62
-TRIP_721,LRT-2,Betty Go-Belmonte,Peak Morning,9,23.21,Clear,14.21
-TRIP_722,EDSA Carousel,Kaingin Road,Late Night,10,13.71,Clear,3.71
-TRIP_723,LRT-1,MIA,Mid-Day,8,13.0,Heavy Rain,5.0
-TRIP_724,LRT-1,Redemptorist,Mid-Day,7,12.35,Clear,5.35
-TRIP_725,EDSA Carousel,Ortigas,Peak Morning,9,23.59,Cloudy,14.59
-TRIP_726,LRT-2,Marikina-Pasay,Late Night,7,11.54,Clear,4.54
-TRIP_727,MRT-3,Boni,Mid-Day,5,5.7,Clear,0.7
-TRIP_728,LRT-1,MIA,Peak Evening,6,16.42,Heavy Rain,10.42
-TRIP_729,LRT-2,Gilmore,Mid-Day,10,10.08,Cloudy,0.08
-TRIP_730,MRT-3,Quezon Ave,Peak Evening,7,18.47,Cloudy,11.47
-TRIP_731,LRT-1,EDSA,Peak Morning,6,22.39,Heavy Rain,16.39
-TRIP_732,EDSA Carousel,BVA / City of Dreams,Peak Morning,5,14.99,Cloudy,9.99
-TRIP_733,MRT-3,Taft Ave,Mid-Day,8,11.38,Clear,3.38
-TRIP_734,LRT-1,EDSA,Peak Evening,6,18.89,Clear,12.89
-TRIP_735,MRT-3,Boni,Mid-Day,9,14.14,Heavy Rain,5.14
-TRIP_736,LRT-1,Balintawak,Mid-Day,5,6.95,Cloudy,1.95
-TRIP_737,LRT-2,Marikina-Pasay,Late Night,8,10.95,Heavy Rain,2.95
-TRIP_738,LRT-2,Katipunan,Late Night,7,13.17,Cloudy,6.17
-TRIP_739,LRT-2,Santolan,Late Night,10,8.06,Cloudy,-1.94
-TRIP_740,LRT-2,Antipolo,Peak Morning,10,22.7,Heavy Rain,12.7
-TRIP_741,MRT-3,Quezon Ave,Peak Evening,8,22.81,Cloudy,14.81
-TRIP_742,MRT-3,Taft Ave,Late Night,6,6.34,Cloudy,0.34
-TRIP_743,LRT-2,V. Mapa,Peak Morning,8,22.8,Clear,14.8
-TRIP_744,LRT-1,EDSA,Mid-Day,7,11.08,Clear,4.08
-TRIP_745,EDSA Carousel,Kaingin Road,Peak Evening,7,23.05,Cloudy,16.05
-TRIP_746,EDSA Carousel,Kennedy Road,Late Night,7,14.18,Heavy Rain,7.18
-TRIP_747,LRT-1,Doroteo Jose,Peak Evening,6,18.84,Clear,12.84
-TRIP_748,LRT-1,Redemptorist,Peak Morning,8,22.38,Heavy Rain,14.38
-TRIP_749,LRT-1,Doroteo Jose,Late Night,6,7.57,Heavy Rain,1.57
-TRIP_750,EDSA Carousel,Guadalupe,Peak Evening,10,40.61,Heavy Rain,30.61
-TRIP_751,LRT-2,Katipunan,Late Night,5,9.54,Clear,4.54
-TRIP_752,LRT-1,Bambang,Mid-Day,9,10.61,Cloudy,1.61
-TRIP_753,LRT-2,Gilmore,Peak Evening,5,13.37,Cloudy,8.37
-TRIP_754,LRT-1,Balintawak,Late Night,5,8.3,Heavy Rain,3.3
-TRIP_755,LRT-2,J. Ruiz,Peak Evening,7,19.03,Clear,12.03
-TRIP_756,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,5,21.31,Heavy Rain,16.31
-TRIP_757,LRT-2,Santolan,Late Night,9,7.84,Cloudy,-1.16
-TRIP_758,MRT-3,kAMUNING,Mid-Day,7,12.33,Heavy Rain,5.33
-TRIP_759,EDSA Carousel,Roxas Blvd,Peak Evening,7,21.32,Heavy Rain,14.32
-TRIP_760,EDSA Carousel,SM Mall of Asia,Peak Morning,8,22.2,Cloudy,14.2
-TRIP_761,MRT-3,Kamuning,Late Night,6,6.96,Clear,0.96
-TRIP_762,LRT-1,R. Papa,Peak Morning,8,21.79,Clear,13.79
-TRIP_763,EDSA Carousel,Balintawak,Peak Evening,9,23.63,Clear,14.63
-TRIP_764,LRT-2,pureza,Late Night,9,8.19,Clear,-0.81
-TRIP_765,EDSA Carousel,Roosevelt,Peak Evening,10,31.59,Clear,21.59
-TRIP_766,EDSA Carousel,Bagong Barrio,Late Night,6,15.98,Cloudy,9.98
-TRIP_767,MRT-3,Quezon Ave,Peak Evening,6,21.94,Heavy Rain,15.94
-TRIP_768,LRT-2,Katipunan,Peak Evening,8,21.33,Clear,13.33
-TRIP_769,LRT-2,Legarda,Mid-Day,6,11.25,Heavy Rain,5.25
-TRIP_770,EDSA Carousel,Macapagal/Aseana,Peak Evening,7,17.8,Cloudy,10.8
-TRIP_771,LRT-2,Santolan,Late Night,7,7.04,Clear,0.04
-TRIP_772,MRT-3,Buendia,Peak Evening,10,27.71,Cloudy,17.71
-TRIP_773,LRT-2,Legarda,Peak Morning,7,19.43,Heavy Rain,12.43
-TRIP_774,LRT-1,MIA,Mid-Day,5,6.89,Cloudy,1.89
-TRIP_775,MRT-3,Shaw Blvd,Late Night,10,10.79,Heavy Rain,0.79
-TRIP_776,EDSA Carousel,Guadalupe,Late Night,8,17.72,Heavy Rain,9.72
-TRIP_777,LRT-2,Betty Go-Belmonte,Peak Morning,7,18.26,Cloudy,11.26
-TRIP_778,LRT-1,Blumentritt,Peak Evening,7,20.93,Heavy Rain,13.93
-TRIP_779,LRT-2,Katipunan,Peak Evening,5,17.98,Heavy Rain,12.98
-TRIP_780,LRT-1,Tayuman,Mid-Day,5,8.79,Heavy Rain,3.79
-TRIP_781,EDSA Carousel,Santolan-Annapolis,Peak Evening,7,18.57,Clear,11.57
-TRIP_782,LRT-1,Libertad,Late Night,9,11.77,Cloudy,2.77
-TRIP_783,MRT-3,Quezon Ave,Peak Morning,9,25.27,Heavy Rain,16.27
-TRIP_784,LRT-2,Cubao,Mid-Day,5,6.6,Heavy Rain,1.6
-TRIP_785,LRT-2,Recto,Late Night,9,7.85,Clear,-1.15
-TRIP_786,MRT-3,Quezon Ave,Peak Morning,8,29.34,Heavy Rain,21.34
-TRIP_787,MRT-3,Ortigas,Late Night,10,24.36,Heavy Rain,14.36
-TRIP_788,MRT-3,Santolan-Annapolis,Mid-Day,10,13.6,Heavy Rain,3.6
-TRIP_789,MRT-3,Ortigas,Late Night,8,7.22,Clear,-0.78
-TRIP_790,MRT-3,Santolan-Annapolis,Peak Morning,5,13.0,Clear,8.0
-TRIP_791,MRT-3,Cubao,Peak Morning,5,15.8,Cloudy,10.8
-TRIP_792,LRT-2,Anonas,Peak Evening,8,23.26,Heavy Rain,15.26
-TRIP_793,MRT-3,Ortigas,Peak Morning,10,28.81,Clear,18.81
-TRIP_794,LRT-1,Quirino,Mid-Day,8,8.68,Clear,0.68
-TRIP_795,LRT-1,Blumentritt,Peak Evening,10,29.02,Cloudy,19.02
-TRIP_796,EDSA Carousel,Roosevelt,Peak Evening,5,16.45,Cloudy,11.45
-TRIP_797,MRT-3,Guadalupe,Mid-Day,5,6.69,Clear,1.69
-TRIP_798,LRT-2,Betty Go-Belmonte,Late Night,9,17.15,Heavy Rain,8.15
-TRIP_799,LRT-1,Pedro Gil,Late Night,8,10.07,Clear,2.07
-TRIP_800,LRT-2,Antipolo,Peak Evening,7,21.27,Heavy Rain,14.27
-TRIP_801,EDSA Carousel,Kaingin Road,Peak Morning,9,28.19,Clear,19.19
-TRIP_802,LRT-2,Gilmore,Peak Evening,9,22.84,Cloudy,13.84
-TRIP_803,MRT-3,North Ave,Mid-Day,10,14.5,Clear,4.5
-TRIP_804,MRT-3,Buendia,Peak Morning,9,23.26,Clear,14.26
-TRIP_805,MRT-3,Quezon Ave,Mid-Day,8,9.81,Clear,1.81
-TRIP_806,LRT-2,Katipunan,Peak Morning,7,25.04,Heavy Rain,18.04
-TRIP_807,EDSA Carousel,SM Mall of Asia,Late Night,10,9.94,Cloudy,-0.06
-TRIP_808,MRT-3,Buendia,Peak Evening,6,21.27,Heavy Rain,15.27
-TRIP_809,MRT-3,Guadalupe,Mid-Day,6,12.88,Cloudy,6.88
-TRIP_810,LRT-1,Libertad,Peak Evening,8,25.43,Clear,17.43
-TRIP_811,LRT-2,Anonas,Peak Morning,8,26.26,Heavy Rain,18.26
-TRIP_812,EDSA Carousel,Roxas Blvd,Peak Morning,7,24.84,Cloudy,17.84
-TRIP_813,EDSA Carousel,Kaingin Road,Peak Morning,9,23.68,Cloudy,14.68
-TRIP_814,EDSA Carousel,PITX Terminal,Late Night,9,7.41,Cloudy,-1.59
-TRIP_815,EDSA Carousel,Balintawak,Late Night,7,12.6,Clear,5.6
-TRIP_816,LRT-2,Legarda,Peak Morning,7,19.68,Cloudy,12.68
-TRIP_817,LRT-1,Blumentritt,Peak Evening,10,30.07,Clear,20.07
-TRIP_818,EDSA Carousel,Quezon Ave,Peak Evening,5,14.65,Cloudy,9.65
-TRIP_819,LRT-2,Katipunan,Late Night,5,4.6,Clear,-0.4
-TRIP_820,LRT-1,Quirino,Peak Morning,9,22.96,Cloudy,13.96
-TRIP_821,LRT-1,Quirino,Late Night,5,5.07,Cloudy,0.07
-TRIP_822,MRT-3,Cubao,Late Night,9,7.9,Clear,-1.1
-TRIP_823,EDSA Carousel,North Ave,Peak Evening,7,22.3,Clear,15.3
-TRIP_824,LRT-1,Bambang,Peak Evening,6,16.11,Cloudy,10.11
-TRIP_825,MRT-3,Kamuning,Mid-Day,5,8.44,Heavy Rain,3.44
-TRIP_826,MRT-3,Kamuning,Late Night,10,11.03,Cloudy,1.03
-TRIP_827,EDSA Carousel,Kamuning,Mid-Day,6,9.98,Clear,3.98
-TRIP_828,LRT-1,UN Avenue,Late Night,10,8.38,Clear,-1.62
-TRIP_829,LRT-1,Gil Puyat,Peak Evening,9,34.35,Cloudy,25.35
-TRIP_830,EDSA Carousel,BVA / City of Dreams,Peak Evening,7,19.76,Clear,12.76
-TRIP_831,LRT-1,Baclaran,Late Night,9,7.36,Clear,-1.64
-TRIP_832,EDSA Carousel,Quezon Ave,Peak Morning,9,23.25,Clear,14.25
-TRIP_833,LRT-1,Baclaran,Peak Morning,7,21.66,Clear,14.66
-TRIP_834,LRT-1,Monumento,Peak Evening,6,16.18,Clear,10.18
-TRIP_835,MRT-3,Magallanes,Peak Evening,6,15.7,Cloudy,9.7
-TRIP_836,MRT-3,Santolan-Annapolis,Peak Evening,6,23.48,Heavy Rain,17.48
-TRIP_837,MRT-3,Taft Ave,Mid-Day,6,11.33,Clear,5.33
-TRIP_838,MRT-3,Shaw Blvd,Mid-Day,6,9.64,Heavy Rain,3.64
-TRIP_839,EDSA Carousel,Balintawak,Mid-Day,10,10.25,Clear,0.25
-TRIP_840,EDSA Carousel,Buendia,Peak Morning,6,16.42,Clear,10.42
-TRIP_841,LRT-1,Abad Santos,Peak Morning,7,28.46,Heavy Rain,21.46
-TRIP_842,EDSA Carousel,Ortigas,Peak Morning,9,25.39,Clear,16.39
-TRIP_843,EDSA Carousel,Santolan-Annapolis,Mid-Day,6,11.12,Cloudy,5.12
-TRIP_844,EDSA Carousel,Kaingin Road,Late Night,7,6.8,Clear,-0.2
-TRIP_845,EDSA Carousel,Monumento Terminal,Peak Morning,9,24.25,Cloudy,15.25
-TRIP_846,LRT-1,Balintawak,Peak Evening,5,13.89,Cloudy,8.89
-TRIP_847,EDSA Carousel,Nepa Q. Mart,Mid-Day,8,15.39,Heavy Rain,7.39
-TRIP_848,LRT-1,Libertad,Mid-Day,8,9.49,Clear,1.49
-TRIP_849,LRT-2,Santolan,Peak Morning,7,22.7,Heavy Rain,15.7
-TRIP_850,LRT-1,Gil Puyat,Mid-Day,8,11.32,Clear,3.32
-TRIP_851,MRT-3,Guadalupe,Peak Morning,9,24.57,Cloudy,15.57
-TRIP_852,MRT-3,Shaw Blvd,Peak Morning,5,17.63,Heavy Rain,12.63
-TRIP_853,MRT-3,Shaw Blvd,Mid-Day,5,5.65,Clear,0.65
-TRIP_854,LRT-2,Pureza,Peak Evening,9,24.11,Clear,15.11
-TRIP_855,MRT-3,Shaw Blvd,Late Night,8,11.22,Cloudy,3.22
-TRIP_856,MRT-3,North Ave,Late Night,5,9.71,Heavy Rain,4.71
-TRIP_857,LRT-1,Balintawak,Peak Evening,5,19.11,Heavy Rain,14.11
-TRIP_858,EDSA Carousel,Balintawak,Late Night,8,8.74,Cloudy,0.74
-TRIP_859,LRT-1,Libertad,Late Night,9,9.63,Heavy Rain,0.63
-TRIP_860,MRT-3,Ortigas,Mid-Day,8,8.72,Clear,0.72
-TRIP_861,MRT-3,Kamuning,Peak Morning,9,24.13,Cloudy,15.13
-TRIP_862,MRT-3,Quezon Ave,Peak Morning,6,15.56,Cloudy,9.56
-TRIP_863,EDSA Carousel,Ayala,Peak Evening,5,17.13,Clear,12.13
-TRIP_864,LRT-1,EDSA,Peak Morning,9,30.23,Heavy Rain,21.23
-TRIP_865,LRT-2,Antipolo,Late Night,5,5.85,Cloudy,0.85
-TRIP_866,LRT-1,EDSA,Peak Evening,5,14.84,Clear,9.84
-TRIP_867,MRT-3,North Ave,Late Night,5,7.0,Cloudy,2.0
-TRIP_868,LRT-1,Bambang,Peak Morning,9,24.66,Cloudy,15.66
-TRIP_869,LRT-1,Baclaran,Peak Morning,8,20.72,Cloudy,12.72
-TRIP_870,LRT-1,Carriedo,Peak Evening,8,23.42,Heavy Rain,15.42
-TRIP_871,MRT-3,Cubao,Late Night,5,6.79,Heavy Rain,1.79
-TRIP_872,LRT-2,Marikina-Pasay,Peak Evening,8,21.23,Heavy Rain,13.23
-TRIP_873,LRT-2,Legarda,Peak Morning,6,16.61,Cloudy,10.61
-TRIP_874,EDSA Carousel,Guadalupe,Peak Morning,9,26.98,Cloudy,17.98
-TRIP_875,LRT-2,J. Ruiz,Peak Evening,8,21.33,Cloudy,13.33
-TRIP_876,MRT-3,TaftAve,Peak Morning,8,21.11,Clear,13.11
-TRIP_877,LRT-2,Recto,Peak Morning,7,17.96,Cloudy,10.96
-TRIP_878,EDSA Carousel,Guadalupe,Late Night,5,16.58,Heavy Rain,11.58
-TRIP_879,LRT-1,Gil Puyat,Mid-Day,10,10.49,Clear,0.49
-TRIP_880,LRT-1,Gil Puyat,Peak Evening,9,23.57,Clear,14.57
-TRIP_881,LRT-2,Gilmore,Mid-Day,6,10.3,Clear,4.3
-TRIP_882,MRT-3,Santolan-Annapolis,Peak Morning,10,25.75,Clear,15.75
-TRIP_883,LRT-1,Quirino,Peak Evening,9,23.43,Heavy Rain,14.43
-TRIP_884,LRT-1,balintawak,Mid-Day,8,16.76,Heavy Rain,8.76
-TRIP_885,MRT-3,Magallanes,Peak Evening,7,24.04,Heavy Rain,17.04
-TRIP_886,EDSA Carousel,Roxas Blvd,Peak Morning,6,18.04,Clear,12.04
-TRIP_887,LRT-2,V. Mapa,Mid-Day,5,5.7,Clear,0.7
-TRIP_888,LRT-2,J. Ruiz,Late Night,10,9.78,Heavy Rain,-0.22
-TRIP_889,LRT-2,Betty Go-Belmonte,Late Night,8,9.57,Clear,1.57
-TRIP_890,MRT-3,Cubao,Peak Morning,10,27.49,Heavy Rain,17.49
-TRIP_891,LRT-2,J. Ruiz,Mid-Day,5,9.08,Cloudy,4.08
-TRIP_892,LRT-2,Marikina-Pasay,Peak Morning,7,22.34,Clear,15.34
-TRIP_893,MRT-3,Cubao,Mid-Day,8,8.81,Cloudy,0.81
-TRIP_894,MRT-3,Shaw Blvd,Peak Morning,9,25.43,Cloudy,16.43
-TRIP_895,LRT-2,Recto,Mid-Day,9,10.42,Cloudy,1.42
-TRIP_896,MRT-3,Guadalupe,Peak Evening,5,14.38,Clear,9.38
-TRIP_897,MRT-3,Quezon Ave,Peak Morning,6,16.75,Heavy Rain,10.75
-TRIP_898,LRT-2,V. Mapa,Late Night,6,9.49,Heavy Rain,3.49
-TRIP_899,EDSA Carousel,Ayala,Peak Morning,9,31.6,Heavy Rain,22.6
-TRIP_900,EDSA Carousel,Kennedy Road,Peak Morning,6,23.25,Clear,17.25
-TRIP_901,EDSA Carousel,Tramo,Peak Morning,6,15.71,Cloudy,9.71
-TRIP_902,MRT-3,Boni,Peak Morning,7,20.53,Cloudy,13.53
-TRIP_903,MRT-3,Boni,Peak Morning,9,25.22,Clear,16.22
-TRIP_904,LRT-1,Ninoy Aquino,Late Night,8,7.7,Heavy Rain,-0.3
-TRIP_905,EDSA Carousel,Quezon Ave,Peak Evening,10,27.2,Clear,17.2
-TRIP_906,LRT-1,5th Avenue,Peak Evening,8,21.31,Heavy Rain,13.31
-TRIP_907,MRT-3,Quezon Ave,Peak Morning,6,29.92,Heavy Rain,23.92
-TRIP_908,MRT-3,Santolan-Annapolis,Late Night,8,7.44,Cloudy,-0.56
-TRIP_909,LRT-2,Anonas,Peak Evening,7,19.41,Clear,12.41
-TRIP_910,LRT-1,Quirino,Mid-Day,10,14.64,Heavy Rain,4.64
-TRIP_911,LRT-1,Central Terminal,Mid-Day,7,8.51,Clear,1.51
-TRIP_912,LRT-1,Abad Santos,Late Night,5,4.87,Cloudy,-0.13
-TRIP_913,LRT-1,Asia World,Peak Morning,8,22.95,Heavy Rain,14.95
-TRIP_914,EDSA Carousel,SM North EDSA,Late Night,6,5.04,Cloudy,-0.96
-TRIP_915,LRT-1,EDSA,Peak Morning,10,30.94,Heavy Rain,20.94
-TRIP_916,LRT-2,Anonas,Mid-Day,6,8.84,Clear,2.84
-TRIP_917,MRT-3,Ortigas,Peak Morning,10,31.7,Heavy Rain,21.7
-TRIP_918,MRT-3,Guadalupe,Late Night,6,10.45,Heavy Rain,4.45
-TRIP_919,LRT-1,Dr. Santos,Late Night,8,10.33,Heavy Rain,2.33
-TRIP_920,LRT-1,Blumentritt,Peak Morning,5,14.46,Cloudy,9.46
-TRIP_921,LRT-2,Marikina-Pasay,Late Night,10,11.06,Clear,1.06
-TRIP_922,EDSA Carousel,Cubao-Magallanes,Peak Evening,6,34.08,Heavy Rain,28.08
-TRIP_923,EDSA Carousel,Kamuning,Late Night,9,8.18,Cloudy,-0.82
-TRIP_924,EDSA Carousel,Tramo,Peak Morning,6,16.55,Cloudy,10.55
-TRIP_925,MRT-3,Ortigas,Peak Morning,10,30.17,Heavy Rain,20.17
-TRIP_926,MRT-3,Boni,Peak Morning,9,23.37,Cloudy,14.37
-TRIP_927,LRT-1,Redemptorist,Late Night,7,12.02,Heavy Rain,5.02
-TRIP_928,EDSA Carousel,SM North EDSA,Peak Evening,6,15.51,Clear,9.51
-TRIP_929,EDSA Carousel,Kennedy Road,Peak Morning,10,23.25,Heavy Rain,13.25
-TRIP_930,MRT-3,Boni,Peak Evening,7,23.7,Heavy Rain,16.7
-TRIP_931,EDSA Carousel,Tramo,Peak Morning,7,17.93,Clear,10.93
-TRIP_932,LRT-1,MIA,Late Night,5,5.65,Clear,0.65
-TRIP_933,MRT-3,North Ave,Peak Evening,7,21.94,Clear,14.94
-TRIP_934,EDSA Carousel,Kaingin Road,Peak Morning,7,17.87,Clear,10.87
-TRIP_935,LRT-1,Abad Santos,Peak Evening,7,20.75,Heavy Rain,13.75
-TRIP_936,MRT-3,Quezon Ave,Peak Evening,6,22.67,Cloudy,16.67
-TRIP_937,LRT-1,Pedro Gil,Peak Morning,8,22.38,Clear,14.38
-TRIP_938,LRT-2,Pureza,Peak Morning,5,14.38,Heavy Rain,9.38
-TRIP_939,EDSA Carousel,Bagong Barrio,Peak Evening,9,49.28,Heavy Rain,40.28
-TRIP_940,LRT-2,Katipunan,Peak Evening,8,27.75,Heavy Rain,19.75
-TRIP_941,EDSA Carousel,Roosevelt,Peak Evening,7,21.32,Clear,14.32
-TRIP_942,LRT-1,Asia World,Peak Evening,9,31.6,Heavy Rain,22.6
-TRIP_943,LRT-2,Pureza,Peak Morning,9,25.5,Clear,16.5
-TRIP_944,MRT-3,Buendia,Late Night,8,7.39,Clear,-0.61
-TRIP_945,LRT-1,Bambang,Peak Morning,8,22.43,Clear,14.43
-TRIP_946,EDSA Carousel,Guadalupe,Mid-Day,9,10.61,Clear,1.61
-TRIP_947,LRT-1,Libertad,Peak Evening,8,21.02,Cloudy,13.02
-TRIP_948,MRT-3,Ayala,Peak Evening,7,18.63,Clear,11.63
-TRIP_949,MRT-3,Boni,Peak Morning,5,13.01,Cloudy,8.01
-TRIP_950,EDSA Carousel,Monumento Terminal,Late Night,9,10.84,Heavy Rain,1.84
-TRIP_951,LRT-1,Bambang,Late Night,6,8.08,Cloudy,2.08
-TRIP_952,LRT-2,Cubao,Peak Evening,6,18.15,Heavy Rain,12.15
-TRIP_953,LRT-2,Marikina-Pasay,Late Night,6,6.45,Cloudy,0.45
-TRIP_954,EDSA Carousel,Guadalupe,Peak Evening,6,15.04,Cloudy,9.04
-TRIP_955,MRT-3,Buendia,Peak Morning,10,25.68,Clear,15.68
-TRIP_956,LRT-1,Pedro Gil,Mid-Day,9,10.43,Cloudy,1.43
-TRIP_957,LRT-2,Pureza,Peak Morning,10,26.55,Clear,16.55
-TRIP_958,LRT-1,MIA,Peak Morning,7,19.65,Clear,12.65
-TRIP_959,EDSA Carousel,Cubao-Magallanes,Mid-Day,9,10.01,Cloudy,1.01
-TRIP_960,MRT-3,Kamuning,Peak Morning,10,27.46,Clear,17.46
-TRIP_961,MRT-3,Santolan-Annapolis,Late Night,8,13.3,Heavy Rain,5.3
-TRIP_962,LRT-1,Monumento,Peak Morning,8,20.39,Cloudy,12.39
-TRIP_963,LRT-1,Redemptorist,Peak Evening,10,27.13,Heavy Rain,17.13
-TRIP_964,EDSA Carousel,Kennedy Road,Peak Evening,6,44.85,Heavy Rain,38.85
-TRIP_965,EDSA Carousel,Kennedy Road,Peak Morning,5,20.17,Cloudy,15.17
-TRIP_966,LRT-1,Carriedo,Peak Evening,10,28.6,Cloudy,18.6
-TRIP_967,EDSA Carousel,Tramo,Mid-Day,9,22.33,Heavy Rain,13.33
-TRIP_968,LRT-1,Asia World,Late Night,10,11.31,Clear,1.31
-TRIP_969,LRT-2,Anonas,Mid-Day,5,8.11,Cloudy,3.11
-TRIP_970,LRT-1,Balintawak,Mid-Day,5,8.42,Clear,3.42
-TRIP_971,LRT-2,Gilmore,Peak Evening,5,13.04,Clear,8.04
-TRIP_972,EDSA Carousel,Guadalupe,Mid-Day,8,21.69,Heavy Rain,13.69
-TRIP_973,LRT-2,Recto,Late Night,5,5.46,Cloudy,0.46
-TRIP_974,LRT-1,Gil Puyat,Peak Evening,8,21.68,Cloudy,13.68
-TRIP_975,EDSA Carousel,Philam,Mid-Day,8,8.29,Cloudy,0.29
-TRIP_976,MRT-3,North Ave,Peak Morning,9,24.2,Clear,15.2
-TRIP_977,LRT-1,Ninoy Aquino,Mid-Day,8,9.95,Clear,1.95
-TRIP_978,MRT-3,Santolan-Annapolis,Peak Morning,6,24.16,Heavy Rain,18.16
-TRIP_979,LRT-1,Blumentritt,Peak Morning,10,27.68,Heavy Rain,17.68
-TRIP_980,LRT-1,Abad Santos,Peak Evening,9,24.65,Clear,15.65
-TRIP_981,MRT-3,Taft Ave,Mid-Day,9,9.51,Cloudy,0.51
-TRIP_982,LRT-1,Tayuman,Mid-Day,8,9.25,Clear,1.25
-TRIP_983,EDSA Carousel,Quezon Ave,Late Night,5,8.42,Cloudy,3.42
-TRIP_984,MRT-3,Taft Ave,Peak Evening,8,20.68,Heavy Rain,12.68
-TRIP_985,MRT-3,Kamuning,Peak Evening,9,23.26,Clear,14.26
-TRIP_986,LRT-2,Pureza,Mid-Day,8,12.03,Clear,4.03
-TRIP_987,MRT-3,Guadalupe,Peak Morning,6,16.11,Clear,10.11
-TRIP_988,LRT-2,Legarda,Late Night,6,9.05,Heavy Rain,3.05
-TRIP_989,EDSA Carousel,Santolan-Annapolis,Mid-Day,10,18.05,Heavy Rain,8.05
-TRIP_990,LRT-2,Recto,Peak Evening,7,23.58,Heavy Rain,16.58
-TRIP_991,LRT-1,Ninoy Aquino,Late Night,8,9.87,Heavy Rain,1.87
-TRIP_992,LRT-2,Recto,Peak Evening,7,21.24,Cloudy,14.24
-TRIP_993,LRT-1,Baclaran,Mid-Day,6,9.9,Clear,3.9
-TRIP_994,EDSA Carousel,Philam,Mid-Day,8,8.49,Clear,0.49
-TRIP_995,LRT-2,V. Mapa,Peak Morning,5,22.7,Cloudy,17.7
-TRIP_996,MRT-3,Magallanes,Late Night,7,9.01,Cloudy,2.01
-TRIP_997,LRT-2,Katipunan,Mid-Day,5,8.92,Heavy Rain,3.92
-TRIP_998,LRT-1,Abad Santos,Late Night,10,13.32,Clear,3.32
-TRIP_999,LRT-2,Katipunan,Peak Morning,7,26.32,Heavy Rain,19.32
-TRIP_1000,EDSA Carousel,Bagong Barrio,Peak Morning,7,19.82,Cloudy,12.82
+Trip_ID,Transit_Line,Station_From,Time_of_Day,Scheduled_Interval,Actual_Wait_Time,Weather_Condition
+TRIP_015,EDSA Carousel,Santolan-Annapolis,Late Night,10,8.95,Cloudy
+TRIP_017,EDSA Carousel,Kennedy Road,Peak Morning,10,26.58,Cloudy
+TRIP_028,EDSA Carousel,Nepa Q. Mart,Mid-Day,10,35.21,Heavy Rain
+TRIP_033,EDSA Carousel,Macapagal/Aseana,Peak Evening,5,17.96,Clear
+TRIP_039,EDSA Carousel,Taft Ave,Peak Morning,7,17.73,Clear
+TRIP_042,EDSA Carousel,Bagong Barrio,Mid-Day,5,11.254999999999999,Clear
+TRIP_047,EDSA Carousel,Buendia,Peak Evening,6,17.32,Cloudy
+TRIP_054,EDSA Carousel,BVA / City of Dreams,Mid-Day,9,9.74,Cloudy
+TRIP_058,EDSA Carousel,Kaingin Road,Late Night,6,7.41,Cloudy
+TRIP_066,EDSA Carousel,Roxas Blvd,Peak Morning,8,21.68,Cloudy
+TRIP_067,EDSA Carousel,Kamuning,Peak Morning,7,25.31,Cloudy
+TRIP_083,EDSA Carousel,Bagong Barrio,Mid-Day,7,22.73,Heavy Rain
+TRIP_084,EDSA Carousel,SM North EDSA,Peak Evening,5,14.53,Cloudy
+TRIP_092,EDSA Carousel,North Ave,Mid-Day,8,33.11,Heavy Rain
+TRIP_094,EDSA Carousel,Taft Ave,Late Night,8,9.17,Cloudy
+TRIP_099,EDSA Carousel,Roxas Blvd,Late Night,7,38.35,Heavy Rain
+TRIP_1000,EDSA Carousel,SM Mall of Asia,Peak Evening,5,14.27,Clear
+TRIP_104,EDSA Carousel,Taft Ave,Mid-Day,9,12.35,Clear
+TRIP_117,EDSA Carousel,Kennedy Road,Mid-Day,6,7.53,Clear
+TRIP_128,EDSA Carousel,Tramo,Mid-Day,6,8.13,Cloudy
+TRIP_129,EDSA Carousel,Nepa Q. Mart,Peak Morning,5,13.23,Clear
+TRIP_133,EDSA Carousel,Kennedy Road,Mid-Day,10,19.88,Heavy Rain
+TRIP_140,EDSA Carousel,Kennedy Road,Mid-Day,9,11.6,Clear
+TRIP_145,EDSA Carousel,Macapagal/Aseana,Peak Evening,9,24.1,Cloudy
+TRIP_149,EDSA Carousel,Macapagal/Aseana,Mid-Day,9,11.254999999999999,Clear
+TRIP_151,EDSA Carousel,Monumento Terminal,Late Night,7,8.41,Cloudy
+TRIP_154,EDSA Carousel,Philam,Peak Evening,6,19.44,Cloudy
+TRIP_155,EDSA Carousel,Quezon Ave,Peak Evening,5,30.43,Heavy Rain
+TRIP_157,EDSA Carousel,Buendia,Mid-Day,10,11.42,Clear
+TRIP_161,EDSA Carousel,North Ave,Peak Morning,8,20.84,Clear
+TRIP_163,EDSA Carousel,North Ave,Peak Morning,7,22.33,Cloudy
+TRIP_173,EDSA Carousel,North Ave,Peak Evening,5,14.3,Clear
+TRIP_174,EDSA Carousel,Balintawak,Mid-Day,5,17.93,Heavy Rain
+TRIP_175,EDSA Carousel,Roxas Blvd,Late Night,10,8.53,Cloudy
+TRIP_176,EDSA Carousel,Cubao-Magallanes,Late Night,7,7.99,Cloudy
+TRIP_178,EDSA Carousel,Taft Ave,Peak Evening,6,25.76,Heavy Rain
+TRIP_179,EDSA Carousel,Ortigas,Peak Evening,9,25.88,Clear
+TRIP_181,EDSA Carousel,Santolan-Annapolis,Mid-Day,10,12.18,Cloudy
+TRIP_184,EDSA Carousel,Philam,Late Night,7,7.66,Clear
+TRIP_193,EDSA Carousel,Philam,Peak Morning,8,22.82,Clear
+TRIP_196,EDSA Carousel,SM Mall of Asia,Peak Morning,6,17.07,Cloudy
+TRIP_201,EDSA Carousel,Roosevelt,Peak Evening,9,24.55,Clear
+TRIP_205,EDSA Carousel,Nepa Q. Mart,Mid-Day,7,17.69,Heavy Rain
+TRIP_209,EDSA Carousel,BVA / City of Dreams,Peak Morning,9,21.68,Cloudy
+TRIP_215,EDSA Carousel,Kamuning,Late Night,7,9.44,Cloudy
+TRIP_218,EDSA Carousel,Main Avenue,Mid-Day,8,26.04,Heavy Rain
+TRIP_226,EDSA Carousel,PITX Terminal,Mid-Day,6,16.58,Heavy Rain
+TRIP_229,EDSA Carousel,PITX Terminal,Peak Morning,7,23.52,Heavy Rain
+TRIP_230,EDSA Carousel,Main Avenue,Mid-Day,9,10.87,Clear
+TRIP_236,EDSA Carousel,Kaingin Road,Late Night,10,8.94,Cloudy
+TRIP_237,EDSA Carousel,Tramo,Mid-Day,7,10.86,Clear
+TRIP_239,EDSA Carousel,Santolan-Annapolis,Peak Evening,8,21.95,Clear
+TRIP_243,EDSA Carousel,Tramo,Peak Evening,9,23.6,Clear
+TRIP_247,EDSA Carousel,Cubao-Magallanes,Peak Evening,10,29.6,Cloudy
+TRIP_261,EDSA Carousel,Ortigas,Late Night,9,20.25,Heavy Rain
+TRIP_268,EDSA Carousel,Main Avenue,Peak Evening,6,15.54,Cloudy
+TRIP_277,EDSA Carousel,Cubao-Magallanes,Mid-Day,8,32.13,Heavy Rain
+TRIP_279,EDSA Carousel,Kamuning,Peak Evening,8,20.89,Cloudy
+TRIP_282,EDSA Carousel,Roxas Blvd,Mid-Day,8,30.34,Heavy Rain
+TRIP_285,EDSA Carousel,Roosevelt,Peak Morning,10,27.93,Cloudy
+TRIP_292,EDSA Carousel,Philam,Mid-Day,5,37.53,Heavy Rain
+TRIP_298,EDSA Carousel,Philam,Peak Morning,8,20.78,Cloudy
+TRIP_303,EDSA Carousel,Philam,Peak Evening,8,21.1,Cloudy
+TRIP_308,EDSA Carousel,Monumento Terminal,Late Night,8,9.47,Cloudy
+TRIP_310,EDSA Carousel,Tramo,Late Night,8,22.46,Heavy Rain
+TRIP_311,EDSA Carousel,Balintawak,Peak Evening,5,19.3,Cloudy
+TRIP_319,EDSA Carousel,Macapagal/Aseana,Peak Morning,5,14.4,Cloudy
+TRIP_327,EDSA Carousel,Guadalupe,Peak Morning,7,21.68,Clear
+TRIP_335,EDSA Carousel,Nepa Q. Mart,Mid-Day,10,10.27,Clear
+TRIP_336,EDSA Carousel,Ayala,Late Night,10,13.11,Cloudy
+TRIP_337,EDSA Carousel,Guadalupe,Mid-Day,7,9.81,Clear
+TRIP_346,EDSA Carousel,pHILAM,Peak Morning,9,26.35,Cloudy
+TRIP_351,EDSA Carousel,Ayala,Peak Evening,10,26.36,Cloudy
+TRIP_359,EDSA Carousel,Taft Ave,Peak Evening,9,57.9,Heavy Rain
+TRIP_365,EDSA Carousel,SM North EDSA,Late Night,7,5.68,Clear
+TRIP_376,EDSA Carousel,Balintawak,Late Night,6,9.47,Cloudy
+TRIP_381,EDSA Carousel,Guadalupe,Late Night,7,21.11,Heavy Rain
+TRIP_389,EDSA Carousel,Macapagal/Aseana,Mid-Day,9,11.27,Cloudy
+TRIP_393,EDSA Carousel,Monumento Terminal,Peak Evening,5,13.02,Clear
+TRIP_396,EDSA Carousel,Macapagal/Aseana,Mid-Day,6,7.55,Cloudy
+TRIP_419,EDSA Carousel,SM North EDSA,Mid-Day,7,11.0,Cloudy
+TRIP_423,EDSA Carousel,Roxas Blvd,Peak Morning,6,17.66,Clear
+TRIP_424,EDSA Carousel,Kaingin Road,Mid-Day,9,20.6,Heavy Rain
+TRIP_429,EDSA Carousel,Roosevelt,Peak Evening,10,25.9,Clear
+TRIP_436,EDSA Carousel,Quezon Ave,Mid-Day,7,9.39,Cloudy
+TRIP_440,EDSA Carousel,SM North EDSA,Mid-Day,5,11.36,Heavy Rain
+TRIP_447,EDSA Carousel,PITX Terminal,Mid-Day,7,24.76,Heavy Rain
+TRIP_449,EDSA Carousel,SM North EDSA,Peak Evening,7,19.33,Clear
+TRIP_453,EDSA Carousel,Buendia,Mid-Day,9,11.12,Clear
+TRIP_454,EDSA Carousel,Nepa Q. Mart,Mid-Day,10,16.04,Clear
+TRIP_455,EDSA Carousel,Bagong Barrio,Late Night,9,9.85,Cloudy
+TRIP_473,EDSA Carousel,Kennedy Road,Peak Evening,7,21.69,Cloudy
+TRIP_479,EDSA Carousel,Kaingin Road,Late Night,10,8.61,Clear
+TRIP_492,EDSA Carousel,Kaingin Road,Peak Evening,6,16.84,Clear
+TRIP_495,EDSA Carousel,Kaingin Road,Mid-Day,6,27.87,Heavy Rain
+TRIP_500,EDSA Carousel,Guadalupe,Peak Evening,8,24.82,Clear
+TRIP_504,EDSA Carousel,Cubao-Magallanes,Late Night,10,13.42,Clear
+TRIP_505,EDSA Carousel,BVA / City of Dreams,Mid-Day,10,16.76,Cloudy
+TRIP_507,EDSA Carousel,Bagong Barrio,Mid-Day,8,12.79,Clear
+TRIP_512,EDSA Carousel,BVA / City of Dreams,Peak Morning,9,23.17,Clear
+TRIP_516,EDSA Carousel,Macapagal/Aseana,Peak Morning,6,22.9,Cloudy
+TRIP_518,EDSA Carousel,Kennedy Road,Late Night,5,5.65,Cloudy
+TRIP_529,EDSA Carousel,Buendia,Mid-Day,9,14.78,Heavy Rain
+TRIP_531,EDSA Carousel,BVA / City of Dreams,Peak Morning,6,15.47,Clear
+TRIP_534,EDSA Carousel,Philam,Mid-Day,5,33.33,Heavy Rain
+TRIP_539,EDSA Carousel,Ortigas,Peak Evening,10,38.68,Heavy Rain
+TRIP_541,EDSA Carousel,Buendia,Peak Evening,6,28.55,Heavy Rain
+TRIP_546,EDSA Carousel,Kamuning,Peak Morning,5,13.96,Cloudy
+TRIP_548,EDSA Carousel,Ayala,Mid-Day,9,13.35,Cloudy
+TRIP_549,EDSA Carousel,Kamuning,Peak Evening,7,17.56,Cloudy
+TRIP_550,EDSA Carousel,Monumento Terminal,Late Night,9,22.56,Heavy Rain
+TRIP_551,EDSA Carousel,Taft Ave,Peak Morning,5,42.88,Heavy Rain
+TRIP_556,EDSA Carousel,SM Mall of Asia,Peak Evening,8,20.7,Cloudy
+TRIP_561,EDSA Carousel,Nepa Q. Mart,Peak Morning,5,17.4,Cloudy
+TRIP_564,EDSA Carousel,Guadalupe,Mid-Day,9,10.87,Clear
+TRIP_567,EDSA Carousel,Roosevelt,Peak Morning,7,22.26,Heavy Rain
+TRIP_573,EDSA Carousel,Buendia,Peak Morning,5,26.59,Heavy Rain
+TRIP_578,EDSA Carousel,Monumento Terminal,Peak Evening,5,13.42,Clear
+TRIP_579,EDSA Carousel,SM North EDSA,Peak Evening,5,12.62,Clear
+TRIP_581,EDSA Carousel,Monumento Terminal,Late Night,5,8.97,Clear
+TRIP_588,EDSA Carousel,Ortigas,Peak Evening,5,31.49,Heavy Rain
+TRIP_594,EDSA Carousel,Buendia,Peak Evening,8,23.46,Cloudy
+TRIP_596,EDSA Carousel,BVA / City of Dreams,Mid-Day,9,14.29,Cloudy
+TRIP_597,EDSA Carousel,Kamuning,Peak Evening,8,21.36,Clear
+TRIP_598,EDSA Carousel,Philam,Peak Evening,7,18.67,Cloudy
+TRIP_601,EDSA Carousel,Tramo,Peak Morning,7,21.68,Cloudy
+TRIP_603,EDSA Carousel,Balintawak,Peak Evening,8,20.76,Clear
+TRIP_614,EDSA Carousel,Roxas Blvd,Mid-Day,5,6.86,Clear
+TRIP_618,EDSA Carousel,Philam,Late Night,10,9.75,Cloudy
+TRIP_621,EDSA Carousel,Main Avenue,Late Night,10,10.61,Clear
+TRIP_622,EDSA Carousel,Kamuning,Mid-Day,6,7.34,Cloudy
+TRIP_626,EDSA Carousel,Guadalupe,Mid-Day,5,5.69,Clear
+TRIP_627,EDSA Carousel,Macapagal/Aseana,Mid-Day,6,6.94,Cloudy
+TRIP_629,EDSA Carousel,Guadalupe,Mid-Day,6,6.85,Clear
+TRIP_633,EDSA Carousel,Buendia,Late Night,6,15.44,Heavy Rain
+TRIP_647,EDSA Carousel,Taft Ave,Mid-Day,8,9.81,Cloudy
+TRIP_650,EDSA Carousel,Kaingin Road,Peak Morning,9,31.63,Heavy Rain
+TRIP_651,EDSA Carousel,guadalupe,Late Night,8,10.48,Cloudy
+TRIP_655,EDSA Carousel,Cubao-Magallanes,Peak Morning,7,18.45,Cloudy
+TRIP_657,EDSA Carousel,Roosevelt,Mid-Day,5,5.66,Clear
+TRIP_661,EDSA Carousel,Buendia,Late Night,6,24.55,Heavy Rain
+TRIP_668,EDSA Carousel,Balintawak,Mid-Day,7,7.35,Cloudy
+TRIP_672,EDSA Carousel,Taft Ave,Mid-Day,5,7.07,Clear
+TRIP_678,EDSA Carousel,Ayala,Peak Morning,6,16.68,Clear
+TRIP_681,EDSA Carousel,Santolan-Annapolis,Late Night,5,10.45,Heavy Rain
+TRIP_682,EDSA Carousel,Main Avenue,Mid-Day,6,12.24,Cloudy
+TRIP_683,EDSA Carousel,Kaingin Road,Mid-Day,6,6.67,Clear
+TRIP_684,EDSA Carousel,Philam,Peak Evening,6,16.33,Cloudy
+TRIP_687,EDSA Carousel,Roxas Blvd,Peak Evening,5,20.61,Heavy Rain
+TRIP_689,EDSA Carousel,Roosevelt,Mid-Day,8,11.75,Cloudy
+TRIP_690,EDSA Carousel,Ayala,Peak Evening,6,29.87,Heavy Rain
+TRIP_697,EDSA Carousel,Roosevelt,Mid-Day,9,11.24,Cloudy
+TRIP_699,EDSA Carousel,Buendia,Late Night,9,14.16,Cloudy
+TRIP_700,EDSA Carousel,PITX Terminal,Mid-Day,9,11.0,Cloudy
+TRIP_705,EDSA Carousel,Kennedy Road,Mid-Day,7,11.254999999999999,Heavy Rain
+TRIP_709,EDSA Carousel,Roosevelt,Peak Evening,10,26.69,Clear
+TRIP_716,EDSA Carousel,Ayala,Peak Morning,7,18.72,Cloudy
+TRIP_719,EDSA Carousel,SM Mall of Asia,Mid-Day,8,25.91,Heavy Rain
+TRIP_723,EDSA Carousel,Ortigas,Late Night,9,8.46,Clear
+TRIP_726,EDSA Carousel,Taft Ave,Peak Morning,6,16.4,Cloudy
+TRIP_731,EDSA Carousel,Monumento Terminal,Peak Evening,10,25.73,Cloudy
+TRIP_737,EDSA Carousel,Macapagal/Aseana,Late Night,5,6.22,Cloudy
+TRIP_738,EDSA Carousel,Bagong Barrio,Peak Morning,6,33.72,Heavy Rain
+TRIP_740,EDSA Carousel,Kaingin Road,Peak Evening,10,34.09,Cloudy
+TRIP_749,EDSA Carousel,Monumento Terminal,Peak Morning,6,20.58,Heavy Rain
+TRIP_751,EDSA Carousel,SM North EDSA,Peak Evening,6,21.47,Heavy Rain
+TRIP_752,EDSA Carousel,Macapagal/Aseana,Peak Morning,7,27.6,Heavy Rain
+TRIP_756,EDSA Carousel,Kennedy Road,Mid-Day,6,19.88,Heavy Rain
+TRIP_759,EDSA Carousel,Buendia,Late Night,7,27.06,Heavy Rain
+TRIP_760,EDSA Carousel,Nepa Q. Mart,Mid-Day,6,11.254999999999999,Heavy Rain
+TRIP_766,EDSA Carousel,Nepa Q. Mart,Mid-Day,7,8.29,Cloudy
+TRIP_769,EDSA Carousel,Roxas Blvd,Late Night,5,5.49,Cloudy
+TRIP_775,EDSA Carousel,Quezon Ave,Late Night,6,12.24,Heavy Rain
+TRIP_778,EDSA Carousel,Kennedy Road,Late Night,5,9.15,Clear
+TRIP_779,EDSA Carousel,Nepa Q. Mart,Peak Evening,6,17.98,Clear
+TRIP_781,EDSA Carousel,SM North EDSA,Peak Morning,10,26.48,Clear
+TRIP_783,EDSA Carousel,SM Mall of Asia,Peak Evening,7,28.24,Heavy Rain
+TRIP_785,EDSA Carousel,Philam,Peak Evening,10,26.55,Cloudy
+TRIP_791,EDSA Carousel,Taft Ave,Peak Evening,7,21.69,Clear
+TRIP_794,EDSA Carousel,Nepa Q. Mart,Late Night,9,9.1,Cloudy
+TRIP_798,EDSA Carousel,Santolan-Annapolis,Peak Evening,7,19.2,Clear
+TRIP_806,EDSA Carousel,Roxas Blvd,Peak Morning,5,13.52,Cloudy
+TRIP_808,EDSA Carousel,Kennedy Road,Late Night,7,13.69,Heavy Rain
+TRIP_809,EDSA Carousel,Roosevelt,Peak Morning,9,41.24,Heavy Rain
+TRIP_813,EDSA Carousel,Santolan-Annapolis,Late Night,6,5.3,Clear
+TRIP_817,EDSA Carousel,Santolan-Annapolis,Peak Morning,6,15.29,Clear
+TRIP_819,EDSA Carousel,Buendia,Late Night,7,22.03,Heavy Rain
+TRIP_822,EDSA Carousel,Balintawak,Peak Morning,7,20.25,Cloudy
+TRIP_825,EDSA Carousel,Kamuning,Mid-Day,10,10.79,Clear
+TRIP_826,EDSA Carousel,PITX Terminal,Mid-Day,9,10.43,Clear
+TRIP_829,EDSA Carousel,Roosevelt,Peak Evening,8,21.69,Clear
+TRIP_831,EDSA Carousel,Philam,Late Night,9,10.44,Cloudy
+TRIP_836,EDSA Carousel,Kamuning,Mid-Day,5,5.84,Cloudy
+TRIP_837,EDSA Carousel,Philam,Peak Evening,6,27.05,Heavy Rain
+TRIP_840,EDSA Carousel,Ortigas,Peak Evening,7,18.52,Cloudy
+TRIP_843,EDSA Carousel,Quezon Ave,Peak Morning,9,24.47,Clear
+TRIP_849,EDSA Carousel,Main Avenue,Late Night,10,14.06,Clear
+TRIP_850,EDSA Carousel,PITX Terminal,Peak Evening,6,16.78,Cloudy
+TRIP_855,EDSA Carousel,North Ave,Peak Evening,9,36.21,Heavy Rain
+TRIP_857,EDSA Carousel,Roosevelt,Peak Evening,5,13.32,Clear
+TRIP_859,EDSA Carousel,Quezon Ave,Late Night,10,13.75,Cloudy
+TRIP_866,EDSA Carousel,Taft Ave,Mid-Day,10,42.45,Heavy Rain
+TRIP_870,EDSA Carousel,Bagong Barrio,Late Night,5,7.04,Clear
+TRIP_872,EDSA Carousel,Roosevelt,Mid-Day,10,18.3,Heavy Rain
+TRIP_882,EDSA Carousel,Monumento Terminal,Late Night,10,8.32,Cloudy
+TRIP_889,EDSA Carousel,Taft Ave,Peak Evening,10,31.11,Heavy Rain
+TRIP_892,EDSA Carousel,Ayala,Mid-Day,6,6.34,Cloudy
+TRIP_907,EDSA Carousel,Kamuning,Late Night,9,9.75,Clear
+TRIP_909,EDSA Carousel,Tramo,Late Night,9,12.48,Cloudy
+TRIP_910,EDSA Carousel,Ortigas,Peak Evening,5,28.57,Heavy Rain
+TRIP_912,EDSA Carousel,Bagong Barrio,Late Night,6,5.42,Cloudy
+TRIP_913,EDSA Carousel,Ayala,Peak Evening,8,23.85,Clear
+TRIP_924,EDSA Carousel,North Ave,Mid-Day,9,10.64,Cloudy
+TRIP_925,EDSA Carousel,SM Mall of Asia,Late Night,9,20.67,Heavy Rain
+TRIP_927,EDSA Carousel,Kennedy Road,Mid-Day,8,9.49,Clear
+TRIP_933,EDSA Carousel,Balintawak,Late Night,6,12.59,Heavy Rain
+TRIP_942,EDSA Carousel,Ayala,Peak Evening,8,22.67,Clear
+TRIP_943,EDSA Carousel,Bagong Barrio,Late Night,6,25.84,Heavy Rain
+TRIP_945,EDSA Carousel,Philam,Late Night,10,9.27,Cloudy
+TRIP_950,EDSA Carousel,Main Avenue,Peak Evening,7,40.33,Heavy Rain
+TRIP_951,EDSA Carousel,Macapagal/Aseana,Peak Evening,5,25.2,Heavy Rain
+TRIP_956,EDSA Carousel,Nepa Q. Mart,Mid-Day,8,8.27,Clear
+TRIP_960,EDSA Carousel,Ortigas,Late Night,8,10.57,Clear
+TRIP_964,EDSA Carousel,Roosevelt,Late Night,7,6.06,Clear
+TRIP_970,EDSA Carousel,Balintawak,Mid-Day,7,9.26,Cloudy
+TRIP_975,EDSA Carousel,Kamuning,Late Night,10,9.65,Cloudy
+TRIP_986,EDSA Carousel,Santolan-Annapolis,Peak Evening,8,21.19,Clear
+TRIP_991,EDSA Carousel,Santolan-Annapolis,Peak Evening,6,16.69,Cloudy
+TRIP_993,EDSA Carousel,SM North EDSA,Mid-Day,7,8.76,Cloudy
+TRIP_994,EDSA Carousel,Quezon Ave,Late Night,7,8.76,Cloudy
+TRIP_995,EDSA Carousel,PITX Terminal,Late Night,8,20.36,Heavy Rain
+TRIP_002,LRT-1,Ninoy Aquino,Mid-Day,8,9.08,Cloudy
+TRIP_003,LRT-1,Monumento,Peak Morning,10,28.81,Clear
+TRIP_009,LRT-1,Monumento,Peak Evening,9,27.05,Cloudy
+TRIP_011,LRT-1,Tayuman,Mid-Day,9,10.27,Cloudy
+TRIP_014,LRT-1,MIA,Mid-Day,5,7.15,Clear
+TRIP_019,LRT-1,Gil Puyat,Late Night,7,7.05,Cloudy
+TRIP_030,LRT-1,Vito Cruz,Peak Morning,7,21.68,Clear
+TRIP_034,LRT-1,Tayuman,Peak Evening,5,13.45,Cloudy
+TRIP_040,LRT-1,UN Avenue,Peak Evening,5,13.39,Clear
+TRIP_043,LRT-1,Balintawak,Peak Morning,6,19.19,Cloudy
+TRIP_045,LRT-1,MIA,Late Night,6,6.45,Clear
+TRIP_048,LRT-1,Ninoy Aquino,Mid-Day,10,10.12,Cloudy
+TRIP_049,LRT-1,UN Avenue,Peak Morning,7,20.94,Heavy Rain
+TRIP_051,LRT-1,Balintawak,Peak Morning,7,18.78,Cloudy
+TRIP_053,LRT-1,UN Avenue,Peak Morning,5,16.84,Cloudy
+TRIP_056,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,8,23.74,Cloudy
+TRIP_057,LRT-1,Monumento,Peak Evening,5,16.0,Cloudy
+TRIP_063,LRT-1,vito cruz,Late Night,7,13.39,Heavy Rain
+TRIP_068,LRT-1,Balintawak,Peak Morning,5,17.11,Heavy Rain
+TRIP_070,LRT-1,Pedro Gil,Mid-Day,5,5.48,Cloudy
+TRIP_077,LRT-1,5th Avenue,Late Night,9,15.44,Heavy Rain
+TRIP_080,LRT-1,MIA,Peak Morning,10,26.38,Clear
+TRIP_087,LRT-1,Abad Santos,Mid-Day,10,15.26,Heavy Rain
+TRIP_089,LRT-1,Fernando Poe Jr. (Roosevelt),Mid-Day,9,14.77,Cloudy
+TRIP_090,LRT-1,Blumentritt,Peak Evening,6,17.13,Clear
+TRIP_093,LRT-1,Pedro Gil,Mid-Day,8,9.52,Clear
+TRIP_100,LRT-1,Balintawak,Peak Evening,6,15.99,Clear
+TRIP_101,LRT-1,EDSA,Peak Evening,8,21.125,Heavy Rain
+TRIP_103,LRT-1,Blumentritt,Mid-Day,5,12.59,Heavy Rain
+TRIP_105,LRT-1,Monumento,Peak Morning,5,13.29,Clear
+TRIP_106,LRT-1,Blumentritt,Late Night,5,6.61,Cloudy
+TRIP_108,LRT-1,Baclaran,Peak Evening,10,26.69,Cloudy
+TRIP_109,LRT-1,EDSA,Peak Morning,8,23.37,Clear
+TRIP_111,LRT-1,Central Terminal,Mid-Day,10,16.7,Heavy Rain
+TRIP_119,LRT-1,Asia World,Peak Morning,5,17.12,Clear
+TRIP_122,LRT-1,Doroteo Jose,Late Night,5,4.27,Cloudy
+TRIP_123,LRT-1,MONUMENTO,Peak Morning,7,18.28,Cloudy
+TRIP_124,LRT-1,Vito Cruz,Mid-Day,7,10.78,Heavy Rain
+TRIP_127,LRT-1,Monumento,Mid-Day,7,10.24,Cloudy
+TRIP_130,LRT-1,Quirino,Peak Evening,10,26.9,Clear
+TRIP_132,LRT-1,Pedro Gil,Peak Morning,7,21.27,Cloudy
+TRIP_139,LRT-1,Blumentritt,Peak Evening,6,17.88,Cloudy
+TRIP_141,LRT-1,Libertad,Mid-Day,7,8.05,Clear
+TRIP_146,LRT-1,Gil Puyat,Mid-Day,9,10.29,Clear
+TRIP_150,LRT-1,Balintawak,Peak Morning,10,30.02,Cloudy
+TRIP_158,LRT-1,UN Avenue,Peak Morning,10,31.36,Heavy Rain
+TRIP_165,LRT-1,5th Avenue,Peak Morning,5,13.73,Clear
+TRIP_167,LRT-1,Redemptorist,Peak Morning,8,26.99,Heavy Rain
+TRIP_168,LRT-1,Vito Cruz,Late Night,6,9.23,Heavy Rain
+TRIP_169,LRT-1,Redemptorist,Peak Morning,6,20.9,Heavy Rain
+TRIP_180,LRT-1,Asia World,Late Night,5,5.19,Heavy Rain
+TRIP_182,LRT-1,Redemptorist,Mid-Day,7,7.55,Clear
+TRIP_185,LRT-1,Blumentritt,Mid-Day,5,12.27,Heavy Rain
+TRIP_186,LRT-1,Carriedo,Late Night,5,5.36,Clear
+TRIP_188,LRT-1,EDSA,Mid-Day,9,14.54,Clear
+TRIP_191,LRT-1,Carriedo,Late Night,6,4.88,Clear
+TRIP_197,LRT-1,Carriedo,Peak Evening,5,16.4,Clear
+TRIP_199,LRT-1,Quirino,Mid-Day,10,14.94,Heavy Rain
+TRIP_210,LRT-1,Fernando Poe Jr. (Roosevelt),Mid-Day,9,11.18,Heavy Rain
+TRIP_212,LRT-1,Doroteo Jose,Mid-Day,10,10.78,Heavy Rain
+TRIP_214,LRT-1,Blumentritt,Peak Evening,7,21.12,Cloudy
+TRIP_217,LRT-1,5th Avenue,Peak Morning,5,17.85,Cloudy
+TRIP_220,LRT-1,UN Avenue,Peak Morning,5,15.36,Clear
+TRIP_221,LRT-1,Carriedo,Mid-Day,9,10.7,Cloudy
+TRIP_223,LRT-1,EDSA,Peak Evening,6,17.72,Heavy Rain
+TRIP_225,LRT-1,Asia World,Mid-Day,10,10.78,Clear
+TRIP_227,LRT-1,Central Terminal,Peak Morning,6,18.09,Heavy Rain
+TRIP_231,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Morning,8,22.29,Heavy Rain
+TRIP_235,LRT-1,Blumentritt,Peak Morning,10,25.01,Clear
+TRIP_238,LRT-1,Libertad,Mid-Day,9,11.39,Clear
+TRIP_240,LRT-1,Redemptorist,Peak Morning,5,13.02,Clear
+TRIP_241,LRT-1,Redemptorist,Mid-Day,6,13.21,Heavy Rain
+TRIP_244,LRT-1,Baclaran,Late Night,8,8.51,Heavy Rain
+TRIP_245,LRT-1,Doroteo Jose,Late Night,7,7.58,Clear
+TRIP_246,LRT-1,Baclaran,Peak Morning,10,25.51,Clear
+TRIP_253,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,7,25.45,Heavy Rain
+TRIP_255,LRT-1,EDSA,Peak Evening,10,30.64,Cloudy
+TRIP_260,LRT-1,UN Avenue,Mid-Day,6,9.59,Cloudy
+TRIP_263,LRT-1,5th Avenue,Peak Evening,9,21.125,Clear
+TRIP_269,LRT-1,Vito Cruz,Late Night,5,7.41,Heavy Rain
+TRIP_280,LRT-1,Doroteo Jose,Late Night,7,7.52,Cloudy
+TRIP_286,LRT-1,Libertad,Peak Morning,9,25.96,Heavy Rain
+TRIP_287,LRT-1,Blumentritt,Peak Evening,9,28.4,Heavy Rain
+TRIP_288,LRT-1,Vito Cruz,Peak Evening,9,23.81,Cloudy
+TRIP_293,LRT-1,Central Terminal,Mid-Day,5,12.38,Clear
+TRIP_295,LRT-1,cARRIEDO,Late Night,6,7.3,Heavy Rain
+TRIP_300,LRT-1,Pedro Gil,Peak Morning,7,17.65,Clear
+TRIP_304,LRT-1,MIA,Peak Evening,9,24.61,Cloudy
+TRIP_307,LRT-1,Blumentritt,Peak Morning,7,21.27,Cloudy
+TRIP_309,LRT-1,Blumentritt,Peak Morning,9,25.43,Clear
+TRIP_313,LRT-1,Redemptorist,Mid-Day,9,11.28,Clear
+TRIP_316,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Morning,10,25.7,Cloudy
+TRIP_317,LRT-1,Asia World,Peak Evening,5,14.25,Heavy Rain
+TRIP_318,LRT-1,5th Avenue,Late Night,9,7.7,Clear
+TRIP_322,LRT-1,dR. sANTOS,Peak Evening,8,24.58,Heavy Rain
+TRIP_323,LRT-1,EDSA,Peak Evening,10,28.8,Clear
+TRIP_324,LRT-1,Dr. Santos,Peak Evening,5,13.29,Cloudy
+TRIP_331,LRT-1,Redemptorist,Mid-Day,9,12.82,Heavy Rain
+TRIP_333,LRT-1,Bambang,Peak Morning,6,16.63,Cloudy
+TRIP_339,LRT-1,Carriedo,Peak Morning,6,18.44,Clear
+TRIP_341,LRT-1,Tayuman,Peak Morning,6,16.93,Cloudy
+TRIP_342,LRT-1,Balintawak,Peak Morning,5,14.91,Cloudy
+TRIP_344,LRT-1,EDSA,Peak Evening,5,17.03,Heavy Rain
+TRIP_349,LRT-1,Redemptorist,Peak Morning,8,21.13,Cloudy
+TRIP_350,LRT-1,5th Avenue,Peak Morning,5,22.17,Clear
+TRIP_353,LRT-1,Carriedo,Peak Morning,5,20.89,Heavy Rain
+TRIP_356,LRT-1,Bambang,Mid-Day,7,9.94,Cloudy
+TRIP_361,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,5,13.31,Cloudy
+TRIP_362,LRT-1,Tayuman,Late Night,6,8.01,Clear
+TRIP_367,LRT-1,Bambang,Peak Evening,5,15.17,Heavy Rain
+TRIP_369,LRT-1,Balintawak,Late Night,6,6.11,Cloudy
+TRIP_372,LRT-1,Libertad,Peak Morning,6,16.21,Heavy Rain
+TRIP_378,LRT-1,Doroteo Jose,Peak Evening,5,14.91,Clear
+TRIP_380,LRT-1,Gil Puyat,Late Night,7,8.95,Clear
+TRIP_382,LRT-1,Blumentritt,Peak Morning,8,21.28,Cloudy
+TRIP_384,LRT-1,MIA,Peak Morning,8,21.91,Clear
+TRIP_386,LRT-1,Redemptorist,Mid-Day,8,9.32,Cloudy
+TRIP_394,LRT-1,UN Avenue,Peak Morning,7,20.35,Clear
+TRIP_397,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,9,25.01,Clear
+TRIP_401,LRT-1,Gil Puyat,Peak Morning,10,26.27,Clear
+TRIP_403,LRT-1,Doroteo Jose,Peak Evening,7,23.48,Heavy Rain
+TRIP_407,LRT-1,Pedro Gil,Late Night,5,6.04,Cloudy
+TRIP_408,LRT-1,Quirino,Late Night,10,7.41,Clear
+TRIP_411,LRT-1,Balintawak,Peak Evening,7,21.125,Clear
+TRIP_413,LRT-1,Baclaran,Mid-Day,5,6.76,Heavy Rain
+TRIP_416,LRT-1,UN Avenue,Mid-Day,5,8.79,Cloudy
+TRIP_417,LRT-1,Dr. Santos,Peak Evening,8,24.62,Clear
+TRIP_420,LRT-1,Baclaran,Peak Morning,5,15.83,Heavy Rain
+TRIP_430,LRT-1,Monumento,Mid-Day,7,12.27,Clear
+TRIP_441,LRT-1,Baclaran,Late Night,9,12.73,Heavy Rain
+TRIP_442,LRT-1,Balintawak,Mid-Day,6,8.85,Heavy Rain
+TRIP_444,LRT-1,Pedro Gil,Peak Morning,6,19.28,Heavy Rain
+TRIP_448,LRT-1,Ninoy Aquino,Peak Morning,7,20.92,Clear
+TRIP_462,LRT-1,Pedro Gil,Peak Morning,7,21.87,Heavy Rain
+TRIP_465,LRT-1,EDSA,Peak Evening,6,15.81,Cloudy
+TRIP_466,LRT-1,MIA,Mid-Day,6,10.68,Heavy Rain
+TRIP_468,LRT-1,Tayuman,Peak Morning,8,25.98,Heavy Rain
+TRIP_469,LRT-1,Balintawak,Late Night,8,12.42,Clear
+TRIP_470,LRT-1,MIA,Peak Evening,9,24.53,Cloudy
+TRIP_476,LRT-1,Central Terminal,Peak Morning,8,20.38,Cloudy
+TRIP_480,LRT-1,Libertad,Late Night,8,15.76,Heavy Rain
+TRIP_482,LRT-1,Dr. Santos,Late Night,6,7.02,Cloudy
+TRIP_483,LRT-1,Quirino,Peak Evening,10,29.53,Clear
+TRIP_484,LRT-1,R. Papa,Peak Morning,7,20.9,Heavy Rain
+TRIP_491,LRT-1,Ninoy Aquino,Late Night,5,5.74,Clear
+TRIP_496,LRT-1,Asia World,Peak Evening,8,20.95,Cloudy
+TRIP_498,LRT-1,Tayuman,Peak Morning,8,23.05,Heavy Rain
+TRIP_502,LRT-1,Abad Santos,Peak Morning,5,14.61,Cloudy
+TRIP_508,LRT-1,Gil Puyat,Mid-Day,8,14.23,Heavy Rain
+TRIP_510,LRT-1,5th Avenue,Peak Evening,6,16.05,Cloudy
+TRIP_520,LRT-1,Quirino,Late Night,8,9.07,Clear
+TRIP_525,LRT-1,UN Avenue,Peak Evening,6,21.13,Heavy Rain
+TRIP_528,LRT-1,Libertad,Peak Morning,7,23.56,Heavy Rain
+TRIP_530,LRT-1,Dr. Santos,Peak Evening,5,14.7,Cloudy
+TRIP_537,LRT-1,Asia World,Late Night,6,6.77,Heavy Rain
+TRIP_538,LRT-1,Tayuman,Late Night,5,7.55,Heavy Rain
+TRIP_540,LRT-1,Asia World,Peak Morning,9,25.5,Clear
+TRIP_543,LRT-1,Fernando Poe Jr. (Roosevelt),Late Night,8,6.55,Cloudy
+TRIP_555,LRT-1,Pedro Gil,Peak Morning,8,33.75,Heavy Rain
+TRIP_558,LRT-1,Central Terminal,Mid-Day,7,9.97,Heavy Rain
+TRIP_562,LRT-1,Pedro Gil,Peak Morning,6,21.51,Clear
+TRIP_568,LRT-1,Vito Cruz,Peak Morning,6,18.43,Clear
+TRIP_570,LRT-1,Dr. Santos,Late Night,8,7.41,Cloudy
+TRIP_571,LRT-1,Carriedo,Mid-Day,8,10.78,Cloudy
+TRIP_576,LRT-1,Redemptorist,Mid-Day,5,7.71,Clear
+TRIP_577,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,8,25.64,Clear
+TRIP_584,LRT-1,Baclaran,Peak Morning,6,15.89,Clear
+TRIP_585,LRT-1,Vito Cruz,Mid-Day,10,13.31,Cloudy
+TRIP_593,LRT-1,Vito Cruz,Mid-Day,7,8.1,Clear
+TRIP_595,LRT-1,Quirino,Peak Evening,6,17.45,Clear
+TRIP_605,LRT-1,Fernando Poe Jr. (Roosevelt),Late Night,10,8.36,Cloudy
+TRIP_613,LRT-1,Doroteo Jose,Peak Morning,7,21.25,Cloudy
+TRIP_616,LRT-1,R. Papa,Peak Morning,10,26.53,Clear
+TRIP_617,LRT-1,MIA,Peak Evening,7,26.35,Heavy Rain
+TRIP_619,LRT-1,Vito Cruz,Late Night,7,9.19,Clear
+TRIP_625,LRT-1,5th Avenue,Late Night,5,5.03,Clear
+TRIP_632,LRT-1,MIA,Late Night,5,4.58,Clear
+TRIP_634,LRT-1,Balintawak,Peak Evening,10,30.74,Heavy Rain
+TRIP_635,LRT-1,Quirino,Late Night,5,5.4,Clear
+TRIP_636,LRT-1,5th Avenue,Peak Morning,7,25.95,Cloudy
+TRIP_639,LRT-1,Vito Cruz,Late Night,5,6.48,Clear
+TRIP_641,LRT-1,UN Avenue,Mid-Day,8,12.05,Heavy Rain
+TRIP_653,LRT-1,Tayuman,Peak Morning,8,21.77,Cloudy
+TRIP_660,LRT-1,Balintawak,Late Night,5,5.15,Cloudy
+TRIP_667,LRT-1,Fernando Poe Jr. (Roosevelt),Late Night,8,8.89,Heavy Rain
+TRIP_670,LRT-1,Pedro Gil,Mid-Day,10,13.33,Clear
+TRIP_675,LRT-1,Abad Santos,Mid-Day,10,12.89,Cloudy
+TRIP_676,LRT-1,Tayuman,Peak Morning,10,27.89,Heavy Rain
+TRIP_677,LRT-1,Doroteo Jose,Mid-Day,5,10.16,Heavy Rain
+TRIP_686,LRT-1,Carriedo,Peak Evening,10,27.54,Cloudy
+TRIP_696,LRT-1,Monumento,Peak Morning,5,21.27,Clear
+TRIP_703,LRT-1,Asia World,Peak Evening,8,22.1,Heavy Rain
+TRIP_708,LRT-1,EDSA,Peak Morning,10,27.72,Cloudy
+TRIP_710,LRT-1,Tayuman,Peak Morning,8,21.27,Cloudy
+TRIP_711,LRT-1,Bambang,Late Night,8,7.3,Clear
+TRIP_712,LRT-1,Libertad,Mid-Day,8,11.9,Heavy Rain
+TRIP_713,LRT-1,Baclaran,Peak Morning,5,13.9,Clear
+TRIP_714,LRT-1,Vito Cruz,Peak Morning,10,26.54,Cloudy
+TRIP_718,LRT-1,Abad Santos,Peak Morning,6,17.64,Cloudy
+TRIP_720,LRT-1,Asia World,Mid-Day,9,11.39,Heavy Rain
+TRIP_722,LRT-1,UN Avenue,Peak Evening,8,23.9,Heavy Rain
+TRIP_727,LRT-1,Abad Santos,Mid-Day,8,12.75,Cloudy
+TRIP_733,LRT-1,Doroteo Jose,Late Night,7,6.89,Cloudy
+TRIP_734,LRT-1,MIA,Mid-Day,5,11.16,Heavy Rain
+TRIP_735,LRT-1,Libertad,Late Night,7,11.29,Heavy Rain
+TRIP_736,LRT-1,Tayuman,Peak Evening,5,13.29,Clear
+TRIP_744,LRT-1,Central Terminal,Peak Evening,7,20.47,Clear
+TRIP_745,LRT-1,EDSA,Late Night,7,7.29,Heavy Rain
+TRIP_746,LRT-1,Dr. Santos,Mid-Day,9,11.62,Heavy Rain
+TRIP_747,LRT-1,Quirino,Peak Evening,5,16.55,Heavy Rain
+TRIP_750,LRT-1,Ninoy Aquino,Peak Evening,7,22.26,Clear
+TRIP_758,LRT-1,Redemptorist,Peak Morning,9,26.77,Heavy Rain
+TRIP_762,LRT-1,Balintawak,Mid-Day,7,10.78,Clear
+TRIP_763,LRT-1,Baclaran,Peak Morning,10,25.94,Cloudy
+TRIP_772,LRT-1,Doroteo Jose,Late Night,6,6.85,Cloudy
+TRIP_774,LRT-1,UN Avenue,Peak Evening,7,19.09,Clear
+TRIP_780,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Morning,8,20.35,Cloudy
+TRIP_784,LRT-1,UN Avenue,Peak Evening,8,21.15,Heavy Rain
+TRIP_786,LRT-1,Fernando Poe Jr. (Roosevelt),Late Night,7,8.16,Heavy Rain
+TRIP_787,LRT-1,Tayuman,Peak Morning,7,21.27,Cloudy
+TRIP_792,LRT-1,Monumento,Mid-Day,10,10.09,Cloudy
+TRIP_796,LRT-1,Pedro Gil,Mid-Day,5,10.78,Clear
+TRIP_804,LRT-1,Libertad,Peak Evening,7,20.21,Clear
+TRIP_807,LRT-1,UN Avenue,Peak Morning,5,16.41,Clear
+TRIP_811,LRT-1,Vito Cruz,Late Night,9,7.54,Clear
+TRIP_820,LRT-1,Monumento,Peak Evening,7,18.09,Clear
+TRIP_828,LRT-1,UN Avenue,Peak Morning,8,23.02,Clear
+TRIP_833,LRT-1,Asia World,Mid-Day,6,9.19,Clear
+TRIP_838,LRT-1,Balintawak,Late Night,8,11.77,Heavy Rain
+TRIP_839,LRT-1,Pedro Gil,Late Night,6,6.96,Clear
+TRIP_847,LRT-1,Pedro Gil,Late Night,8,7.41,Clear
+TRIP_848,LRT-1,Abad Santos,Late Night,6,8.65,Cloudy
+TRIP_852,LRT-1,Gil Puyat,Peak Evening,8,21.17,Heavy Rain
+TRIP_854,LRT-1,Libertad,Peak Evening,10,31.31,Cloudy
+TRIP_856,LRT-1,Quirino,Peak Evening,10,27.46,Heavy Rain
+TRIP_858,LRT-1,Carriedo,Peak Evening,9,27.14,Cloudy
+TRIP_864,LRT-1,EDSA,Late Night,7,6.99,Cloudy
+TRIP_867,LRT-1,Blumentritt,Late Night,9,18.46,Clear
+TRIP_877,LRT-1,Asia World,Peak Evening,8,28.44,Heavy Rain
+TRIP_879,LRT-1,Monumento,Peak Morning,7,21.76,Heavy Rain
+TRIP_883,LRT-1,Monumento,Late Night,6,9.43,Clear
+TRIP_884,LRT-1,Doroteo Jose,Peak Evening,5,16.06,Cloudy
+TRIP_886,LRT-1,Dr. Santos,Late Night,10,8.74,Cloudy
+TRIP_891,LRT-1,Bambang,Peak Morning,10,27.16,Heavy Rain
+TRIP_898,LRT-1,Fernando Poe Jr. (Roosevelt),Peak Evening,7,20.76,Heavy Rain
+TRIP_908,LRT-1,Quirino,Mid-Day,9,13.16,Clear
+TRIP_918,LRT-1,UN Avenue,Late Night,6,5.18,Clear
+TRIP_920,LRT-1,Central Terminal,Mid-Day,6,8.8,Clear
+TRIP_921,LRT-1,MIA,Mid-Day,9,10.78,Clear
+TRIP_922,LRT-1,EDSA,Peak Morning,9,23.32,Cloudy
+TRIP_926,LRT-1,Pedro Gil,Late Night,6,6.17,Cloudy
+TRIP_928,LRT-1,Asia World,Late Night,10,16.95,Heavy Rain
+TRIP_930,LRT-1,Central Terminal,Peak Evening,6,15.71,Cloudy
+TRIP_940,LRT-1,Central Terminal,Mid-Day,6,9.61,Heavy Rain
+TRIP_952,LRT-1,Asia World,Peak Evening,7,18.18,Clear
+TRIP_954,LRT-1,Central Terminal,Peak Evening,6,15.61,Clear
+TRIP_957,LRT-1,Asia World,Mid-Day,8,11.67,Heavy Rain
+TRIP_962,LRT-1,Doroteo Jose,Peak Morning,7,18.41,Cloudy
+TRIP_963,LRT-1,Abad Santos,Mid-Day,5,6.36,Clear
+TRIP_968,LRT-1,Pedro Gil,Mid-Day,5,6.59,Heavy Rain
+TRIP_971,LRT-1,Redemptorist,Mid-Day,5,11.02,Heavy Rain
+TRIP_980,LRT-1,Ninoy Aquino,Peak Morning,6,17.72,Heavy Rain
+TRIP_981,LRT-1,Blumentritt,Peak Evening,6,16.54,Heavy Rain
+TRIP_989,LRT-1,Abad Santos,Mid-Day,6,28.1,Heavy Rain
+TRIP_990,LRT-1,Carriedo,Peak Morning,6,18.07,Clear
+TRIP_992,LRT-1,UN Avenue,Peak Morning,8,22.96,Heavy Rain
+TRIP_996,LRT-1,UN Avenue,Peak Morning,9,23.85,Cloudy
+TRIP_997,LRT-1,Asia World,Peak Evening,8,22.19,Clear
+TRIP_004,LRT-2,Marikina-Pasay,Peak Morning,7,21.75,Heavy Rain
+TRIP_006,LRT-2,Anonas,Late Night,5,4.27,Cloudy
+TRIP_007,LRT-2,Betty Go-Belmonte,Mid-Day,5,8.49,Clear
+TRIP_012,LRT-2,J. Ruiz,Mid-Day,10,17.28,Heavy Rain
+TRIP_013,LRT-2,Marikina-Pasay,Peak Evening,8,20.08,Cloudy
+TRIP_020,LRT-2,Cubao,Peak Evening,6,19.43,Clear
+TRIP_021,LRT-2,J. Ruiz,Late Night,5,5.11,Cloudy
+TRIP_022,LRT-2,J. Ruiz,Mid-Day,8,11.94,Heavy Rain
+TRIP_024,LRT-2,V. Mapa,Late Night,8,8.39,Heavy Rain
+TRIP_026,LRT-2,Gilmore,Peak Evening,6,16.12,Heavy Rain
+TRIP_027,LRT-2,Katipunan,Peak Evening,7,19.97,Cloudy
+TRIP_044,LRT-2,Santolan,Peak Morning,9,25.15,Cloudy
+TRIP_046,LRT-2,J. Ruiz,Peak Morning,7,17.64,Cloudy
+TRIP_052,LRT-2,Betty Go-Belmonte,Peak Morning,8,21.32,Cloudy
+TRIP_059,LRT-2,Betty Go-Belmonte,Mid-Day,9,14.2,Heavy Rain
+TRIP_060,LRT-2,Cubao,Mid-Day,8,8.32,Clear
+TRIP_061,LRT-2,Katipunan,Peak Morning,7,19.62,Clear
+TRIP_071,LRT-2,Betty Go-Belmonte,Peak Morning,5,17.21,Cloudy
+TRIP_073,LRT-2,Recto,Peak Evening,7,19.07,Heavy Rain
+TRIP_076,LRT-2,Gilmore,Late Night,5,4.14,Clear
+TRIP_078,LRT-2,Gilmore,Peak Evening,5,18.74,Heavy Rain
+TRIP_079,LRT-2,Recto,Peak Morning,7,21.88,Clear
+TRIP_082,LRT-2,Cubao,Late Night,10,10.26,Clear
+TRIP_091,LRT-2,Marikina-Pasay,Mid-Day,7,10.92,Clear
+TRIP_095,LRT-2,J. Ruiz,Late Night,8,7.29,Clear
+TRIP_096,LRT-2,Legarda,Mid-Day,5,5.99,Cloudy
+TRIP_097,LRT-2,Marikina-Pasay,Late Night,9,8.49,Clear
+TRIP_098,LRT-2,J. Ruiz,Mid-Day,7,9.36,Clear
+TRIP_102,LRT-2,J. Ruiz,Peak Morning,5,15.51,Heavy Rain
+TRIP_107,LRT-2,Pureza,Peak Evening,6,17.31,Clear
+TRIP_118,LRT-2,Anonas,Peak Evening,8,20.69,Clear
+TRIP_131,LRT-2,Pureza,Peak Evening,5,20.75,Heavy Rain
+TRIP_135,LRT-2,Cubao,Peak Evening,6,20.73,Cloudy
+TRIP_136,LRT-2,Antipolo,Mid-Day,5,7.19,Clear
+TRIP_138,LRT-2,Betty Go-Belmonte,Peak Morning,5,13.41,Clear
+TRIP_144,LRT-2,Katipunan,Peak Morning,8,22.33,Cloudy
+TRIP_153,LRT-2,Gilmore,Late Night,10,12.6,Heavy Rain
+TRIP_160,LRT-2,J. Ruiz,Peak Evening,6,17.3,Cloudy
+TRIP_162,LRT-2,Legarda,Mid-Day,5,6.43,Clear
+TRIP_164,LRT-2,Cubao,Mid-Day,7,7.43,Cloudy
+TRIP_166,LRT-2,J. Ruiz,Mid-Day,5,5.82,Cloudy
+TRIP_170,LRT-2,Pureza,Peak Morning,8,23.2,Cloudy
+TRIP_172,LRT-2,Santolan,Mid-Day,9,19.16,Heavy Rain
+TRIP_177,LRT-2,V. Mapa,Peak Evening,5,16.41,Cloudy
+TRIP_187,LRT-2,J. Ruiz,Mid-Day,6,9.5,Clear
+TRIP_189,LRT-2,Pureza,Late Night,6,9.1,Cloudy
+TRIP_194,LRT-2,Cubao,Peak Evening,9,23.16,Heavy Rain
+TRIP_195,LRT-2,Marikina-Pasay,Late Night,8,9.54,Heavy Rain
+TRIP_198,LRT-2,V. Mapa,Peak Morning,10,27.08,Cloudy
+TRIP_202,LRT-2,Antipolo,Mid-Day,8,8.74,Cloudy
+TRIP_211,LRT-2,Antipolo,Mid-Day,10,14.75,Cloudy
+TRIP_216,LRT-2,Gilmore,Peak Evening,6,17.46,Clear
+TRIP_222,LRT-2,Anonas,Mid-Day,6,7.66,Clear
+TRIP_232,LRT-2,Gilmore,Peak Morning,8,24.11,Heavy Rain
+TRIP_233,LRT-2,Gilmore,Peak Evening,7,18.71,Clear
+TRIP_242,LRT-2,Katipunan,Late Night,5,4.8,Clear
+TRIP_249,LRT-2,Marikina-Pasay,Late Night,5,13.76,Heavy Rain
+TRIP_252,LRT-2,J. Ruiz,Late Night,9,10.28,Heavy Rain
+TRIP_256,LRT-2,Santolan,Peak Evening,10,25.88,Clear
+TRIP_259,LRT-2,V. Mapa,Mid-Day,9,10.61,Clear
+TRIP_264,LRT-2,Pureza,Peak Evening,6,15.35,Clear
+TRIP_265,LRT-2,V. Mapa,Late Night,10,8.49,Clear
+TRIP_266,LRT-2,Betty Go-Belmonte,Late Night,7,7.66,Cloudy
+TRIP_273,LRT-2,Recto,Peak Evening,6,20.75,Cloudy
+TRIP_274,LRT-2,Anonas,Peak Morning,5,15.64,Cloudy
+TRIP_275,LRT-2,Santolan,Mid-Day,8,8.21,Cloudy
+TRIP_283,LRT-2,Legarda,Peak Morning,6,23.42,Heavy Rain
+TRIP_291,LRT-2,Betty Go-Belmonte,Peak Morning,9,24.48,Cloudy
+TRIP_296,LRT-2,V. Mapa,Peak Morning,7,22.09,Heavy Rain
+TRIP_305,LRT-2,J. Ruiz,Peak Evening,8,27.13,Heavy Rain
+TRIP_315,LRT-2,Katipunan,Mid-Day,5,9.6,Clear
+TRIP_321,LRT-2,Anonas,Mid-Day,7,9.24,Cloudy
+TRIP_326,LRT-2,Katipunan,Peak Evening,10,25.44,Clear
+TRIP_328,LRT-2,Recto,Peak Evening,6,15.55,Clear
+TRIP_330,LRT-2,Cubao,Peak Morning,7,23.74,Heavy Rain
+TRIP_340,LRT-2,Santolan,Mid-Day,9,14.48,Heavy Rain
+TRIP_345,LRT-2,Santolan,Peak Evening,7,22.58,Heavy Rain
+TRIP_348,LRT-2,Legarda,Peak Evening,6,23.36,Heavy Rain
+TRIP_354,LRT-2,Pureza,Late Night,5,5.11,Clear
+TRIP_364,LRT-2,Katipunan,Peak Morning,5,14.92,Heavy Rain
+TRIP_366,LRT-2,Santolan,Peak Evening,10,28.73,Heavy Rain
+TRIP_368,LRT-2,Pureza,Late Night,7,8.49,Clear
+TRIP_370,LRT-2,Recto,Mid-Day,10,10.87,Cloudy
+TRIP_375,LRT-2,V. Mapa,Mid-Day,7,7.24,Cloudy
+TRIP_377,LRT-2,Katipunan,Mid-Day,6,15.04,Heavy Rain
+TRIP_383,LRT-2,Cubao,Late Night,8,16.37,Heavy Rain
+TRIP_385,LRT-2,Legarda,Peak Morning,8,21.58,Cloudy
+TRIP_387,LRT-2,Marikina-Pasay,Late Night,8,8.5,Clear
+TRIP_390,LRT-2,J. Ruiz,Peak Morning,7,20.45,Heavy Rain
+TRIP_391,LRT-2,Cubao,Late Night,6,6.99,Heavy Rain
+TRIP_392,LRT-2,Anonas,Peak Morning,10,25.51,Cloudy
+TRIP_402,LRT-2,V. Mapa,Peak Evening,6,15.17,Cloudy
+TRIP_406,LRT-2,Katipunan,Peak Evening,6,16.45,Cloudy
+TRIP_415,LRT-2,Pureza,Peak Morning,8,20.49,Cloudy
+TRIP_418,LRT-2,V. Mapa,Peak Evening,5,17.42,Heavy Rain
+TRIP_421,LRT-2,Antipolo,Mid-Day,8,8.41,Clear
+TRIP_425,LRT-2,Santolan,Peak Evening,10,29.85,Heavy Rain
+TRIP_426,LRT-2,Anonas,Mid-Day,6,7.7,Heavy Rain
+TRIP_431,LRT-2,Betty Go-Belmonte,Late Night,10,12.21,Cloudy
+TRIP_432,LRT-2,Betty Go-Belmonte,Peak Evening,10,28.77,Heavy Rain
+TRIP_433,LRT-2,Anonas,Peak Evening,10,33.69,Heavy Rain
+TRIP_435,LRT-2,Antipolo,Peak Evening,8,20.38,Cloudy
+TRIP_438,LRT-2,Recto,Peak Evening,5,18.05,Clear
+TRIP_439,LRT-2,V. Mapa,Late Night,9,7.79,Clear
+TRIP_450,LRT-2,Katipunan,Peak Evening,8,20.75,Clear
+TRIP_452,LRT-2,Betty Go-Belmonte,Peak Evening,6,17.75,Heavy Rain
+TRIP_458,LRT-2,Gilmore,Peak Evening,8,23.26,Heavy Rain
+TRIP_461,LRT-2,Santolan,Mid-Day,6,11.97,Heavy Rain
+TRIP_463,LRT-2,J. Ruiz,Late Night,5,5.34,Cloudy
+TRIP_464,LRT-2,Katipunan,Peak Morning,5,13.65,Heavy Rain
+TRIP_471,LRT-2,Katipunan,Peak Evening,8,22.49,Cloudy
+TRIP_477,LRT-2,Legarda,Peak Evening,9,24.49,Cloudy
+TRIP_481,LRT-2,Antipolo,Peak Evening,9,25.28,Cloudy
+TRIP_485,LRT-2,Recto,Peak Evening,5,13.79,Cloudy
+TRIP_488,LRT-2,Gilmore,Mid-Day,10,10.47,Clear
+TRIP_489,LRT-2,J. Ruiz,Peak Evening,9,26.9,Clear
+TRIP_490,LRT-2,Pureza,Mid-Day,8,9.4,Cloudy
+TRIP_493,LRT-2,Pureza,Late Night,10,13.56,Heavy Rain
+TRIP_494,LRT-2,Pureza,Peak Morning,7,18.18,Clear
+TRIP_499,LRT-2,Antipolo,Mid-Day,8,8.49,Clear
+TRIP_501,LRT-2,Gilmore,Peak Evening,8,20.75,Heavy Rain
+TRIP_503,LRT-2,Marikina-Pasay,Mid-Day,10,15.77,Heavy Rain
+TRIP_509,LRT-2,Marikina-Pasay,Peak Evening,9,29.21,Heavy Rain
+TRIP_513,LRT-2,V. Mapa,Peak Evening,8,24.93,Heavy Rain
+TRIP_514,LRT-2,Legarda,Peak Morning,9,31.47,Heavy Rain
+TRIP_515,LRT-2,Cubao,Mid-Day,9,9.5,Cloudy
+TRIP_522,LRT-2,J. Ruiz,Late Night,7,10.41,Cloudy
+TRIP_523,LRT-2,Pureza,Late Night,5,4.44,Clear
+TRIP_524,LRT-2,Santolan,Late Night,7,6.4,Cloudy
+TRIP_532,LRT-2,Cubao,Mid-Day,8,12.96,Heavy Rain
+TRIP_552,LRT-2,Pureza,Mid-Day,6,9.98,Heavy Rain
+TRIP_554,LRT-2,Recto,Peak Evening,8,22.9,Clear
+TRIP_557,LRT-2,Legarda,Late Night,7,10.95,Heavy Rain
+TRIP_559,LRT-2,KATIPUNAN,Peak Evening,7,20.08,Heavy Rain
+TRIP_565,LRT-2,Antipolo,Peak Evening,6,16.33,Clear
+TRIP_574,LRT-2,Betty Go-Belmonte,Peak Morning,7,18.97,Cloudy
+TRIP_583,LRT-2,Gilmore,Late Night,9,7.52,Clear
+TRIP_586,LRT-2,V. Mapa,Mid-Day,7,8.35,Heavy Rain
+TRIP_587,LRT-2,Legarda,Late Night,8,10.11,Clear
+TRIP_599,LRT-2,J. Ruiz,Mid-Day,8,9.64,Heavy Rain
+TRIP_600,LRT-2,Legarda,Peak Evening,10,28.79,Heavy Rain
+TRIP_606,LRT-2,V. Mapa,Late Night,8,9.11,Heavy Rain
+TRIP_611,LRT-2,Pureza,Late Night,7,6.9,Cloudy
+TRIP_624,LRT-2,Recto,Mid-Day,8,8.73,Clear
+TRIP_630,LRT-2,Marikina-Pasay,Peak Evening,8,32.21,Heavy Rain
+TRIP_631,LRT-2,Recto,Peak Evening,8,23.74,Clear
+TRIP_652,LRT-2,Santolan,Peak Morning,10,28.77,Heavy Rain
+TRIP_654,LRT-2,Gilmore,Mid-Day,6,7.4,Cloudy
+TRIP_656,LRT-2,J. Ruiz,Late Night,5,6.07,Clear
+TRIP_658,LRT-2,Legarda,Late Night,10,11.81,Clear
+TRIP_659,LRT-2,Cubao,Peak Evening,8,26.41,Heavy Rain
+TRIP_662,LRT-2,J. Ruiz,Late Night,9,10.55,Heavy Rain
+TRIP_665,LRT-2,Recto,Peak Morning,7,22.18,Cloudy
+TRIP_669,LRT-2,Santolan,Peak Evening,8,30.17,Cloudy
+TRIP_674,LRT-2,Cubao,Mid-Day,6,9.98,Heavy Rain
+TRIP_685,LRT-2,Santolan,Peak Morning,7,20.68,Cloudy
+TRIP_695,LRT-2,Recto,Late Night,5,6.65,Heavy Rain
+TRIP_706,LRT-2,Recto,Peak Morning,7,22.22,Heavy Rain
+TRIP_717,LRT-2,Legarda,Peak Morning,9,26.82,Cloudy
+TRIP_721,LRT-2,Katipunan,Peak Evening,10,28.18,Clear
+TRIP_724,LRT-2,Gilmore,Peak Evening,9,22.83,Clear
+TRIP_725,LRT-2,Cubao,Mid-Day,9,12.71,Heavy Rain
+TRIP_728,LRT-2,Anonas,Late Night,10,9.62,Cloudy
+TRIP_729,LRT-2,Pureza,Late Night,10,8.35,Clear
+TRIP_739,LRT-2,Santolan,Mid-Day,7,9.42,Cloudy
+TRIP_742,LRT-2,Recto,Mid-Day,8,8.08,Clear
+TRIP_743,LRT-2,Pureza,Peak Morning,6,22.65,Clear
+TRIP_755,LRT-2,Recto,Peak Evening,7,20.75,Cloudy
+TRIP_757,LRT-2,Legarda,Late Night,8,7.37,Cloudy
+TRIP_761,LRT-2,J. Ruiz,Peak Evening,8,25.65,Heavy Rain
+TRIP_765,LRT-2,Betty Go-Belmonte,Peak Morning,9,24.06,Cloudy
+TRIP_768,LRT-2,Cubao,Late Night,9,11.54,Heavy Rain
+TRIP_771,LRT-2,J. Ruiz,Mid-Day,5,5.69,Cloudy
+TRIP_777,LRT-2,Betty Go-Belmonte,Late Night,5,5.75,Clear
+TRIP_782,LRT-2,Antipolo,Peak Evening,9,20.75,Clear
+TRIP_788,LRT-2,Betty Go-Belmonte,Mid-Day,9,9.5,Cloudy
+TRIP_795,LRT-2,Pureza,Mid-Day,9,9.93,Clear
+TRIP_799,LRT-2,Santolan,Late Night,6,8.04,Clear
+TRIP_800,LRT-2,Pureza,Late Night,6,6.15,Heavy Rain
+TRIP_802,LRT-2,Antipolo,Mid-Day,7,10.3,Cloudy
+TRIP_803,LRT-2,V. Mapa,Peak Evening,8,26.69,Heavy Rain
+TRIP_805,LRT-2,Betty Go-Belmonte,Peak Evening,6,18.88,Heavy Rain
+TRIP_812,LRT-2,Antipolo,Mid-Day,7,17.04,Heavy Rain
+TRIP_818,LRT-2,V. Mapa,Peak Morning,5,14.02,Cloudy
+TRIP_824,LRT-2,Santolan,Peak Evening,6,17.39,Clear
+TRIP_834,LRT-2,Gilmore,Mid-Day,5,9.46,Clear
+TRIP_835,LRT-2,Pureza,Mid-Day,8,9.5,Heavy Rain
+TRIP_841,LRT-2,Recto,Peak Evening,5,14.57,Heavy Rain
+TRIP_842,LRT-2,Legarda,Peak Evening,8,20.21,Clear
+TRIP_844,LRT-2,Recto,Late Night,8,9.42,Cloudy
+TRIP_845,LRT-2,Betty Go-Belmonte,Peak Morning,9,27.52,Heavy Rain
+TRIP_846,LRT-2,Anonas,Mid-Day,7,8.67,Clear
+TRIP_860,LRT-2,Antipolo,Peak Evening,9,26.36,Clear
+TRIP_861,LRT-2,J. Ruiz,Mid-Day,6,7.4,Clear
+TRIP_863,LRT-2,V. Mapa,Mid-Day,6,9.01,Clear
+TRIP_871,LRT-2,Marikina-Pasay,Mid-Day,6,8.01,Cloudy
+TRIP_876,LRT-2,Legarda,Late Night,7,18.78,Heavy Rain
+TRIP_880,LRT-2,V. Mapa,Mid-Day,10,9.5,Clear
+TRIP_881,LRT-2,Betty Go-Belmonte,Late Night,10,10.58,Cloudy
+TRIP_885,LRT-2,Santolan,Mid-Day,9,12.02,Clear
+TRIP_893,LRT-2,Pureza,Mid-Day,6,6.99,Cloudy
+TRIP_894,LRT-2,Marikina-Pasay,Peak Morning,10,30.01,Heavy Rain
+TRIP_899,LRT-2,J. Ruiz,Peak Evening,9,25.81,Heavy Rain
+TRIP_900,LRT-2,Cubao,Peak Morning,10,22.09,Clear
+TRIP_901,LRT-2,Legarda,Peak Evening,5,22.63,Heavy Rain
+TRIP_902,LRT-2,Gilmore,Late Night,6,5.63,Clear
+TRIP_906,LRT-2,Gilmore,Mid-Day,9,12.96,Cloudy
+TRIP_911,LRT-2,Recto,Peak Morning,9,26.43,Heavy Rain
+TRIP_914,LRT-2,J. Ruiz,Mid-Day,9,9.67,Cloudy
+TRIP_915,LRT-2,Betty Go-Belmonte,Mid-Day,10,17.58,Heavy Rain
+TRIP_916,LRT-2,Pureza,Late Night,7,6.37,Cloudy
+TRIP_917,LRT-2,Katipunan,Peak Evening,9,23.74,Cloudy
+TRIP_923,LRT-2,V. Mapa,Late Night,7,12.04,Heavy Rain
+TRIP_929,LRT-2,V. Mapa,Peak Morning,6,17.97,Clear
+TRIP_932,LRT-2,Cubao,Peak Evening,8,22.07,Heavy Rain
+TRIP_936,LRT-2,J. Ruiz,Peak Morning,8,20.23,Clear
+TRIP_941,LRT-2,Gilmore,Peak Evening,6,16.39,Cloudy
+TRIP_947,LRT-2,Marikina-Pasay,Peak Morning,6,18.1,Clear
+TRIP_953,LRT-2,Legarda,Peak Morning,10,26.46,Clear
+TRIP_959,LRT-2,Katipunan,Peak Evening,7,19.32,Heavy Rain
+TRIP_967,LRT-2,Pureza,Peak Morning,7,25.43,Heavy Rain
+TRIP_976,LRT-2,Santolan,Mid-Day,7,12.08,Heavy Rain
+TRIP_977,LRT-2,Legarda,Mid-Day,10,17.79,Cloudy
+TRIP_978,LRT-2,Pureza,Late Night,7,8.84,Clear
+TRIP_982,LRT-2,Recto,Mid-Day,6,9.67,Clear
+TRIP_983,LRT-2,Cubao,Peak Morning,8,20.09,Cloudy
+TRIP_984,LRT-2,J. Ruiz,Late Night,6,8.25,Heavy Rain
+TRIP_985,LRT-2,Gilmore,Late Night,5,12.32,Heavy Rain
+TRIP_998,LRT-2,Anonas,Mid-Day,8,10.11,Cloudy
+TRIP_001,MRT-3,Guadalupe,Late Night,6,8.67,Clear
+TRIP_005,MRT-3,Buendia,Late Night,7,10.3,Cloudy
+TRIP_008,MRT-3,Cubao,Peak Morning,8,24.24,Cloudy
+TRIP_010,MRT-3,Ortigas,Mid-Day,5,5.95,Clear
+TRIP_016,MRT-3,Magallanes,Late Night,6,6.96,Heavy Rain
+TRIP_018,MRT-3,Kamuning,Peak Morning,6,15.49,Cloudy
+TRIP_023,MRT-3,Shaw Blvd,Peak Evening,10,29.28,Heavy Rain
+TRIP_025,MRT-3,Buendia,Peak Morning,7,18.78,Heavy Rain
+TRIP_029,MRT-3,Ortigas,Late Night,7,6.48,Cloudy
+TRIP_031,MRT-3,Kamuning,Mid-Day,7,13.81,Heavy Rain
+TRIP_032,MRT-3,Guadalupe,Peak Evening,8,29.76,Heavy Rain
+TRIP_035,MRT-3,Guadalupe,Peak Morning,8,22.13,Clear
+TRIP_036,MRT-3,Buendia,Mid-Day,6,6.66,Cloudy
+TRIP_037,MRT-3,Boni,Peak Morning,7,20.84,Heavy Rain
+TRIP_038,MRT-3,Boni,Peak Evening,10,26.77,Heavy Rain
+TRIP_041,MRT-3,Ayala,Mid-Day,5,8.01,Clear
+TRIP_050,MRT-3,Kamuning,Late Night,8,8.15,Cloudy
+TRIP_055,MRT-3,Magallanes,Peak Morning,5,14.55,Heavy Rain
+TRIP_062,MRT-3,Taft Ave,Peak Morning,7,20.85,Clear
+TRIP_064,MRT-3,Taft Ave,Peak Morning,8,23.44,Cloudy
+TRIP_065,MRT-3,Magallanes,Peak Evening,10,25.6,Cloudy
+TRIP_069,MRT-3,Shaw Blvd,Late Night,8,7.78,Cloudy
+TRIP_072,MRT-3,Buendia,Peak Evening,7,19.27,Cloudy
+TRIP_074,MRT-3,North Ave,Late Night,5,5.26,Clear
+TRIP_075,MRT-3,Kamuning,Mid-Day,6,8.6,Clear
+TRIP_081,MRT-3,Santolan-Annapolis,Late Night,5,4.73,Clear
+TRIP_085,MRT-3,Magallanes,Late Night,6,5.8,Cloudy
+TRIP_086,MRT-3,Ortigas,Peak Evening,6,18.11,Clear
+TRIP_088,MRT-3,Guadalupe,Mid-Day,9,11.22,Clear
+TRIP_110,MRT-3,Boni,Peak Morning,10,30.85,Cloudy
+TRIP_112,MRT-3,Kamuning,Late Night,9,9.29,Heavy Rain
+TRIP_113,MRT-3,Shaw Blvd,Peak Morning,9,23.36,Cloudy
+TRIP_114,MRT-3,Guadalupe,Late Night,7,6.63,Cloudy
+TRIP_115,MRT-3,North Ave,Mid-Day,5,5.28,Cloudy
+TRIP_116,MRT-3,Taft Ave,Peak Morning,6,18.38,Cloudy
+TRIP_120,MRT-3,Kamuning,Peak Evening,9,24.21,Clear
+TRIP_121,MRT-3,Shaw Blvd,Late Night,8,8.04,Heavy Rain
+TRIP_125,MRT-3,Ayala,Peak Evening,9,24.95,Cloudy
+TRIP_126,MRT-3,Taft Ave,Peak Morning,8,20.89,Cloudy
+TRIP_134,MRT-3,Shaw Blvd,Mid-Day,6,7.05,Clear
+TRIP_137,MRT-3,Shaw Blvd,Peak Evening,7,20.87,Clear
+TRIP_142,MRT-3,Guadalupe,Peak Morning,8,20.52,Clear
+TRIP_143,MRT-3,Shaw Blvd,Peak Evening,9,34.51,Heavy Rain
+TRIP_147,MRT-3,Guadalupe,Mid-Day,8,9.73,Cloudy
+TRIP_148,MRT-3,Shaw Blvd,Late Night,5,7.68,Heavy Rain
+TRIP_152,MRT-3,Boni,Peak Morning,5,15.84,Heavy Rain
+TRIP_156,MRT-3,Santolan-Annapolis,Peak Evening,9,24.87,Cloudy
+TRIP_159,MRT-3,North Ave,Peak Morning,5,15.19,Cloudy
+TRIP_171,MRT-3,Ayala,Mid-Day,7,11.68,Heavy Rain
+TRIP_190,MRT-3,Buendia,Late Night,7,6.97,Cloudy
+TRIP_200,MRT-3,Ortigas,Peak Morning,6,19.37,Cloudy
+TRIP_203,MRT-3,North Ave,Peak Morning,9,23.1,Cloudy
+TRIP_204,MRT-3,Boni,Late Night,10,9.38,Clear
+TRIP_206,MRT-3,Shaw Blvd,Peak Evening,9,23.69,Clear
+TRIP_207,MRT-3,Taft Ave,Late Night,9,9.54,Clear
+TRIP_208,MRT-3,Ortigas,Peak Evening,8,22.68,Clear
+TRIP_213,MRT-3,Taft Ave,Late Night,8,11.35,Clear
+TRIP_219,MRT-3,Kamuning,Peak Evening,10,30.25,Heavy Rain
+TRIP_224,MRT-3,Magallanes,Mid-Day,7,12.71,Heavy Rain
+TRIP_234,MRT-3,Buendia,Peak Evening,6,15.24,Cloudy
+TRIP_248,MRT-3,Kamuning,Mid-Day,9,12.72,Heavy Rain
+TRIP_250,MRT-3,North Ave,Peak Morning,5,16.83,Heavy Rain
+TRIP_251,MRT-3,Shaw Blvd,Peak Evening,8,25.29,Heavy Rain
+TRIP_254,MRT-3,North Ave,Mid-Day,7,9.64,Heavy Rain
+TRIP_257,MRT-3,Ayala,Late Night,5,9.37,Cloudy
+TRIP_258,MRT-3,Cubao,Mid-Day,7,10.21,Cloudy
+TRIP_262,MRT-3,Guadalupe,Peak Evening,5,13.19,Clear
+TRIP_267,MRT-3,Buendia,Mid-Day,8,10.43,Clear
+TRIP_270,MRT-3,North Ave,Mid-Day,6,10.69,Heavy Rain
+TRIP_271,MRT-3,Shaw Blvd,Peak Morning,6,17.66,Clear
+TRIP_272,MRT-3,Ayala,Peak Morning,8,23.67,Clear
+TRIP_276,MRT-3,Cubao,Peak Morning,9,31.4,Heavy Rain
+TRIP_278,MRT-3,Shaw Blvd,Peak Evening,6,18.33,Clear
+TRIP_281,MRT-3,Ayala,Mid-Day,10,11.69,Clear
+TRIP_284,MRT-3,Guadalupe,Peak Evening,5,15.32,Clear
+TRIP_289,MRT-3,Quezon Ave,Mid-Day,8,12.4,Heavy Rain
+TRIP_290,MRT-3,buendia,Late Night,10,9.87,Cloudy
+TRIP_294,MRT-3,Kamuning,Peak Morning,6,18.19,Heavy Rain
+TRIP_297,MRT-3,Magallanes,Peak Evening,5,16.06,Clear
+TRIP_299,MRT-3,Cubao,Mid-Day,6,15.39,Cloudy
+TRIP_301,MRT-3,Guadalupe,Peak Morning,7,19.98,Cloudy
+TRIP_302,MRT-3,Kamuning,Mid-Day,7,9.79,Cloudy
+TRIP_306,MRT-3,Kamuning,Peak Morning,7,20.11,Cloudy
+TRIP_314,MRT-3,Shaw Blvd,Peak Evening,9,25.66,Cloudy
+TRIP_320,MRT-3,Magallanes,Peak Morning,10,25.5,Clear
+TRIP_325,MRT-3,Cubao,Mid-Day,7,9.48,Clear
+TRIP_329,MRT-3,Guadalupe,Peak Evening,8,22.5,Clear
+TRIP_332,MRT-3,Taft Ave,Peak Morning,6,21.45,Heavy Rain
+TRIP_334,MRT-3,Shaw Blvd,Late Night,8,8.17,Clear
+TRIP_338,MRT-3,Ortigas,Late Night,6,5.58,Clear
+TRIP_343,MRT-3,Cubao,Late Night,10,11.36,Heavy Rain
+TRIP_347,MRT-3,North Ave,Mid-Day,9,9.41,Cloudy
+TRIP_355,MRT-3,Kamuning,Peak Morning,6,16.77,Clear
+TRIP_357,MRT-3,North Ave,Peak Morning,8,22.27,Clear
+TRIP_358,MRT-3,Magallanes,Late Night,7,8.86,Cloudy
+TRIP_360,MRT-3,Boni,Peak Evening,6,16.01,Clear
+TRIP_363,MRT-3,Kamuning,Mid-Day,8,8.11,Cloudy
+TRIP_371,MRT-3,Shaw Blvd,Peak Evening,7,19.31,Heavy Rain
+TRIP_373,MRT-3,Cubao,Mid-Day,10,15.22,Heavy Rain
+TRIP_374,MRT-3,Ortigas,Peak Morning,8,22.02,Heavy Rain
+TRIP_379,MRT-3,Kamuning,Late Night,9,17.04,Heavy Rain
+TRIP_388,MRT-3,Taft Ave,Peak Morning,9,24.74,Cloudy
+TRIP_395,MRT-3,Quezon Ave,Mid-Day,5,8.54,Heavy Rain
+TRIP_398,MRT-3,Magallanes,Mid-Day,8,11.26,Heavy Rain
+TRIP_399,MRT-3,Taft Ave,Mid-Day,8,16.89,Heavy Rain
+TRIP_400,MRT-3,Boni,Late Night,10,9.8,Clear
+TRIP_404,MRT-3,Taft Ave,Peak Morning,10,27.41,Cloudy
+TRIP_405,MRT-3,Ayala,Peak Morning,8,23.6,Heavy Rain
+TRIP_409,MRT-3,Magallanes,Peak Morning,9,25.52,Cloudy
+TRIP_410,MRT-3,Quezon Ave,Peak Evening,6,17.49,Clear
+TRIP_412,MRT-3,Santolan-Annapolis,Peak Morning,7,22.335,Heavy Rain
+TRIP_414,MRT-3,Shaw Blvd,Late Night,8,7.45,Cloudy
+TRIP_422,MRT-3,Ortigas,Late Night,5,8.11,Heavy Rain
+TRIP_427,MRT-3,Ayala,Peak Morning,9,24.19,Clear
+TRIP_428,MRT-3,Quezon Ave,Peak Morning,6,20.31,Heavy Rain
+TRIP_434,MRT-3,Ayala,Mid-Day,5,9.73,Cloudy
+TRIP_437,MRT-3,Kamuning,Mid-Day,10,11.31,Clear
+TRIP_443,MRT-3,Magallanes,Mid-Day,7,7.35,Clear
+TRIP_445,MRT-3,Cubao,Mid-Day,9,12.39,Heavy Rain
+TRIP_446,MRT-3,Kamuning,Peak Evening,7,18.67,Heavy Rain
+TRIP_451,MRT-3,Santolan-Annapolis,Peak Evening,5,13.55,Clear
+TRIP_456,MRT-3,Guadalupe,Peak Evening,5,21.560000000000002,Heavy Rain
+TRIP_457,MRT-3,Santolan-Annapolis,Peak Morning,5,18.83,Heavy Rain
+TRIP_459,MRT-3,Taft Ave,Mid-Day,6,8.02,Clear
+TRIP_460,MRT-3,Ortigas,Peak Evening,6,17.8,Heavy Rain
+TRIP_467,MRT-3,Guadalupe,Mid-Day,10,15.6,Cloudy
+TRIP_474,MRT-3,Boni,Late Night,8,11.07,Heavy Rain
+TRIP_475,MRT-3,Ayala,Late Night,7,8.5,Clear
+TRIP_478,MRT-3,Shaw Blvd,Peak Morning,7,18.98,Heavy Rain
+TRIP_487,MRT-3,Ortigas,Mid-Day,9,13.26,Cloudy
+TRIP_497,MRT-3,Cubao,Mid-Day,10,13.03,Clear
+TRIP_506,MRT-3,Magallanes,Mid-Day,9,9.73,Heavy Rain
+TRIP_511,MRT-3,North Ave,Mid-Day,7,8.2,Clear
+TRIP_517,MRT-3,Santolan-Annapolis,Peak Morning,9,23.66,Clear
+TRIP_519,MRT-3,Taft Ave,Peak Morning,9,24.34,Clear
+TRIP_526,MRT-3,Taft Ave,Peak Morning,9,30.11,Heavy Rain
+TRIP_527,MRT-3,Santolan-Annapolis,Mid-Day,9,11.42,Cloudy
+TRIP_533,MRT-3,Buendia,Peak Evening,5,13.97,Cloudy
+TRIP_535,MRT-3,Guadalupe,Late Night,10,12.69,Clear
+TRIP_542,MRT-3,Boni,Mid-Day,8,9.73,Clear
+TRIP_544,MRT-3,Ayala,Peak Evening,7,20.69,Cloudy
+TRIP_545,MRT-3,Ayala,Peak Morning,7,20.23,Clear
+TRIP_547,MRT-3,Magallanes,Peak Evening,5,15.15,Clear
+TRIP_553,MRT-3,Buendia,Peak Evening,5,14.35,Cloudy
+TRIP_560,MRT-3,Ayala,Peak Evening,9,23.3,Clear
+TRIP_563,MRT-3,Ortigas,Mid-Day,9,10.88,Clear
+TRIP_572,MRT-3,Buendia,Mid-Day,9,18.2,Clear
+TRIP_575,MRT-3,Santolan-Annapolis,Peak Evening,5,12.76,Clear
+TRIP_580,MRT-3,North Ave,Peak Morning,10,29.98,Heavy Rain
+TRIP_589,MRT-3,North Ave,Late Night,5,8.02,Heavy Rain
+TRIP_590,MRT-3,Shaw Blvd,Late Night,10,9.59,Heavy Rain
+TRIP_591,MRT-3,North Ave,Peak Evening,8,21.53,Clear
+TRIP_592,MRT-3,Buendia,Peak Morning,7,18.33,Cloudy
+TRIP_602,MRT-3,Shaw Blvd,Late Night,6,13.75,Cloudy
+TRIP_604,MRT-3,Guadalupe,Mid-Day,9,9.73,Clear
+TRIP_607,MRT-3,Quezon Ave,Late Night,6,12.03,Cloudy
+TRIP_608,MRT-3,Santolan-Annapolis,Late Night,6,5.48,Cloudy
+TRIP_609,MRT-3,Shaw Blvd,Mid-Day,5,6.02,Clear
+TRIP_610,MRT-3,Quezon Ave,Mid-Day,10,14.61,Heavy Rain
+TRIP_612,MRT-3,Guadalupe,Late Night,10,10.89,Cloudy
+TRIP_615,MRT-3,Santolan-Annapolis,Peak Evening,8,25.51,Heavy Rain
+TRIP_620,MRT-3,Ayala,Peak Evening,5,16.1,Heavy Rain
+TRIP_623,MRT-3,Kamuning,Peak Morning,9,26.03,Cloudy
+TRIP_628,MRT-3,Guadalupe,Peak Evening,9,24.4,Cloudy
+TRIP_637,MRT-3,North Ave,Peak Evening,7,21.6,Heavy Rain
+TRIP_638,MRT-3,Taft Ave,Late Night,10,10.97,Heavy Rain
+TRIP_640,MRT-3,Cubao,Late Night,6,6.46,Clear
+TRIP_642,MRT-3,North Ave,Mid-Day,7,8.85,Cloudy
+TRIP_643,MRT-3,Ayala,Mid-Day,5,8.9,Heavy Rain
+TRIP_644,MRT-3,Boni,Mid-Day,10,9.73,Heavy Rain
+TRIP_645,MRT-3,Santolan-Annapolis,Late Night,7,8.25,Clear
+TRIP_646,MRT-3,Ortigas,Peak Evening,8,22.88,Cloudy
+TRIP_648,MRT-3,Shaw Blvd,Peak Evening,6,15.2,Clear
+TRIP_649,MRT-3,Santolan-Annapolis,Mid-Day,5,5.33,Clear
+TRIP_663,MRT-3,Quezon Ave,Late Night,10,11.87,Heavy Rain
+TRIP_664,MRT-3,Magallanes,Mid-Day,7,9.99,Heavy Rain
+TRIP_666,MRT-3,Magallanes,Peak Evening,9,25.96,Cloudy
+TRIP_671,MRT-3,Ortigas,Peak Morning,8,20.78,Cloudy
+TRIP_673,MRT-3,Ayala,Peak Morning,9,23.26,Cloudy
+TRIP_679,MRT-3,Santolan-Annapolis,Late Night,5,9.66,Cloudy
+TRIP_680,MRT-3,Quezon Ave,Mid-Day,5,5.77,Cloudy
+TRIP_688,MRT-3,Kamuning,Peak Morning,8,22.335,Heavy Rain
+TRIP_691,MRT-3,Taft Ave,Peak Evening,5,16.56,Heavy Rain
+TRIP_692,MRT-3,Cubao,Peak Morning,7,20.88,Clear
+TRIP_693,MRT-3,Boni,Late Night,8,7.54,Clear
+TRIP_694,MRT-3,Shaw Blvd,Peak Morning,9,27.47,Heavy Rain
+TRIP_698,MRT-3,Cubao,Peak Evening,10,28.66,Heavy Rain
+TRIP_701,MRT-3,Cubao,Late Night,8,8.12,Clear
+TRIP_702,MRT-3,Kamuning,Peak Morning,10,27.29,Cloudy
+TRIP_704,MRT-3,Ortigas,Late Night,9,12.54,Heavy Rain
+TRIP_707,MRT-3,Ortigas,Peak Evening,9,30.83,Heavy Rain
+TRIP_715,MRT-3,Taft Ave,Late Night,6,5.19,Clear
+TRIP_730,MRT-3,Quezon Ave,Peak Morning,10,25.09,Clear
+TRIP_732,MRT-3,Santolan-Annapolis,Late Night,10,8.3,Cloudy
+TRIP_741,MRT-3,Shaw Blvd,Mid-Day,9,10.38,Clear
+TRIP_748,MRT-3,Magallanes,Peak Morning,9,27.07,Cloudy
+TRIP_753,MRT-3,Shaw Blvd,Mid-Day,9,16.91,Clear
+TRIP_754,MRT-3,Ortigas,Late Night,8,8.05,Clear
+TRIP_764,MRT-3,Guadalupe,Peak Evening,10,28.8,Cloudy
+TRIP_767,MRT-3,Guadalupe,Peak Evening,10,27.32,Clear
+TRIP_770,MRT-3,Cubao,Late Night,8,11.52,Clear
+TRIP_773,MRT-3,Ayala,Mid-Day,5,8.23,Heavy Rain
+TRIP_790,MRT-3,North Ave,Mid-Day,7,9.37,Clear
+TRIP_793,MRT-3,Santolan-Annapolis,Late Night,8,8.21,Cloudy
+TRIP_797,MRT-3,Cubao,Peak Evening,5,14.55,Cloudy
+TRIP_801,MRT-3,Taft Ave,Mid-Day,6,7.63,Cloudy
+TRIP_810,MRT-3,Boni,Peak Morning,7,22.4,Heavy Rain
+TRIP_816,MRT-3,Boni,Peak Evening,5,18.59,Heavy Rain
+TRIP_821,MRT-3,Boni,Mid-Day,9,9.69,Clear
+TRIP_823,MRT-3,Ayala,Mid-Day,6,6.15,Cloudy
+TRIP_827,MRT-3,Cubao,Late Night,7,6.73,Clear
+TRIP_830,MRT-3,Santolan-Annapolis,Peak Evening,7,22.72,Clear
+TRIP_851,MRT-3,Taft Ave,Late Night,7,6.89,Clear
+TRIP_853,MRT-3,Ortigas,Peak Morning,10,27.5,Clear
+TRIP_865,MRT-3,Ayala,Mid-Day,9,10.96,Heavy Rain
+TRIP_868,MRT-3,Boni,Mid-Day,7,8.37,Cloudy
+TRIP_873,MRT-3,Magallanes,Peak Morning,8,26.64,Clear
+TRIP_874,MRT-3,Magallanes,Late Night,5,7.14,Clear
+TRIP_875,MRT-3,Kamuning,Peak Morning,8,22.48,Clear
+TRIP_878,MRT-3,Buendia,Late Night,6,8.21,Clear
+TRIP_887,MRT-3,cubao,Late Night,7,6.33,Heavy Rain
+TRIP_888,MRT-3,Buendia,Mid-Day,7,16.16,Heavy Rain
+TRIP_890,MRT-3,Quezon Ave,Peak Evening,8,21.59,Cloudy
+TRIP_895,MRT-3,Magallanes,Mid-Day,6,8.11,Clear
+TRIP_896,MRT-3,Ayala,Peak Evening,8,22.74,Heavy Rain
+TRIP_897,MRT-3,Magallanes,Peak Morning,8,23.29,Heavy Rain
+TRIP_903,MRT-3,Ayala,Peak Morning,9,26.76,Clear
+TRIP_904,MRT-3,Guadalupe,Late Night,9,7.94,Clear
+TRIP_905,MRT-3,North Ave,Peak Evening,10,25.46,Cloudy
+TRIP_919,MRT-3,Boni,Peak Evening,8,21.560000000000002,Clear
+TRIP_931,MRT-3,Shaw Blvd,Peak Morning,7,18.63,Cloudy
+TRIP_934,MRT-3,Taft Ave,Peak Evening,8,20.51,Cloudy
+TRIP_935,MRT-3,Quezon Ave,Peak Morning,9,28.17,Heavy Rain
+TRIP_937,MRT-3,Ortigas,Peak Morning,9,23.47,Clear
+TRIP_938,MRT-3,Ortigas,Mid-Day,7,9.12,Cloudy
+TRIP_939,MRT-3,Boni,Late Night,5,9.54,Heavy Rain
+TRIP_946,MRT-3,Guadalupe,Late Night,5,5.77,Clear
+TRIP_948,MRT-3,Guadalupe,Mid-Day,10,11.23,Heavy Rain
+TRIP_949,MRT-3,Ortigas,Mid-Day,5,5.81,Cloudy
+TRIP_955,MRT-3,Quezon Ave,Peak Evening,5,16.03,Heavy Rain
+TRIP_958,MRT-3,Quezon Ave,Mid-Day,5,6.98,Cloudy
+TRIP_961,MRT-3,Taft Ave,Mid-Day,5,10.04,Cloudy
+TRIP_965,MRT-3,Guadalupe,Late Night,8,9.94,Heavy Rain
+TRIP_966,MRT-3,Quezon Ave,Peak Morning,6,16.06,Clear
+TRIP_969,MRT-3,Guadalupe,Peak Evening,9,22.93,Clear
+TRIP_972,MRT-3,Ortigas,Peak Evening,6,19.06,Heavy Rain
+TRIP_973,MRT-3,Cubao,Mid-Day,6,7.64,Clear
+TRIP_974,MRT-3,Guadalupe,Peak Morning,10,28.39,Cloudy
+TRIP_979,MRT-3,Magallanes,Peak Evening,8,23.49,Heavy Rain
+TRIP_987,MRT-3,Ortigas,Late Night,9,11.92,Heavy Rain
+TRIP_988,MRT-3,Taft Ave,Peak Evening,5,13.06,Clear
+TRIP_999,MRT-3,Guadalupe,Peak Morning,8,21.25,Clear
