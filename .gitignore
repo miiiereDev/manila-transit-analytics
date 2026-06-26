@@ -22,3 +22,6 @@ venv.bak/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+#local files
+research_paper.md
