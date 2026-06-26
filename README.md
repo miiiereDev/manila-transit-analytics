@@ -1,16 +1,121 @@
 # Manila Transit Analytics
 
-This repository contains research data and analysis scripts for Manila's transit systems. All data and outputs are public for research purposes.
+Understanding the Intersection of Time, Weather, and Public Transport Reliability in Metro Manila.
 
-## Project Structure
+---
 
-- `data/`: Raw and processed transit data.
-- `src/`: Source code for analysis and UI.
-- `notebooks/`: Exploratory analysis and visualizations.
-- `output/`: Generated results and research findings.
-- `scripts/`: Utility scripts.
-- `docs/`: Project documentation.
+## 1. Research Overview
 
-## License
+This repository houses the research data, pipeline scripts, and interactive tools for the study investigating public transport reliability in Metro Manila. The research evaluates how temporal commuter surges (peak hours) and environmental disruptions (heavy rain) impact transit wait times and delays across different commuting systems.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Key Objectives
+* **Intermodal Comparison**: Directly comparing road-based transit (EDSA Carousel busway) against rail-based transit (MRT-3, LRT-1, and LRT-2) to assess which systems show greater climate and surge resilience.
+* **Spatial Bottleneck Analysis**: Mapping and identifying the worst-performing station stops across the public transport network.
+* **Replication and Open Science**: Providing a documented, end-to-end reproducible pipeline from raw data generation to statistical results and interactive dashboard visualizers.
+
+---
+
+## 2. Core Research Questions & Formulation
+
+The analysis addresses four primary Research Questions:
+
+### RQ1: Overall Line Performance
+Evaluating the baseline delay between scheduled intervals and actual wait times across transit lines.
+* **Metric - Absolute Delay**:
+  $$\text{Delay} = \text{Actual Wait Time} - \text{Scheduled Interval}$$
+
+### RQ2: Peak Hour Impact
+Quantifying the average wait time increase during rush hours compared to off-peak periods.
+* **Metric - Peak Surge Ratio**:
+  $$\text{Delay Ratio} = \frac{\text{Actual Wait Time}}{\text{Scheduled Interval}}$$
+  * *Peak Hours defined as:* Peak Morning and Peak Evening.
+  * *Off-Peak Hours defined as:* Mid-Day and Late Night.
+
+### RQ3: Weather Vulnerability
+Measuring how precipitation (Heavy Rain vs. Clear/Cloudy) affects wait times across both transit modes.
+* **Metric - Percentage Increase**:
+  $$\text{Percentage Increase} = \left( \frac{\text{Mean Wait (Disrupted)} - \text{Mean Wait (Baseline)}}{\text{Mean Wait (Baseline)}} \right) \times 100\%$$
+
+### RQ4: Worst Stations
+Identifying the top five station bottlenecks by absolute delay across the network.
+
+---
+
+## 3. Technology Stack
+
+The project integrates data processing, analytical modeling, and visual front-end components:
+
+### Data Processing & Analytics
+* **Python**: Core programming language.
+* **Pandas**: Used for data loading, deduplication, median imputation, outlier filtering, and database aggregations.
+* **Numpy**: Standard numerical calculations and generating Gamma/Gaussian distributions for delay simulations.
+* **Jupyter**: Interactive replication notebook environments.
+
+### Data Visualization
+* **Matplotlib**: Generating high-fidelity baseline plots.
+* **Seaborn**: Generating publication-ready grouped statistical plots with custom styling.
+
+### Interactive Dashboard
+* **HTML5**: Semantic document layout.
+* **Vanilla CSS3**: Dark-themed layout incorporating glassmorphism (`backdrop-filter: blur()`), custom HSL-tailored grid borders, hover transitions, and glow-orbs.
+* **Javascript (ES6)**: Handles interactive tab-swapping and integrates a custom client-side CSV parser to dynamically read the cleaned data.
+* **Python Threaded Server**: Uses Python's standard `http.server.SimpleHTTPRequestHandler` combined with `threading` to host the dashboard locally. It disables browser caching by overriding response headers to ensure live visualization updates.
+
+---
+
+## 4. Repository Structure
+
+Below is an overview of the directory organization. All file links below point to local source files in this repository:
+
+* **[data/](data/)**
+  * **[data/1_raw/](data/1_raw/)**: Houses the raw simulated CSV file [manila_transit_raw.csv](data/1_raw/manila_transit_raw.csv).
+  * **[data/2_cleaned/](data/2_cleaned/)**: Houses the structured, cleaned CSV output [manila_transit_cleaned.csv](data/2_cleaned/manila_transit_cleaned.csv).
+* **[docs/](docs/)**: Contains detailed methodologies for the project stages:
+  * **[DATA_SIMULATION.md](docs/DATA_SIMULATION.md)**: Logic behind delay calculations and dirty noise injection.
+  * **[DATA_CLEANING.md](docs/DATA_CLEANING.md)**: Sequential processing rules (deduplication, imputations, and outlier filtering).
+  * **[DATA_ANALYSIS.md](docs/DATA_ANALYSIS.md)**: The analysis plan, hypothesis descriptions, and metric formulas.
+* **[notebooks/](notebooks/)**
+  * **[Manila_Transit_Documentation_and_Replication_Guide.ipynb](notebooks/Manila_Transit_Documentation_and_Replication_Guide.ipynb)**: The comprehensive Jupyter replication notebook containing step-by-step documentation, equations, code execution blocks, and inline visualizations.
+* **[output/](output/)**
+  * **[output/figures/](output/figures/)**: Output directory where figures generated by the analysis script are stored (e.g., average wait times, peak ratios, weather impact, and worst stations).
+* **[scripts/](scripts/)**: Core executable Python code:
+  * **[data_simulation.py](scripts/data_simulation.py)**: Geographic mapping and random delay distribution generator.
+  * **[data_cleaning.py](scripts/data_cleaning.py)**: Cleans and prepares the raw data.
+  * **[data_analysis.py](scripts/data_analysis.py)**: Computes findings and outputs charts.
+* **[src/](src/)**
+  * **[src/ui/](src/ui/)**: Source files for the local dashboard including [index.html](src/ui/index.html), [style.css](src/ui/style.css), and [app.js](src/ui/app.js).
+* **[main.py](main.py)**: Root executable Python script to launch the local web server and view the dashboard.
+* **[requirements.txt](requirements.txt)**: List of Python library dependencies.
+
+---
+
+## 5. Usage Pipeline & Execution
+
+To replicate the study or explore the interactive findings, execute the steps sequentially from the root directory:
+
+### Step 1: Clean Raw Data
+Applies deduplication, normalizes categorical casing variations, performs median-based imputation for missing wait times, and removes Gaussian outliers.
+```powershell
+python scripts/data_cleaning.py
+```
+
+### Step 2: Run Exploratory Analysis
+Calculates statistics for overall performance, peak surges, and weather resilience, then updates visual charts inside the output folder.
+```powershell
+python scripts/data_analysis.py
+```
+
+### Step 3: Launch Companion Dashboard
+Starts a multi-threaded local web server and launches the GUI dashboard in your default browser.
+```powershell
+python main.py
+```
+
+---
+
+## 6. Research Findings & Insights
+
+The data analysis pipeline reveals several intermodal findings:
+1. **The Intermodal Weather Resiliency Gap**: Train transit networks show exceptional resilience to heavy rainfall (experiencing average wait time increases of only 4% to 20%). In contrast, road-based transit (EDSA Carousel) suffers an 88.4% wait-time surge due to exposure to general traffic congestion and localized road flooding.
+2. **Peak-Hour Saturation**: Despite high weather resilience, the rail transit systems experience significant overcrowding during commuter peaks, with delays increasing by 115% to 120%. By comparison, the EDSA Carousel has an 85.1% increase.
+3. **Data Casing Correction**: Analyzing station data highlighted that string mutations (e.g. `mAGALLANES` and `MAGALLANES`) will skew averaging calculations if not normalized. Standardizing station casing on ingestion merges these duplicate bins, providing an accurate spatial analysis of the worst-performing stations.
