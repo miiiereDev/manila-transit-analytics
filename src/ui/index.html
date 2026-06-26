@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manila Transit Analytics Dashboard</title>
+    <!-- Modern Premium Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="glow-orb blue"></div>
+    <div class="glow-orb purple"></div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <span class="badge">Research Companion Dashboard</span>
+                <h1>Manila Transit Analytics</h1>
+                <p class="subtitle">Understanding the Intersection of Time, Weather, and Public Transport Reliability</p>
+            </div>
+        </header>
+
+        <!-- Main Grid Layout -->
+        <main class="dashboard-grid">
+            
+            <!-- Research Summary Panel -->
+            <section class="card summary-card">
+                <div class="card-header">
+                    <h2>Research Overview</h2>
+                </div>
+                <div class="card-body">
+                    <p>This analytics suite supports our investigation into Metro Manila's public transit performance. We compare the road-based <strong>EDSA Carousel</strong> against the train systems (<strong>MRT-3, LRT-1, LRT-2</strong>) under varying weather conditions and peak demand periods.</p>
+                    
+                    <div class="core-questions">
+                        <h3>Core Research Questions Addressed:</h3>
+                        <ul>
+                            <li><strong>RQ1:</strong> Overall performance and scheduled vs. actual wait time.</li>
+                            <li><strong>RQ2:</strong> Relative delay impacts during peak commuter rush.</li>
+                            <li><strong>RQ3:</strong> Climate vulnerability and intermodal resilience under heavy rainfall.</li>
+                            <li><strong>RQ4:</strong> Spatial bottlenecks and worst-performing station stops.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Metrics Stats -->
+            <section class="card stats-card">
+                <div class="card-header">
+                    <h2>Key Insights</h2>
+                </div>
+                <div class="card-body stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-label">Total Trips Tracked</span>
+                        <span class="stat-value" id="stat-trips">-</span>
+                    </div>
+                    <div class="stat-box warning">
+                        <span class="stat-label">Max Avg Line Delay</span>
+                        <span class="stat-value" id="stat-max-delay">10.8m</span>
+                        <span class="stat-desc">EDSA Carousel</span>
+                    </div>
+                    <div class="stat-box alert">
+                        <span class="stat-label">Rain Delay Surge</span>
+                        <span class="stat-value" id="stat-rain-surge">+88%</span>
+                        <span class="stat-desc">Road-based Transit</span>
+                    </div>
+                    <div class="stat-box success">
+                        <span class="stat-label">Climate Resilient Mode</span>
+                        <span class="stat-value">Rail</span>
+                        <span class="stat-desc">MRT/LRT Systems</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Interactive Visualization Section -->
+            <section class="card visual-card">
+                <div class="card-header visual-header">
+                    <h2>Interactive Visualization Explorer</h2>
+                    <div class="tabs">
+                        <button class="tab-btn active" data-target="overall">Line Performance</button>
+                        <button class="tab-btn" data-target="peak">Peak Hours</button>
+                        <button class="tab-btn" data-target="weather">Weather Impact</button>
+                        <button class="tab-btn" data-target="stations">Worst Stations</button>
+                    </div>
+                </div>
+                <div class="card-body visual-body">
+                    <!-- Dynamic Image Display -->
+                    <div class="plot-container">
+                        <img id="display-plot" src="../../output/figures/average_wait_time_by_line.png" alt="Transit Line Performance Plot">
+                        <div class="plot-overlay">
+                            <span id="plot-description">Comparing scheduled service intervals against actual commuter wait times.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- High Level Findings & Methodology (Abstract Form) -->
+            <section class="card findings-card">
+                <div class="card-header">
+                    <h2>Key Takeaways for the Manuscript</h2>
+                </div>
+                <div class="card-body">
+                    <div class="key-takeaway-item">
+                        <div class="takeaway-marker purple-glow"></div>
+                        <div class="takeaway-text">
+                            <h4>The Rain-Resiliency Gap</h4>
+                            <p>Train lines are highly insulated from weather disruptions (wait times increase by only 4% to 20%). The EDSA Carousel busway experiences an 88% delay surge in heavy rain, demonstrating the critical need for segregated, flood-free bus corridors.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="key-takeaway-item">
+                        <div class="takeaway-marker blue-glow"></div>
+                        <div class="takeaway-text">
+                            <h4>Peak Hour Saturation</h4>
+                            <p>Despite rail resiliency to rain, train systems experience a 115% to 120% delay ratio increase during peak hours, suggesting infrastructure saturation compared to the EDSA Carousel's 85% peak hour surge.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="app-footer">
+            <p>&copy; 2026 Manila Transit Analytics Research Project. Designed for academic presentation purposes.</p>
+        </footer>
+    </div>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
