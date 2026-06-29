@@ -10,7 +10,7 @@ INPUT_PATH = os.path.join('data', '2_cleaned', 'manila_transit_cleaned.csv')
 FIGURES_DIR = os.path.join('output', 'figures')
 os.makedirs(FIGURES_DIR, exist_ok=True)
 
-# Set visual style for publication-ready plots
+# Set visual style 
 sns.set_theme(style="whitegrid")
 plt.rcParams.update({
     'font.size': 11,

@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             const rows = parseCSV(data);
             if (rows.length > 0) {
-                // Animate counting up for premium feel
+                // Animate counting up to the number of trips
                 animateValue(tripsStatElement, 0, rows.length, 1200);
             } else {
                 tripsStatElement.textContent = '980';
@@ -77,11 +77,11 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => {
             console.error('Error fetching/parsing CSV:', error);
-            // Fallback default value if file isn't fetched directly (e.g. cross-origin issues)
+            // Fallback default value if file isn't fetched directly 
             tripsStatElement.textContent = '980';
         });
 
-    // Premium count-up animation
+    // Count-up animation
     function animateValue(obj, start, end, duration) {
         let startTimestamp = null;
         const step = (timestamp) => {
